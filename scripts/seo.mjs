@@ -15,7 +15,7 @@ export async function optimizeStyles(root, css) {
   const fonts = JSON.parse(await readFile(path.join(root, 'src/content/optimized-fonts.json'), 'utf8'));
   for (const font of fonts) css = css.replaceAll(font.original, font.optimized);
   // The picture wrapper must not become a grid/flex item or change any image geometry.
-  return css.replace(/\r\n/g, '\n') + '\npicture{display:contents}\n';
+  return css.replace(/\r\n/g, '\n') + '\npicture{display:contents}picture>source{display:none}\n';
 }
 
 export async function enhanceSite({root, recipes, images, editorial, domain, brand}) {
