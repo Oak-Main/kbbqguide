@@ -1,3 +1,4 @@
+import { optimizeStyles, enhanceSite } from './seo.mjs';
 import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -16,7 +17,7 @@ const out=path.join(root,'dist');
 if(path.relative(root,out)!=='dist')throw new Error('Unexpected output path');
 await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});
 await cp(path.join(root,'public'),out,{recursive:true,filter:p=>!/-master\.(png|jpe?g|webp)$/i.test(p)});
-const css=(await read('src/styles/site.css')).replace(/\r\n/g,'\n');
+const css=await optimizeStyles(root,await read('src/styles/site.css'));
 const js=(await read('src/scripts/site.js')).replace(/\r\n/g,'\n');
 const version=createHash('sha256').update(css+js).digest('hex').slice(0,10);
 await mkdir(path.join(out,'assets'),{recursive:true});
@@ -88,3 +89,5 @@ await writeFile(path.join(out,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-
 await writeFile(path.join(out,'robots.txt'),'User-agent: *\nAllow: /\nSitemap: https://kbbqguide.com/sitemap.xml\n');
 console.log(`Built ${routes.length} pages, ${recipes.length} preserved recipes, ${recipes.filter(r=>images[r.slug]).length} recipe images${draft?' (draft)':''}.`);
 async function page(route,html){const file=path.join(out,route.replace(/^\//,''),'index.html');await mkdir(path.dirname(file),{recursive:true});await writeFile(file,html);}
+
+await enhanceSite({root,recipes,images,editorial,domain:"https://kbbqguide.com",brand:"KBBQGuide"});

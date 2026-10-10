@@ -1,0 +1,38 @@
+[
+  {
+    "original": "/fonts/barlow-condensed.woff2",
+    "optimized": "/fonts/optimized/barlow-condensed-c2d9ed21b957.woff2",
+    "beforeBytes": 87120,
+    "afterBytes": 25540,
+    "preservedUnicodeCount": 356,
+    "format": "WOFF2",
+    "glyphMetricsVerified": true
+  },
+  {
+    "original": "/fonts/dm-sans.woff2",
+    "optimized": "/fonts/optimized/dm-sans-85562f949e7b.woff2",
+    "beforeBytes": 48280,
+    "afterBytes": 15748,
+    "preservedUnicodeCount": 344,
+    "format": "WOFF2",
+    "glyphMetricsVerified": true
+  },
+  {
+    "original": "/fonts/newsreader-italic.woff2",
+    "optimized": "/fonts/optimized/newsreader-italic-00890dcba907.woff2",
+    "beforeBytes": 119892,
+    "afterBytes": 34980,
+    "preservedUnicodeCount": 414,
+    "format": "WOFF2",
+    "glyphMetricsVerified": true
+  },
+  {
+    "original": "/fonts/newsreader.woff2",
+    "optimized": "/fonts/optimized/newsreader-c9c8e6bb6539.woff2",
+    "beforeBytes": 109472,
+    "afterBytes": 31916,
+    "preservedUnicodeCount": 414,
+    "format": "WOFF2",
+    "glyphMetricsVerified": true
+  }
+]

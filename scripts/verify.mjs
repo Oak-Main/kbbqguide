@@ -17,8 +17,8 @@ for(const recipe of recipes){
  const source=await readFile(path.join(root,`source/original-recipes/${recipe.slug}/index.html`));
  check(createHash('sha256').update(source).digest('hex')===recipe.sourceSha256,`${recipe.slug}: source hash changed`);
  const original=load(source.toString());const originalSchema=JSON.parse(original('script[type="application/ld+json"]').first().text());
- const html=await read(`dist/recipes/${recipe.slug}/index.html`);const $=load(html);const schema=JSON.parse($('script[type="application/ld+json"]').text());
- for(const key of ['name','recipeIngredient','recipeInstructions','recipeYield','prepTime','cookTime','totalTime'])check(JSON.stringify(schema[key])===JSON.stringify(originalSchema[key]),`${recipe.slug}: changed recipe ${key}`);
+ const html=await read(`dist/recipes/${recipe.slug}/index.html`);const $=load(html);const schema=JSON.parse($('script[type="application/ld+json"]').first().text());
+ for(const key of ['name','recipeIngredient','recipeInstructions','recipeYield','prepTime','cookTime','totalTime'])check(JSON.stringify(key==='recipeInstructions'?schema[key].map(({url,...step})=>step):schema[key])===JSON.stringify(originalSchema[key]),`${recipe.slug}: changed recipe ${key}`);
  const rendered=$('.ingredient span').map((_,el)=>$(el).text()).get();
  check(JSON.stringify(rendered.map(normalized))===JSON.stringify(recipe.groups.flatMap(g=>g.items).map(normalized)),`${recipe.slug}: rendered ingredients differ`);ingredients+=rendered.length;
  for(const block of recipe.blocks){const name=block.name==='step'?`step-${block.step}`:block.name;const dom=$(`[data-content-block="${name}"]`);check(dom.length===1,`${recipe.slug}: block ${name} not present exactly once`);const content=dom.clone();content.find('.step-number').remove();if(block.name==='before-you-cook'){content.find('.eyebrow,h2').remove();}const selector=`[data-block="${block.name}"]${block.step?`[data-step="${block.step}"]`:''}`;check(normalized(content.text())===normalized(original(selector).text()),`${recipe.slug}: original content changed in ${name}`);blocks++;}

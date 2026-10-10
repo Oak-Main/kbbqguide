@@ -1,0 +1,495 @@
+{
+  "encoder": "sharp 0.35.5 / AVIF quality 62, 4:4:4, effort 4",
+  "operation": "Resize and encode only; no crop, retouch, replacement, or upscaling. Original masters and WebP/JPEG fallback files are unchanged.",
+  "images": 81,
+  "beforeBytes": 18436686,
+  "afterBytes": 11319593,
+  "report": [
+    {
+      "slug": "baechu-geotjeori-fresh-kimchi",
+      "beforeBytes": 126558,
+      "afterBytes": 76356,
+      "width": 928
+    },
+    {
+      "slug": "asian-pear-and-cucumber-salad",
+      "beforeBytes": 130098,
+      "afterBytes": 82179,
+      "width": 1600
+    },
+    {
+      "slug": "baechu-kimchi",
+      "beforeBytes": 116728,
+      "afterBytes": 73176,
+      "width": 928
+    },
+    {
+      "slug": "cho-gochujang-sweet-tangy-chili-sauce",
+      "beforeBytes": 219828,
+      "afterBytes": 134031,
+      "width": 1600
+    },
+    {
+      "slug": "chadolbaegi-with-scallion-soy-dipping-sauce",
+      "beforeBytes": 305594,
+      "afterBytes": 180302,
+      "width": 1122
+    },
+    {
+      "slug": "classic-korean-pear-beef-bulgogi",
+      "beforeBytes": 317484,
+      "afterBytes": 184812,
+      "width": 1122
+    },
+    {
+      "slug": "classic-samgyeopsal-with-sesame-salt-seasoning",
+      "beforeBytes": 320296,
+      "afterBytes": 188495,
+      "width": 1600
+    },
+    {
+      "slug": "classic-ssamjang",
+      "beforeBytes": 227514,
+      "afterBytes": 134375,
+      "width": 1600
+    },
+    {
+      "slug": "contemporary-doenjang-gochujang-lamb-shoulder",
+      "beforeBytes": 325166,
+      "afterBytes": 190395,
+      "width": 1600
+    },
+    {
+      "slug": "contemporary-sesame-broccoli-and-bell-pepper-salad",
+      "beforeBytes": 222322,
+      "afterBytes": 135444,
+      "width": 1600
+    },
+    {
+      "slug": "doenjang-butter-grilled-scallops",
+      "beforeBytes": 244746,
+      "afterBytes": 159032,
+      "width": 1600
+    },
+    {
+      "slug": "doenjang-glazed-grilled-black-cod",
+      "beforeBytes": 95750,
+      "afterBytes": 61083,
+      "width": 928
+    },
+    {
+      "slug": "doenjang-garlic-moksal-gui",
+      "beforeBytes": 265702,
+      "afterBytes": 157866,
+      "width": 1600
+    },
+    {
+      "slug": "doraji-muchim-spicy-bellflower-root",
+      "beforeBytes": 198008,
+      "afterBytes": 133213,
+      "width": 1600
+    },
+    {
+      "slug": "dubu-jorim-braised-tofu",
+      "beforeBytes": 250122,
+      "afterBytes": 156154,
+      "width": 1122
+    },
+    {
+      "slug": "eomuk-bokkeum-stir-fried-fish-cake",
+      "beforeBytes": 117136,
+      "afterBytes": 71302,
+      "width": 928
+    },
+    {
+      "slug": "gamja-jorim-soy-braised-potatoes",
+      "beforeBytes": 80838,
+      "afterBytes": 51152,
+      "width": 928
+    },
+    {
+      "slug": "galchi-gui-grilled-hairtail",
+      "beforeBytes": 278048,
+      "afterBytes": 162315,
+      "width": 1122
+    },
+    {
+      "slug": "ganjang-pork-bulgogi",
+      "beforeBytes": 237136,
+      "afterBytes": 143725,
+      "width": 1600
+    },
+    {
+      "slug": "garlic-scallion-chicken-skewers",
+      "beforeBytes": 271478,
+      "afterBytes": 165446,
+      "width": 1600
+    },
+    {
+      "slug": "garlic-scallion-grilled-mussels",
+      "beforeBytes": 122966,
+      "afterBytes": 78538,
+      "width": 928
+    },
+    {
+      "slug": "garlic-sesame-galbisal",
+      "beforeBytes": 323364,
+      "afterBytes": 190399,
+      "width": 1122
+    },
+    {
+      "slug": "gim-muchim-seasoned-seaweed",
+      "beforeBytes": 307032,
+      "afterBytes": 182827,
+      "width": 1600
+    },
+    {
+      "slug": "gireumjang-sesame-oil-salt-dip",
+      "beforeBytes": 179416,
+      "afterBytes": 105038,
+      "width": 1600
+    },
+    {
+      "slug": "gochugaru-yuja-cabbage-slaw",
+      "beforeBytes": 182442,
+      "afterBytes": 126732,
+      "width": 1536
+    },
+    {
+      "slug": "gochujang-glazed-grilled-salmon",
+      "beforeBytes": 242934,
+      "afterBytes": 151007,
+      "width": 1600
+    },
+    {
+      "slug": "gochujang-grilled-shrimp",
+      "beforeBytes": 314586,
+      "afterBytes": 191729,
+      "width": 1122
+    },
+    {
+      "slug": "gochujang-samgyeopsal",
+      "beforeBytes": 402276,
+      "afterBytes": 245634,
+      "width": 1600
+    },
+    {
+      "slug": "godeungeo-gui-grilled-mackerel",
+      "beforeBytes": 340770,
+      "afterBytes": 196884,
+      "width": 1600
+    },
+    {
+      "slug": "gyeran-jjim-steamed-eggs",
+      "beforeBytes": 80958,
+      "afterBytes": 49328,
+      "width": 928
+    },
+    {
+      "slug": "gosari-namul-seasoned-fernbrake",
+      "beforeBytes": 187260,
+      "afterBytes": 119839,
+      "width": 1600
+    },
+    {
+      "slug": "gyeran-mari-rolled-omelet",
+      "beforeBytes": 92972,
+      "afterBytes": 61871,
+      "width": 928
+    },
+    {
+      "slug": "hobak-bokkeum-stir-fried-zucchini",
+      "beforeBytes": 110714,
+      "afterBytes": 71534,
+      "width": 928
+    },
+    {
+      "slug": "home-gathering",
+      "beforeBytes": 235756,
+      "afterBytes": 149280,
+      "width": 2400
+    },
+    {
+      "slug": "hotteok-brown-sugar-seed-pancakes",
+      "beforeBytes": 224036,
+      "afterBytes": 138415,
+      "width": 1600
+    },
+    {
+      "slug": "injeolmi-toast-with-ice-cream",
+      "beforeBytes": 205346,
+      "afterBytes": 131499,
+      "width": 1600
+    },
+    {
+      "slug": "jangjorim-soy-braised-beef",
+      "beforeBytes": 171786,
+      "afterBytes": 106881,
+      "width": 1536
+    },
+    {
+      "slug": "jeonbok-gui-grilled-abalone",
+      "beforeBytes": 260482,
+      "afterBytes": 165517,
+      "width": 1122
+    },
+    {
+      "slug": "jjukkumi-gui-grilled-baby-octopus",
+      "beforeBytes": 180930,
+      "afterBytes": 123601,
+      "width": 1600
+    },
+    {
+      "slug": "jogae-gui-grilled-clams",
+      "beforeBytes": 102562,
+      "afterBytes": 64229,
+      "width": 928
+    },
+    {
+      "slug": "jogi-gui-grilled-yellow-croaker",
+      "beforeBytes": 233858,
+      "afterBytes": 135961,
+      "width": 1600
+    },
+    {
+      "slug": "jumulleok-sesame-garlic-steak-bites",
+      "beforeBytes": 276226,
+      "afterBytes": 165554,
+      "width": 1600
+    },
+    {
+      "slug": "kkakdugi-radish-kimchi",
+      "beforeBytes": 96090,
+      "afterBytes": 61067,
+      "width": 928
+    },
+    {
+      "slug": "kkaennip-jangajji-pickled-perilla-leaves",
+      "beforeBytes": 282256,
+      "afterBytes": 170443,
+      "width": 1600
+    },
+    {
+      "slug": "kongnamul-muchim-seasoned-soybean-sprouts",
+      "beforeBytes": 116600,
+      "afterBytes": 75015,
+      "width": 928
+    },
+    {
+      "slug": "korean-bbq-onion-soy-vinegar-dipping-sauce",
+      "beforeBytes": 200458,
+      "afterBytes": 127663,
+      "width": 1600
+    },
+    {
+      "slug": "korean-bbq-restaurant-style-macaroni-salad",
+      "beforeBytes": 139792,
+      "afterBytes": 101415,
+      "width": 1600
+    },
+    {
+      "slug": "korean-potato-salad",
+      "beforeBytes": 117276,
+      "afterBytes": 79252,
+      "width": 1536
+    },
+    {
+      "slug": "korean-style-gochujang-grilled-pork-ribs",
+      "beforeBytes": 446714,
+      "afterBytes": 277284,
+      "width": 1600
+    },
+    {
+      "slug": "korean-style-grilled-duck-breast",
+      "beforeBytes": 350932,
+      "afterBytes": 221854,
+      "width": 1600
+    },
+    {
+      "slug": "la-style-galbi",
+      "beforeBytes": 363122,
+      "afterBytes": 209382,
+      "width": 1122
+    },
+    {
+      "slug": "maneul-jangajji-soy-pickled-garlic",
+      "beforeBytes": 132256,
+      "afterBytes": 87801,
+      "width": 1600
+    },
+    {
+      "slug": "mechurial-jangjorim-soy-braised-quail-eggs",
+      "beforeBytes": 108970,
+      "afterBytes": 68110,
+      "width": 1536
+    },
+    {
+      "slug": "minari-muchim-water-parsley-salad",
+      "beforeBytes": 261368,
+      "afterBytes": 156399,
+      "width": 1600
+    },
+    {
+      "slug": "musaengchae-spicy-radish-salad",
+      "beforeBytes": 114618,
+      "afterBytes": 72174,
+      "width": 928
+    },
+    {
+      "slug": "myeolchi-bokkeum-stir-fried-anchovies",
+      "beforeBytes": 211832,
+      "afterBytes": 129903,
+      "width": 1600
+    },
+    {
+      "slug": "mushroom-soy-beef-bulgogi",
+      "beforeBytes": 332324,
+      "afterBytes": 196128,
+      "width": 1122
+    },
+    {
+      "slug": "neobiani-royal-style-grilled-beef",
+      "beforeBytes": 248494,
+      "afterBytes": 145860,
+      "width": 1600
+    },
+    {
+      "slug": "oi-muchim-spicy-cucumber-banchan",
+      "beforeBytes": 267522,
+      "afterBytes": 163461,
+      "width": 1536
+    },
+    {
+      "slug": "oi-sobagi-cucumber-kimchi",
+      "beforeBytes": 258632,
+      "afterBytes": 163907,
+      "width": 1122
+    },
+    {
+      "slug": "ojingeo-gui-spicy-grilled-squid",
+      "beforeBytes": 227676,
+      "afterBytes": 131164,
+      "width": 1600
+    },
+    {
+      "slug": "pajeori-korean-scallion-salad",
+      "beforeBytes": 209158,
+      "afterBytes": 128415,
+      "width": 1600
+    },
+    {
+      "slug": "patbingsu-red-bean-shaved-ice",
+      "beforeBytes": 117550,
+      "afterBytes": 76522,
+      "width": 1536
+    },
+    {
+      "slug": "radish-sprout-and-perilla-salad",
+      "beforeBytes": 192786,
+      "afterBytes": 121549,
+      "width": 1600
+    },
+    {
+      "slug": "sangchu-geotjeori-fresh-lettuce-salad",
+      "beforeBytes": 289978,
+      "afterBytes": 176676,
+      "width": 1536
+    },
+    {
+      "slug": "scallion-gochujang-grilled-oysters",
+      "beforeBytes": 306118,
+      "afterBytes": 183807,
+      "width": 1122
+    },
+    {
+      "slug": "sigeumchi-namul-seasoned-spinach",
+      "beforeBytes": 243304,
+      "afterBytes": 147446,
+      "width": 1122
+    },
+    {
+      "slug": "sikhye-sweet-rice-punch",
+      "beforeBytes": 107724,
+      "afterBytes": 66828,
+      "width": 1600
+    },
+    {
+      "slug": "soy-garlic-grilled-shrimp",
+      "beforeBytes": 309620,
+      "afterBytes": 188248,
+      "width": 1536
+    },
+    {
+      "slug": "soy-pear-dak-bulgogi",
+      "beforeBytes": 255690,
+      "afterBytes": 162271,
+      "width": 1600
+    },
+    {
+      "slug": "spicy-gochujang-galbi",
+      "beforeBytes": 306798,
+      "afterBytes": 179008,
+      "width": 1600
+    },
+    {
+      "slug": "spicy-dwaeji-bulgogi",
+      "beforeBytes": 432520,
+      "afterBytes": 264754,
+      "width": 1600
+    },
+    {
+      "slug": "spicy-gochujang-grilled-chicken-thighs",
+      "beforeBytes": 304804,
+      "afterBytes": 186064,
+      "width": 1600
+    },
+    {
+      "slug": "spicy-grilled-nakji-octopus",
+      "beforeBytes": 345202,
+      "afterBytes": 213250,
+      "width": 1536
+    },
+    {
+      "slug": "ssam-lettuce-and-herb-platter",
+      "beforeBytes": 288234,
+      "afterBytes": 169055,
+      "width": 1536
+    },
+    {
+      "slug": "tomato-onion-sesame-salad",
+      "beforeBytes": 192478,
+      "afterBytes": 127483,
+      "width": 1600
+    },
+    {
+      "slug": "tteokgalbi-grilled-beef-and-pork-patties",
+      "beforeBytes": 323080,
+      "afterBytes": 190178,
+      "width": 1122
+    },
+    {
+      "slug": "watercress-apple-yuja-salad",
+      "beforeBytes": 229856,
+      "afterBytes": 141197,
+      "width": 1536
+    },
+    {
+      "slug": "yakgwa-honey-ginger-cookies",
+      "beforeBytes": 198772,
+      "afterBytes": 126718,
+      "width": 1600
+    },
+    {
+      "slug": "yangnyeom-ganjang-scallion-soy-dipping-sauce",
+      "beforeBytes": 180654,
+      "afterBytes": 109947,
+      "width": 1600
+    },
+    {
+      "slug": "yeongeun-jorim-soy-braised-lotus-root",
+      "beforeBytes": 196204,
+      "afterBytes": 128745,
+      "width": 1600
+    }
+  ]
+}
