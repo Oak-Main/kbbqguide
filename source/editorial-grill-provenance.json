@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "asset": "ember-grill",
+  "createdAt": "2026-10-10",
+  "useCase": "photorealistic-natural",
+  "purpose": "Original editorial masthead atmosphere for KBBQGuide / Ember & Ink; not a named recipe photograph or photograph of an actual restaurant.",
+  "generation": {
+    "tool": "Built-in image_gen",
+    "mode": "generate",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: cinematic homepage editorial masthead for Ember & Ink, a premium Korean barbecue recipe publication. This is invented editorial atmosphere, not a picture of any named recipe or an actual restaurant.\nCreate one exceptionally refined photorealistic Korean barbecue evening table photograph, high-resolution landscape 16:9, preferably 2048 x 1152 or highest native output.\nComposition: quiet DARK negative space fills the entire LEFT 40 percent and upper-left area for a later large cream headline; do not render text. The visually compelling food and table arrangement are mainly RIGHT of center. Oblique table-level photographic angle with natural lens perspective. A realistic round inset Korean tabletop grill sits lower/right-center, fully recognizable, with modest slices of Korean-style beef short rib showing appealing credible caramelization, subtle grill char and moist cooked surfaces. A restrained reddish ember glow can be seen THROUGH the grate beneath the meat, with just ONE faint graceful wisp of steam or smoke. No flames or spark spectacle.\nScene: dark walnut and charcoal table surfaces, understated small banchan dishes and fresh lettuce in handmade Korean ceramics peripheral to the grill and in the right background. Restrained supporting dishes rather than clutter. A natural place setting with authentic Korean long-handled metal spoon and slim Korean metal chopsticks parallel and coherent, kept peripheral. Every utensil is physically plausible, with no merged objects.\nLighting and mood: premium hospitality editorial photography with soft amber side light from the right, controlled highlights on the cooked meat and brushed metal, deep warm shadows, elegant tonal separation, tactile oak, ceramic and grill textures. Intimate, expensive, calm, appetite-forward. Subtle warm grain, realistic optical depth; preserve detail in meat and grill, no plastic CGI food. Palette charcoal, walnut, ember copper, warm ivory and muted natural green.\nConstraints: no people, no hands, no text, no logos, no watermarks, no restaurant branding, no Japanese props, no sushi, no cherry blossoms, no theatrical flames, no sparks, no airborne ingredient effects, no thick smoke obscuring food, no over-saturated orange, no fake neon glow. Do not crop the essential food beyond recognition. Culturally credible Korean barbecue table with restrained luxurious art direction.",
+    "requestedDimensions": "2048x1152 or highest native 16:9",
+    "outputDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "originalPath": "C:\\Users\\User\\.codex\\generated_images\\01a12756-e716-7db3-8b8c-9e3cc363d4cd\\exec-65c65b09-a71c-4bfd-99e8-8b06869a6d86.png"
+  },
+  "master": {
+    "path": "public/images/editorial/ember-grill-master.png",
+    "mimeType": "image/png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2158517,
+    "sha256": "9c796fe28ddfed06edd0d98c1aadba5db5fd90f3963e36d603690a768b8fc68e"
+  },
+  "alt": "Korean beef short ribs on a glowing tabletop grill, surrounded by banchan and lettuce in warm evening light.",
+  "review": {
+    "selected": true,
+    "notes": "Inspected the generated photograph. Recognizable Korean round inset tabletop grill and bone-in short ribs with caramelization; restrained glow beneath the grate and faint steam. Left portion remains dark and quiet for headline placement. Banchan, lettuce and Korean metal utensils provide culturally credible table context. Warm controlled highlights, textured surfaces, no theatrical flames, text, people or branding. No existing recipe photos were changed.",
+    "nativeResolutionOnly": true
+  }
+}

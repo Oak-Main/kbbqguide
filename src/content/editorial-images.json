@@ -1,0 +1,85 @@
+{
+  "ember-grill": {
+    "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1672.webp",
+    "srcset": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-480.webp 480w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-768.webp 768w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-1024.webp 1024w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-1440.webp 1440w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-1672.webp 1672w",
+    "avifSrcset": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-480.avif 480w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-768.avif 768w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-1024.avif 1024w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-1440.avif 1440w, /images/optimized/editorial/ember-grill-8c54de7bfbb9-1672.avif 1672w",
+    "width": 1672,
+    "height": 941,
+    "alt": "Korean beef short ribs on a glowing tabletop grill, surrounded by banchan and lettuce in warm evening light.",
+    "variants": [
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-480.avif",
+        "width": 480,
+        "height": 270,
+        "format": "avif",
+        "bytes": 13951
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-480.webp",
+        "width": 480,
+        "height": 270,
+        "format": "webp",
+        "bytes": 19376
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-768.avif",
+        "width": 768,
+        "height": 432,
+        "format": "avif",
+        "bytes": 29784
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-768.webp",
+        "width": 768,
+        "height": 432,
+        "format": "webp",
+        "bytes": 42160
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1024.avif",
+        "width": 1024,
+        "height": 576,
+        "format": "avif",
+        "bytes": 46731
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "format": "webp",
+        "bytes": 66340
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1440.avif",
+        "width": 1440,
+        "height": 810,
+        "format": "avif",
+        "bytes": 76502
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1440.webp",
+        "width": 1440,
+        "height": 810,
+        "format": "webp",
+        "bytes": 111446
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1672.avif",
+        "width": 1672,
+        "height": 941,
+        "format": "avif",
+        "bytes": 93479
+      },
+      {
+        "src": "/images/optimized/editorial/ember-grill-8c54de7bfbb9-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "format": "webp",
+        "bytes": 134920
+      }
+    ],
+    "sourceMaster": "public/images/editorial/ember-grill-master.png",
+    "sourceSha256": "9c796fe28ddfed06edd0d98c1aadba5db5fd90f3963e36d603690a768b8fc68e",
+    "provenance": "source/editorial-grill-provenance.json"
+  }
+}
