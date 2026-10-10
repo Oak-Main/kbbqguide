@@ -1,0 +1,731 @@
+{
+  "asian-pear-and-cucumber-salad": {
+    "alt": "Bowl of matchstick-cut pale pear and green cucumber tossed with scallion slivers and flecks of red chili.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/asian-pear-and-cucumber-salad-1600.webp",
+    "srcset": "/images/recipes/asian-pear-and-cucumber-salad-640.webp 640w, /images/recipes/asian-pear-and-cucumber-salad-960.webp 960w, /images/recipes/asian-pear-and-cucumber-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/asian-pear-and-cucumber-salad-1600.jpg",
+    "position": "center"
+  },
+  "baechu-geotjeori-fresh-kimchi": {
+    "alt": "Fresh napa-cabbage pieces with red pepper flakes and sesame in a shallow bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/baechu-geotjeori-fresh-kimchi-928.webp",
+    "srcset": "/images/recipes/baechu-geotjeori-fresh-kimchi-640.webp 640w, /images/recipes/baechu-geotjeori-fresh-kimchi-928.webp 928w",
+    "jpg": "/images/recipes/baechu-geotjeori-fresh-kimchi-928.jpg",
+    "position": "center"
+  },
+  "baechu-kimchi": {
+    "alt": "Layered napa-cabbage kimchi with red seasoning and pale radish strands.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/baechu-kimchi-928.webp",
+    "srcset": "/images/recipes/baechu-kimchi-640.webp 640w, /images/recipes/baechu-kimchi-928.webp 928w",
+    "jpg": "/images/recipes/baechu-kimchi-928.jpg",
+    "position": "center"
+  },
+  "chadolbaegi-with-scallion-soy-dipping-sauce": {
+    "alt": "Paper-thin curled beef slices on a dark plate beside a scallion dipping sauce.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/chadolbaegi-with-scallion-soy-dipping-sauce-1122.webp",
+    "srcset": "/images/recipes/chadolbaegi-with-scallion-soy-dipping-sauce-640.webp 640w, /images/recipes/chadolbaegi-with-scallion-soy-dipping-sauce-960.webp 960w, /images/recipes/chadolbaegi-with-scallion-soy-dipping-sauce-1122.webp 1122w",
+    "jpg": "/images/recipes/chadolbaegi-with-scallion-soy-dipping-sauce-1122.jpg",
+    "position": "center"
+  },
+  "cho-gochujang-sweet-tangy-chili-sauce": {
+    "alt": "Shallow bowl of glossy red-orange chili sauce with a smooth swirled surface, scattered with a few sesame seeds.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/cho-gochujang-sweet-tangy-chili-sauce-1600.webp",
+    "srcset": "/images/recipes/cho-gochujang-sweet-tangy-chili-sauce-640.webp 640w, /images/recipes/cho-gochujang-sweet-tangy-chili-sauce-960.webp 960w, /images/recipes/cho-gochujang-sweet-tangy-chili-sauce-1600.webp 1600w",
+    "jpg": "/images/recipes/cho-gochujang-sweet-tangy-chili-sauce-1600.jpg",
+    "position": "center"
+  },
+  "classic-korean-pear-beef-bulgogi": {
+    "alt": "Thin browned beef strips with scallion, sesame, onion, and a pear wedge.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/classic-korean-pear-beef-bulgogi-1122.webp",
+    "srcset": "/images/recipes/classic-korean-pear-beef-bulgogi-640.webp 640w, /images/recipes/classic-korean-pear-beef-bulgogi-960.webp 960w, /images/recipes/classic-korean-pear-beef-bulgogi-1122.webp 1122w",
+    "jpg": "/images/recipes/classic-korean-pear-beef-bulgogi-1122.jpg",
+    "position": "center"
+  },
+  "classic-samgyeopsal-with-sesame-salt-seasoning": {
+    "alt": "Plain grilled pork-belly slices beside a sesame-oil dip, garlic, and lettuce.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/classic-samgyeopsal-with-sesame-salt-seasoning-1600.webp",
+    "srcset": "/images/recipes/classic-samgyeopsal-with-sesame-salt-seasoning-640.webp 640w, /images/recipes/classic-samgyeopsal-with-sesame-salt-seasoning-960.webp 960w, /images/recipes/classic-samgyeopsal-with-sesame-salt-seasoning-1600.webp 1600w",
+    "jpg": "/images/recipes/classic-samgyeopsal-with-sesame-salt-seasoning-1600.jpg",
+    "position": "center"
+  },
+  "classic-ssamjang": {
+    "alt": "Ssamjang: a thick reddish-brown wrap paste topped with sesame seeds in a ceramic bowl on a wooden tray, with a wooden spoon, perilla leaves, and radish nearby.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/classic-ssamjang-1600.webp",
+    "srcset": "/images/recipes/classic-ssamjang-640.webp 640w, /images/recipes/classic-ssamjang-960.webp 960w, /images/recipes/classic-ssamjang-1600.webp 1600w",
+    "jpg": "/images/recipes/classic-ssamjang-1600.jpg",
+    "position": "center"
+  },
+  "contemporary-doenjang-gochujang-lamb-shoulder": {
+    "alt": "Oval platter of sliced grilled lamb shoulder with charred edges and sesame, ringed by bowls of cucumber, garlic, gochujang, paste, and greens.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/contemporary-doenjang-gochujang-lamb-shoulder-1600.webp",
+    "srcset": "/images/recipes/contemporary-doenjang-gochujang-lamb-shoulder-640.webp 640w, /images/recipes/contemporary-doenjang-gochujang-lamb-shoulder-960.webp 960w, /images/recipes/contemporary-doenjang-gochujang-lamb-shoulder-1600.webp 1600w",
+    "jpg": "/images/recipes/contemporary-doenjang-gochujang-lamb-shoulder-1600.jpg",
+    "position": "center"
+  },
+  "contemporary-sesame-broccoli-and-bell-pepper-salad": {
+    "alt": "Sesame broccoli and bell pepper salad: broccoli florets with red and yellow pepper strips, sprinkled with sesame seeds, in a ceramic bowl.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/contemporary-sesame-broccoli-and-bell-pepper-salad-1600.webp",
+    "srcset": "/images/recipes/contemporary-sesame-broccoli-and-bell-pepper-salad-640.webp 640w, /images/recipes/contemporary-sesame-broccoli-and-bell-pepper-salad-960.webp 960w, /images/recipes/contemporary-sesame-broccoli-and-bell-pepper-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/contemporary-sesame-broccoli-and-bell-pepper-salad-1600.jpg",
+    "position": "center"
+  },
+  "doenjang-butter-grilled-scallops": {
+    "alt": "Seared scallops in a glossy brown glaze topped with sliced scallion and sesame on a rectangular plate, with butter, honey, and aromatics nearby.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/doenjang-butter-grilled-scallops-1600.webp",
+    "srcset": "/images/recipes/doenjang-butter-grilled-scallops-640.webp 640w, /images/recipes/doenjang-butter-grilled-scallops-960.webp 960w, /images/recipes/doenjang-butter-grilled-scallops-1600.webp 1600w",
+    "jpg": "/images/recipes/doenjang-butter-grilled-scallops-1600.jpg",
+    "position": "center"
+  },
+  "doenjang-garlic-moksal-gui": {
+    "alt": "Speckled platter of sliced grilled pork with charred edges, topped with chopped scallion and sesame; grill, greens, and ssamjang behind.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/doenjang-garlic-moksal-gui-1600.webp",
+    "srcset": "/images/recipes/doenjang-garlic-moksal-gui-640.webp 640w, /images/recipes/doenjang-garlic-moksal-gui-960.webp 960w, /images/recipes/doenjang-garlic-moksal-gui-1600.webp 1600w",
+    "jpg": "/images/recipes/doenjang-garlic-moksal-gui-1600.jpg",
+    "position": "center"
+  },
+  "doenjang-glazed-grilled-black-cod": {
+    "alt": "A thick white-fleshed fish fillet with browned glaze and scallion rings on a plate.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/doenjang-glazed-grilled-black-cod-928.webp",
+    "srcset": "/images/recipes/doenjang-glazed-grilled-black-cod-640.webp 640w, /images/recipes/doenjang-glazed-grilled-black-cod-928.webp 928w",
+    "jpg": "/images/recipes/doenjang-glazed-grilled-black-cod-928.jpg",
+    "position": "center"
+  },
+  "doraji-muchim-spicy-bellflower-root": {
+    "alt": "Bowl of thin julienned pale root strips coated in a glossy red chili dressing with green onion and sesame seeds, on dark wood.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/doraji-muchim-spicy-bellflower-root-1600.webp",
+    "srcset": "/images/recipes/doraji-muchim-spicy-bellflower-root-640.webp 640w, /images/recipes/doraji-muchim-spicy-bellflower-root-960.webp 960w, /images/recipes/doraji-muchim-spicy-bellflower-root-1600.webp 1600w",
+    "jpg": "/images/recipes/doraji-muchim-spicy-bellflower-root-1600.jpg",
+    "position": "center"
+  },
+  "dubu-jorim-braised-tofu": {
+    "alt": "Browned tofu slabs in red-pepper soy sauce with sliced scallion and sesame.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/dubu-jorim-braised-tofu-1122.webp",
+    "srcset": "/images/recipes/dubu-jorim-braised-tofu-640.webp 640w, /images/recipes/dubu-jorim-braised-tofu-960.webp 960w, /images/recipes/dubu-jorim-braised-tofu-1122.webp 1122w",
+    "jpg": "/images/recipes/dubu-jorim-braised-tofu-1122.jpg",
+    "position": "center"
+  },
+  "eomuk-bokkeum-stir-fried-fish-cake": {
+    "alt": "Browned fish-cake strips with sliced onion and carrot in a shallow bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/eomuk-bokkeum-stir-fried-fish-cake-928.webp",
+    "srcset": "/images/recipes/eomuk-bokkeum-stir-fried-fish-cake-640.webp 640w, /images/recipes/eomuk-bokkeum-stir-fried-fish-cake-928.webp 928w",
+    "jpg": "/images/recipes/eomuk-bokkeum-stir-fried-fish-cake-928.jpg",
+    "position": "center"
+  },
+  "galchi-gui-grilled-hairtail": {
+    "alt": "Rectangular silver-skinned hairtail sections with grill marks and scallion curls.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/galchi-gui-grilled-hairtail-1122.webp",
+    "srcset": "/images/recipes/galchi-gui-grilled-hairtail-640.webp 640w, /images/recipes/galchi-gui-grilled-hairtail-960.webp 960w, /images/recipes/galchi-gui-grilled-hairtail-1122.webp 1122w",
+    "jpg": "/images/recipes/galchi-gui-grilled-hairtail-1122.jpg",
+    "position": "center"
+  },
+  "gamja-jorim-soy-braised-potatoes": {
+    "alt": "Small glazed potatoes sprinkled with sesame in a brown bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/gamja-jorim-soy-braised-potatoes-928.webp",
+    "srcset": "/images/recipes/gamja-jorim-soy-braised-potatoes-640.webp 640w, /images/recipes/gamja-jorim-soy-braised-potatoes-928.webp 928w",
+    "jpg": "/images/recipes/gamja-jorim-soy-braised-potatoes-928.jpg",
+    "position": "center"
+  },
+  "ganjang-pork-bulgogi": {
+    "alt": "Plate of thin grilled pork with charred edges and onion slices, sprinkled with scallion and sesame seeds, amid banchan and more pork on a grill.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/ganjang-pork-bulgogi-1600.webp",
+    "srcset": "/images/recipes/ganjang-pork-bulgogi-640.webp 640w, /images/recipes/ganjang-pork-bulgogi-960.webp 960w, /images/recipes/ganjang-pork-bulgogi-1600.webp 1600w",
+    "jpg": "/images/recipes/ganjang-pork-bulgogi-1600.jpg",
+    "position": "center"
+  },
+  "garlic-scallion-chicken-skewers": {
+    "alt": "Garlic-scallion chicken skewers: charred grilled chicken thigh on metal skewers, topped with sesame and scallion, with grilled scallions and a dip nearby.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/garlic-scallion-chicken-skewers-1600.webp",
+    "srcset": "/images/recipes/garlic-scallion-chicken-skewers-640.webp 640w, /images/recipes/garlic-scallion-chicken-skewers-960.webp 960w, /images/recipes/garlic-scallion-chicken-skewers-1600.webp 1600w",
+    "jpg": "/images/recipes/garlic-scallion-chicken-skewers-1600.jpg",
+    "position": "center"
+  },
+  "garlic-scallion-grilled-mussels": {
+    "alt": "Open black mussel shells with garlic and chopped scallion on an oval plate.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/garlic-scallion-grilled-mussels-928.webp",
+    "srcset": "/images/recipes/garlic-scallion-grilled-mussels-640.webp 640w, /images/recipes/garlic-scallion-grilled-mussels-928.webp 928w",
+    "jpg": "/images/recipes/garlic-scallion-grilled-mussels-928.jpg",
+    "position": "center"
+  },
+  "garlic-sesame-galbisal": {
+    "alt": "Boneless grilled beef pieces with garlic slices, scallion, and sesame on a plate.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/garlic-sesame-galbisal-1122.webp",
+    "srcset": "/images/recipes/garlic-sesame-galbisal-640.webp 640w, /images/recipes/garlic-sesame-galbisal-960.webp 960w, /images/recipes/garlic-sesame-galbisal-1122.webp 1122w",
+    "jpg": "/images/recipes/garlic-sesame-galbisal-1122.jpg",
+    "position": "center"
+  },
+  "gim-muchim-seasoned-seaweed": {
+    "alt": "Torn roasted seaweed, dark and glossy, dressed with sesame seeds, sliced scallion and red chili flecks in a speckled bowl.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/gim-muchim-seasoned-seaweed-1600.webp",
+    "srcset": "/images/recipes/gim-muchim-seasoned-seaweed-640.webp 640w, /images/recipes/gim-muchim-seasoned-seaweed-960.webp 960w, /images/recipes/gim-muchim-seasoned-seaweed-1600.webp 1600w",
+    "jpg": "/images/recipes/gim-muchim-seasoned-seaweed-1600.jpg",
+    "position": "center"
+  },
+  "gireumjang-sesame-oil-salt-dip": {
+    "alt": "Small shallow dish of clear oil topped with salt and coarse black pepper, on a wooden table beside a plate of grilled vegetables and a grill.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/gireumjang-sesame-oil-salt-dip-1600.webp",
+    "srcset": "/images/recipes/gireumjang-sesame-oil-salt-dip-640.webp 640w, /images/recipes/gireumjang-sesame-oil-salt-dip-960.webp 960w, /images/recipes/gireumjang-sesame-oil-salt-dip-1600.webp 1600w",
+    "jpg": "/images/recipes/gireumjang-sesame-oil-salt-dip-1600.jpg",
+    "position": "center"
+  },
+  "gochugaru-yuja-cabbage-slaw": {
+    "alt": "Pale napa cabbage ribbons and scallion with chili flecks and sesame in a shallow ivory bowl.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/gochugaru-yuja-cabbage-slaw-1536.webp",
+    "srcset": "/images/recipes/gochugaru-yuja-cabbage-slaw-640.webp 640w, /images/recipes/gochugaru-yuja-cabbage-slaw-960.webp 960w, /images/recipes/gochugaru-yuja-cabbage-slaw-1536.webp 1536w",
+    "jpg": "/images/recipes/gochugaru-yuja-cabbage-slaw-1536.jpg",
+    "position": "center"
+  },
+  "gochujang-glazed-grilled-salmon": {
+    "alt": "Skin-on salmon fillet with a glossy red-brown glaze, scattered with sesame seeds and sliced scallion rings, on a cream plate.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/gochujang-glazed-grilled-salmon-1600.webp",
+    "srcset": "/images/recipes/gochujang-glazed-grilled-salmon-640.webp 640w, /images/recipes/gochujang-glazed-grilled-salmon-960.webp 960w, /images/recipes/gochujang-glazed-grilled-salmon-1600.webp 1600w",
+    "jpg": "/images/recipes/gochujang-glazed-grilled-salmon-1600.jpg",
+    "position": "center"
+  },
+  "gochujang-grilled-shrimp": {
+    "alt": "Skewered shrimp with red chili glaze, browned edges, and scallion on a plate.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/gochujang-grilled-shrimp-1122.webp",
+    "srcset": "/images/recipes/gochujang-grilled-shrimp-640.webp 640w, /images/recipes/gochujang-grilled-shrimp-960.webp 960w, /images/recipes/gochujang-grilled-shrimp-1122.webp 1122w",
+    "jpg": "/images/recipes/gochujang-grilled-shrimp-1122.jpg",
+    "position": "center"
+  },
+  "gochujang-samgyeopsal": {
+    "alt": "Grilled pork-belly rectangles with red glaze, visible fat layers, and scallion.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/gochujang-samgyeopsal-1600.webp",
+    "srcset": "/images/recipes/gochujang-samgyeopsal-640.webp 640w, /images/recipes/gochujang-samgyeopsal-960.webp 960w, /images/recipes/gochujang-samgyeopsal-1600.webp 1600w",
+    "jpg": "/images/recipes/gochujang-samgyeopsal-1600.jpg",
+    "position": "center"
+  },
+  "godeungeo-gui-grilled-mackerel": {
+    "alt": "A butterflied silver-skinned mackerel with browned grill marks on a rectangular plate.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/godeungeo-gui-grilled-mackerel-1600.webp",
+    "srcset": "/images/recipes/godeungeo-gui-grilled-mackerel-640.webp 640w, /images/recipes/godeungeo-gui-grilled-mackerel-960.webp 960w, /images/recipes/godeungeo-gui-grilled-mackerel-1600.webp 1600w",
+    "jpg": "/images/recipes/godeungeo-gui-grilled-mackerel-1600.jpg",
+    "position": "center"
+  },
+  "gosari-namul-seasoned-fernbrake": {
+    "alt": "Bowl of seasoned fernbrake, long softened brown fern stems tossed in glossy seasoning and sesame seeds.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/gosari-namul-seasoned-fernbrake-1600.webp",
+    "srcset": "/images/recipes/gosari-namul-seasoned-fernbrake-640.webp 640w, /images/recipes/gosari-namul-seasoned-fernbrake-960.webp 960w, /images/recipes/gosari-namul-seasoned-fernbrake-1600.webp 1600w",
+    "jpg": "/images/recipes/gosari-namul-seasoned-fernbrake-1600.jpg",
+    "position": "center"
+  },
+  "gyeran-jjim-steamed-eggs": {
+    "alt": "Steamed egg topped with scallion rings in a dark earthenware bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/gyeran-jjim-steamed-eggs-928.webp",
+    "srcset": "/images/recipes/gyeran-jjim-steamed-eggs-640.webp 640w, /images/recipes/gyeran-jjim-steamed-eggs-928.webp 928w",
+    "jpg": "/images/recipes/gyeran-jjim-steamed-eggs-928.jpg",
+    "position": "center"
+  },
+  "gyeran-mari-rolled-omelet": {
+    "alt": "Thick rolled-omelet slices with fine carrot and scallion flecks on a white plate.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/gyeran-mari-rolled-omelet-928.webp",
+    "srcset": "/images/recipes/gyeran-mari-rolled-omelet-640.webp 640w, /images/recipes/gyeran-mari-rolled-omelet-928.webp 928w",
+    "jpg": "/images/recipes/gyeran-mari-rolled-omelet-928.jpg",
+    "position": "center"
+  },
+  "hobak-bokkeum-stir-fried-zucchini": {
+    "alt": "Cooked zucchini half-moons with minced garlic and sesame in a shallow bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/hobak-bokkeum-stir-fried-zucchini-928.webp",
+    "srcset": "/images/recipes/hobak-bokkeum-stir-fried-zucchini-640.webp 640w, /images/recipes/hobak-bokkeum-stir-fried-zucchini-928.webp 928w",
+    "jpg": "/images/recipes/hobak-bokkeum-stir-fried-zucchini-928.jpg",
+    "position": "center"
+  },
+  "home-gathering": {
+    "alt": "Four adults gather around an inset grill; red-handled tongs rest on a separate tray of raw marbled beef while stainless tongs handle browned beef beside lettuce, perilla, rice, and banchan.",
+    "width": 2400,
+    "height": 1600,
+    "src": "/images/recipes/home-gathering-2400.webp",
+    "srcset": "/images/recipes/home-gathering-640.webp 640w, /images/recipes/home-gathering-960.webp 960w, /images/recipes/home-gathering-1600.webp 1600w, /images/recipes/home-gathering-2400.webp 2400w",
+    "jpg": "/images/recipes/home-gathering-2400.jpg",
+    "position": "58% 50%"
+  },
+  "hotteok-brown-sugar-seed-pancakes": {
+    "alt": "Three golden pan-fried hotteok on a speckled plate, one split to show a brown-sugar and mixed-seed filling; tea and seeds nearby.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/hotteok-brown-sugar-seed-pancakes-1600.webp",
+    "srcset": "/images/recipes/hotteok-brown-sugar-seed-pancakes-640.webp 640w, /images/recipes/hotteok-brown-sugar-seed-pancakes-960.webp 960w, /images/recipes/hotteok-brown-sugar-seed-pancakes-1600.webp 1600w",
+    "jpg": "/images/recipes/hotteok-brown-sugar-seed-pancakes-1600.jpg",
+    "position": "center"
+  },
+  "injeolmi-toast-with-ice-cream": {
+    "alt": "Thick golden slab of toast topped with pale rice-cake pieces, roasted soybean powder, and a honey-drizzled scoop of ice cream.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/injeolmi-toast-with-ice-cream-1600.webp",
+    "srcset": "/images/recipes/injeolmi-toast-with-ice-cream-640.webp 640w, /images/recipes/injeolmi-toast-with-ice-cream-960.webp 960w, /images/recipes/injeolmi-toast-with-ice-cream-1600.webp 1600w",
+    "jpg": "/images/recipes/injeolmi-toast-with-ice-cream-1600.jpg",
+    "position": "center"
+  },
+  "jangjorim-soy-braised-beef": {
+    "alt": "Soy-braised shredded beef with whole garlic, whole green bird’s-eye chilies and sesame in a pale ceramic bowl.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/jangjorim-soy-braised-beef-1536.webp",
+    "srcset": "/images/recipes/jangjorim-soy-braised-beef-640.webp 640w, /images/recipes/jangjorim-soy-braised-beef-960.webp 960w, /images/recipes/jangjorim-soy-braised-beef-1536.webp 1536w",
+    "jpg": "/images/recipes/jangjorim-soy-braised-beef-1536.jpg",
+    "position": "center"
+  },
+  "jeonbok-gui-grilled-abalone": {
+    "alt": "Crosshatched grilled abalone with garlic and scallion in iridescent shells.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/jeonbok-gui-grilled-abalone-1122.webp",
+    "srcset": "/images/recipes/jeonbok-gui-grilled-abalone-640.webp 640w, /images/recipes/jeonbok-gui-grilled-abalone-960.webp 960w, /images/recipes/jeonbok-gui-grilled-abalone-1122.webp 1122w",
+    "jpg": "/images/recipes/jeonbok-gui-grilled-abalone-1122.jpg",
+    "position": "center"
+  },
+  "jjukkumi-gui-grilled-baby-octopus": {
+    "alt": "Small whole baby octopus glazed reddish-brown with chili and sesame seeds, tentacles curled, piled on a cream plate.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/jjukkumi-gui-grilled-baby-octopus-1600.webp",
+    "srcset": "/images/recipes/jjukkumi-gui-grilled-baby-octopus-640.webp 640w, /images/recipes/jjukkumi-gui-grilled-baby-octopus-960.webp 960w, /images/recipes/jjukkumi-gui-grilled-baby-octopus-1600.webp 1600w",
+    "jpg": "/images/recipes/jjukkumi-gui-grilled-baby-octopus-1600.jpg",
+    "position": "center"
+  },
+  "jogae-gui-grilled-clams": {
+    "alt": "Open clam shells with garlic, scallion, and red pepper on a pale plate.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/jogae-gui-grilled-clams-928.webp",
+    "srcset": "/images/recipes/jogae-gui-grilled-clams-640.webp 640w, /images/recipes/jogae-gui-grilled-clams-928.webp 928w",
+    "jpg": "/images/recipes/jogae-gui-grilled-clams-928.jpg",
+    "position": "center"
+  },
+  "jogi-gui-grilled-yellow-croaker": {
+    "alt": "Whole grilled fish with crisp browned, scored skin on an oval plate, set on a stainless surface with a small side dish behind.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/jogi-gui-grilled-yellow-croaker-1600.webp",
+    "srcset": "/images/recipes/jogi-gui-grilled-yellow-croaker-640.webp 640w, /images/recipes/jogi-gui-grilled-yellow-croaker-960.webp 960w, /images/recipes/jogi-gui-grilled-yellow-croaker-1600.webp 1600w",
+    "jpg": "/images/recipes/jogi-gui-grilled-yellow-croaker-1600.jpg",
+    "position": "center"
+  },
+  "jumulleok-sesame-garlic-steak-bites": {
+    "alt": "Browned steak cubes with sesame and scallion beside a small oil dip.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/jumulleok-sesame-garlic-steak-bites-1600.webp",
+    "srcset": "/images/recipes/jumulleok-sesame-garlic-steak-bites-640.webp 640w, /images/recipes/jumulleok-sesame-garlic-steak-bites-960.webp 960w, /images/recipes/jumulleok-sesame-garlic-steak-bites-1600.webp 1600w",
+    "jpg": "/images/recipes/jumulleok-sesame-garlic-steak-bites-1600.jpg",
+    "position": "center"
+  },
+  "kkaennip-jangajji-pickled-perilla-leaves": {
+    "alt": "Stack of perilla leaves layered in dark soy brine, topped with garlic slices, chili flakes, and sliced green chile in a shallow bowl.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/kkaennip-jangajji-pickled-perilla-leaves-1600.webp",
+    "srcset": "/images/recipes/kkaennip-jangajji-pickled-perilla-leaves-640.webp 640w, /images/recipes/kkaennip-jangajji-pickled-perilla-leaves-960.webp 960w, /images/recipes/kkaennip-jangajji-pickled-perilla-leaves-1600.webp 1600w",
+    "jpg": "/images/recipes/kkaennip-jangajji-pickled-perilla-leaves-1600.jpg",
+    "position": "center"
+  },
+  "kkakdugi-radish-kimchi": {
+    "alt": "Red-pepper-coated radish cubes with scallion pieces in a brown bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/kkakdugi-radish-kimchi-928.webp",
+    "srcset": "/images/recipes/kkakdugi-radish-kimchi-640.webp 640w, /images/recipes/kkakdugi-radish-kimchi-928.webp 928w",
+    "jpg": "/images/recipes/kkakdugi-radish-kimchi-928.jpg",
+    "position": "center"
+  },
+  "kongnamul-muchim-seasoned-soybean-sprouts": {
+    "alt": "White soybean sprouts with yellow heads, scallion rings, and sesame in a bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/kongnamul-muchim-seasoned-soybean-sprouts-928.webp",
+    "srcset": "/images/recipes/kongnamul-muchim-seasoned-soybean-sprouts-640.webp 640w, /images/recipes/kongnamul-muchim-seasoned-soybean-sprouts-928.webp 928w",
+    "jpg": "/images/recipes/kongnamul-muchim-seasoned-soybean-sprouts-928.jpg",
+    "position": "center"
+  },
+  "korean-bbq-onion-soy-vinegar-dipping-sauce": {
+    "alt": "Thin onion slices soaking in a dark soy-vinegar sauce with a few round soybeans, portioned into small individual dishes.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/korean-bbq-onion-soy-vinegar-dipping-sauce-1600.webp",
+    "srcset": "/images/recipes/korean-bbq-onion-soy-vinegar-dipping-sauce-640.webp 640w, /images/recipes/korean-bbq-onion-soy-vinegar-dipping-sauce-960.webp 960w, /images/recipes/korean-bbq-onion-soy-vinegar-dipping-sauce-1600.webp 1600w",
+    "jpg": "/images/recipes/korean-bbq-onion-soy-vinegar-dipping-sauce-1600.jpg",
+    "position": "center"
+  },
+  "korean-bbq-restaurant-style-macaroni-salad": {
+    "alt": "Elbow macaroni in a creamy dressing with cucumber slices, shredded carrot and corn kernels in a pale stoneware bowl.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/korean-bbq-restaurant-style-macaroni-salad-1600.webp",
+    "srcset": "/images/recipes/korean-bbq-restaurant-style-macaroni-salad-640.webp 640w, /images/recipes/korean-bbq-restaurant-style-macaroni-salad-960.webp 960w, /images/recipes/korean-bbq-restaurant-style-macaroni-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/korean-bbq-restaurant-style-macaroni-salad-1600.jpg",
+    "position": "center"
+  },
+  "korean-potato-salad": {
+    "alt": "Creamy coarse Korean potato salad with red-skinned apple, cucumber and chopped hard-boiled egg.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/korean-potato-salad-1536.webp",
+    "srcset": "/images/recipes/korean-potato-salad-640.webp 640w, /images/recipes/korean-potato-salad-960.webp 960w, /images/recipes/korean-potato-salad-1536.webp 1536w",
+    "jpg": "/images/recipes/korean-potato-salad-1536.jpg",
+    "position": "center"
+  },
+  "korean-style-gochujang-grilled-pork-ribs": {
+    "alt": "Long pork-rib sections with red glaze, browned edges, sesame, and scallion.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/korean-style-gochujang-grilled-pork-ribs-1600.webp",
+    "srcset": "/images/recipes/korean-style-gochujang-grilled-pork-ribs-640.webp 640w, /images/recipes/korean-style-gochujang-grilled-pork-ribs-960.webp 960w, /images/recipes/korean-style-gochujang-grilled-pork-ribs-1600.webp 1600w",
+    "jpg": "/images/recipes/korean-style-gochujang-grilled-pork-ribs-1600.jpg",
+    "position": "center"
+  },
+  "korean-style-grilled-duck-breast": {
+    "alt": "Sliced duck breast with scored browned skin, sesame, and scallion on an oval plate.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/korean-style-grilled-duck-breast-1600.webp",
+    "srcset": "/images/recipes/korean-style-grilled-duck-breast-640.webp 640w, /images/recipes/korean-style-grilled-duck-breast-960.webp 960w, /images/recipes/korean-style-grilled-duck-breast-1600.webp 1600w",
+    "jpg": "/images/recipes/korean-style-grilled-duck-breast-1600.jpg",
+    "position": "center"
+  },
+  "la-style-galbi": {
+    "alt": "Browned flanken-cut beef ribs with round bone cross-sections and scallion.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/la-style-galbi-1122.webp",
+    "srcset": "/images/recipes/la-style-galbi-640.webp 640w, /images/recipes/la-style-galbi-960.webp 960w, /images/recipes/la-style-galbi-1122.webp 1122w",
+    "jpg": "/images/recipes/la-style-galbi-1122.jpg",
+    "position": "center"
+  },
+  "maneul-jangajji-soy-pickled-garlic": {
+    "alt": "Speckled bowl of whole peeled garlic cloves submerged in glossy dark soy-vinegar brine; a ceramic cup and chopsticks nearby.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/maneul-jangajji-soy-pickled-garlic-1600.webp",
+    "srcset": "/images/recipes/maneul-jangajji-soy-pickled-garlic-640.webp 640w, /images/recipes/maneul-jangajji-soy-pickled-garlic-960.webp 960w, /images/recipes/maneul-jangajji-soy-pickled-garlic-1600.webp 1600w",
+    "jpg": "/images/recipes/maneul-jangajji-soy-pickled-garlic-1600.jpg",
+    "position": "center"
+  },
+  "mechurial-jangjorim-soy-braised-quail-eggs": {
+    "alt": "Glossy soy-braised quail eggs with garlic cloves and green chili in a pale ceramic bowl.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-1536.webp",
+    "srcset": "/images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-640.webp 640w, /images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-960.webp 960w, /images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-1536.webp 1536w",
+    "jpg": "/images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-1536.jpg",
+    "position": "center"
+  },
+  "minari-muchim-water-parsley-salad": {
+    "alt": "Bowl of dressed leafy green stems tossed with red chili flakes, sesame seeds, and sliced garlic; small dishes of soy, chili, and sesame beside it.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/minari-muchim-water-parsley-salad-1600.webp",
+    "srcset": "/images/recipes/minari-muchim-water-parsley-salad-640.webp 640w, /images/recipes/minari-muchim-water-parsley-salad-960.webp 960w, /images/recipes/minari-muchim-water-parsley-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/minari-muchim-water-parsley-salad-1600.jpg",
+    "position": "center"
+  },
+  "musaengchae-spicy-radish-salad": {
+    "alt": "Radish matchsticks coated with red pepper flakes and sesame in a brown bowl.",
+    "width": 928,
+    "height": 1152,
+    "src": "/images/recipes/musaengchae-spicy-radish-salad-928.webp",
+    "srcset": "/images/recipes/musaengchae-spicy-radish-salad-640.webp 640w, /images/recipes/musaengchae-spicy-radish-salad-928.webp 928w",
+    "jpg": "/images/recipes/musaengchae-spicy-radish-salad-928.jpg",
+    "position": "center"
+  },
+  "mushroom-soy-beef-bulgogi": {
+    "alt": "Thin browned beef strips with sliced mushrooms, onion, and scallion on a plate.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/mushroom-soy-beef-bulgogi-1122.webp",
+    "srcset": "/images/recipes/mushroom-soy-beef-bulgogi-640.webp 640w, /images/recipes/mushroom-soy-beef-bulgogi-960.webp 960w, /images/recipes/mushroom-soy-beef-bulgogi-1122.webp 1122w",
+    "jpg": "/images/recipes/mushroom-soy-beef-bulgogi-1122.jpg",
+    "position": "center"
+  },
+  "myeolchi-bokkeum-stir-fried-anchovies": {
+    "alt": "Myeolchi bokkeum: small dried anchovies in a glossy brown glaze with sesame seeds, mounded in a shallow bowl on a wooden tray.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/myeolchi-bokkeum-stir-fried-anchovies-1600.webp",
+    "srcset": "/images/recipes/myeolchi-bokkeum-stir-fried-anchovies-640.webp 640w, /images/recipes/myeolchi-bokkeum-stir-fried-anchovies-960.webp 960w, /images/recipes/myeolchi-bokkeum-stir-fried-anchovies-1600.webp 1600w",
+    "jpg": "/images/recipes/myeolchi-bokkeum-stir-fried-anchovies-1600.jpg",
+    "position": "center"
+  },
+  "neobiani-royal-style-grilled-beef": {
+    "alt": "Neobiani: thin, browned marinated beef pieces topped with sesame seeds and scallion, steaming on a plate beside lettuce and small banchan bowls.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/neobiani-royal-style-grilled-beef-1600.webp",
+    "srcset": "/images/recipes/neobiani-royal-style-grilled-beef-640.webp 640w, /images/recipes/neobiani-royal-style-grilled-beef-960.webp 960w, /images/recipes/neobiani-royal-style-grilled-beef-1600.webp 1600w",
+    "jpg": "/images/recipes/neobiani-royal-style-grilled-beef-1600.jpg",
+    "position": "center"
+  },
+  "oi-muchim-spicy-cucumber-banchan": {
+    "alt": "Thin cucumber half-moons with red chili dressing, scallion and sesame in a cream bowl.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/oi-muchim-spicy-cucumber-banchan-1536.webp",
+    "srcset": "/images/recipes/oi-muchim-spicy-cucumber-banchan-640.webp 640w, /images/recipes/oi-muchim-spicy-cucumber-banchan-960.webp 960w, /images/recipes/oi-muchim-spicy-cucumber-banchan-1536.webp 1536w",
+    "jpg": "/images/recipes/oi-muchim-spicy-cucumber-banchan-1536.jpg",
+    "position": "center"
+  },
+  "oi-sobagi-cucumber-kimchi": {
+    "alt": "Slit cucumber pieces stuffed with red-seasoned carrot and chive strands.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/oi-sobagi-cucumber-kimchi-1122.webp",
+    "srcset": "/images/recipes/oi-sobagi-cucumber-kimchi-640.webp 640w, /images/recipes/oi-sobagi-cucumber-kimchi-960.webp 960w, /images/recipes/oi-sobagi-cucumber-kimchi-1122.webp 1122w",
+    "jpg": "/images/recipes/oi-sobagi-cucumber-kimchi-1122.jpg",
+    "position": "center"
+  },
+  "ojingeo-gui-spicy-grilled-squid": {
+    "alt": "Crosshatched squid with red glaze, curled tentacles, scallion, and sesame on a plate.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/ojingeo-gui-spicy-grilled-squid-1600.webp",
+    "srcset": "/images/recipes/ojingeo-gui-spicy-grilled-squid-640.webp 640w, /images/recipes/ojingeo-gui-spicy-grilled-squid-960.webp 960w, /images/recipes/ojingeo-gui-spicy-grilled-squid-1600.webp 1600w",
+    "jpg": "/images/recipes/ojingeo-gui-spicy-grilled-squid-1600.jpg",
+    "position": "center"
+  },
+  "pajeori-korean-scallion-salad": {
+    "alt": "Speckled bowl piled with fine scallion threads tossed with red chili flakes and sesame seeds; whole scallions and seasoning bowls behind.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/pajeori-korean-scallion-salad-1600.webp",
+    "srcset": "/images/recipes/pajeori-korean-scallion-salad-640.webp 640w, /images/recipes/pajeori-korean-scallion-salad-960.webp 960w, /images/recipes/pajeori-korean-scallion-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/pajeori-korean-scallion-salad-1600.jpg",
+    "position": "center"
+  },
+  "patbingsu-red-bean-shaved-ice": {
+    "alt": "Shaved ice topped with red beans, condensed milk and rice cakes, with strawberry wedges and banana slices.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/patbingsu-red-bean-shaved-ice-1536.webp",
+    "srcset": "/images/recipes/patbingsu-red-bean-shaved-ice-640.webp 640w, /images/recipes/patbingsu-red-bean-shaved-ice-960.webp 960w, /images/recipes/patbingsu-red-bean-shaved-ice-1536.webp 1536w",
+    "jpg": "/images/recipes/patbingsu-red-bean-shaved-ice-1536.jpg",
+    "position": "center"
+  },
+  "radish-sprout-and-perilla-salad": {
+    "alt": "Radish sprouts and shredded greens tossed with chili flakes, sliced green chile, and sesame seeds, mounded in a shallow ceramic bowl.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/radish-sprout-and-perilla-salad-1600.webp",
+    "srcset": "/images/recipes/radish-sprout-and-perilla-salad-640.webp 640w, /images/recipes/radish-sprout-and-perilla-salad-960.webp 960w, /images/recipes/radish-sprout-and-perilla-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/radish-sprout-and-perilla-salad-1600.jpg",
+    "position": "center"
+  },
+  "sangchu-geotjeori-fresh-lettuce-salad": {
+    "alt": "Green and red leaf lettuce with scallion, red chili dressing and sesame in a shallow ceramic bowl.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/sangchu-geotjeori-fresh-lettuce-salad-1536.webp",
+    "srcset": "/images/recipes/sangchu-geotjeori-fresh-lettuce-salad-640.webp 640w, /images/recipes/sangchu-geotjeori-fresh-lettuce-salad-960.webp 960w, /images/recipes/sangchu-geotjeori-fresh-lettuce-salad-1536.webp 1536w",
+    "jpg": "/images/recipes/sangchu-geotjeori-fresh-lettuce-salad-1536.jpg",
+    "position": "center"
+  },
+  "scallion-gochujang-grilled-oysters": {
+    "alt": "Oysters in rough half-shells topped with red seasoning and sliced scallion.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/scallion-gochujang-grilled-oysters-1122.webp",
+    "srcset": "/images/recipes/scallion-gochujang-grilled-oysters-640.webp 640w, /images/recipes/scallion-gochujang-grilled-oysters-960.webp 960w, /images/recipes/scallion-gochujang-grilled-oysters-1122.webp 1122w",
+    "jpg": "/images/recipes/scallion-gochujang-grilled-oysters-1122.jpg",
+    "position": "center"
+  },
+  "sigeumchi-namul-seasoned-spinach": {
+    "alt": "Seasoned spinach leaves and stems with minced garlic and sesame in a bowl.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/sigeumchi-namul-seasoned-spinach-1122.webp",
+    "srcset": "/images/recipes/sigeumchi-namul-seasoned-spinach-640.webp 640w, /images/recipes/sigeumchi-namul-seasoned-spinach-960.webp 960w, /images/recipes/sigeumchi-namul-seasoned-spinach-1122.webp 1122w",
+    "jpg": "/images/recipes/sigeumchi-namul-seasoned-spinach-1122.jpg",
+    "position": "center"
+  },
+  "sikhye-sweet-rice-punch": {
+    "alt": "Glass of pale, cloudy sweet rice punch with floating rice grains and pine nuts, on a dark wooden tray with a brass spoon.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/sikhye-sweet-rice-punch-1600.webp",
+    "srcset": "/images/recipes/sikhye-sweet-rice-punch-640.webp 640w, /images/recipes/sikhye-sweet-rice-punch-960.webp 960w, /images/recipes/sikhye-sweet-rice-punch-1600.webp 1600w",
+    "jpg": "/images/recipes/sikhye-sweet-rice-punch-1600.jpg",
+    "position": "center"
+  },
+  "soy-garlic-grilled-shrimp": {
+    "alt": "Shell-on soy-garlic grilled shrimp with segmented shells and tails on skewers, beside scallion-soy dipping sauce.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/soy-garlic-grilled-shrimp-1536.webp",
+    "srcset": "/images/recipes/soy-garlic-grilled-shrimp-640.webp 640w, /images/recipes/soy-garlic-grilled-shrimp-960.webp 960w, /images/recipes/soy-garlic-grilled-shrimp-1536.webp 1536w",
+    "jpg": "/images/recipes/soy-garlic-grilled-shrimp-1536.jpg",
+    "position": "center"
+  },
+  "soy-pear-dak-bulgogi": {
+    "alt": "Dak bulgogi: browned grilled chicken thigh pieces topped with sesame and scallion, plated beside a tabletop grill, a lettuce basket, and banchan.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/soy-pear-dak-bulgogi-1600.webp",
+    "srcset": "/images/recipes/soy-pear-dak-bulgogi-640.webp 640w, /images/recipes/soy-pear-dak-bulgogi-960.webp 960w, /images/recipes/soy-pear-dak-bulgogi-1600.webp 1600w",
+    "jpg": "/images/recipes/soy-pear-dak-bulgogi-1600.jpg",
+    "position": "center"
+  },
+  "spicy-dwaeji-bulgogi": {
+    "alt": "Thin red-seasoned pork strips with scallion rings and sesame on an oval plate.",
+    "width": 1600,
+    "height": 1986,
+    "src": "/images/recipes/spicy-dwaeji-bulgogi-1600.webp",
+    "srcset": "/images/recipes/spicy-dwaeji-bulgogi-640.webp 640w, /images/recipes/spicy-dwaeji-bulgogi-960.webp 960w, /images/recipes/spicy-dwaeji-bulgogi-1600.webp 1600w",
+    "jpg": "/images/recipes/spicy-dwaeji-bulgogi-1600.jpg",
+    "position": "center"
+  },
+  "spicy-gochujang-galbi": {
+    "alt": "Spicy gochujang galbi: dark-glazed flanken-cut beef short ribs with charred edges and cross-cut bones, topped with sesame and scallion, plated with rice and banchan.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/spicy-gochujang-galbi-1600.webp",
+    "srcset": "/images/recipes/spicy-gochujang-galbi-640.webp 640w, /images/recipes/spicy-gochujang-galbi-960.webp 960w, /images/recipes/spicy-gochujang-galbi-1600.webp 1600w",
+    "jpg": "/images/recipes/spicy-gochujang-galbi-1600.jpg",
+    "position": "center"
+  },
+  "spicy-gochujang-grilled-chicken-thighs": {
+    "alt": "Plate of charred, glazed grilled chicken pieces sprinkled with scallion and sesame; lettuce, chili paste, garlic, kimchi, and a grill nearby.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/spicy-gochujang-grilled-chicken-thighs-1600.webp",
+    "srcset": "/images/recipes/spicy-gochujang-grilled-chicken-thighs-640.webp 640w, /images/recipes/spicy-gochujang-grilled-chicken-thighs-960.webp 960w, /images/recipes/spicy-gochujang-grilled-chicken-thighs-1600.webp 1600w",
+    "jpg": "/images/recipes/spicy-gochujang-grilled-chicken-thighs-1600.jpg",
+    "position": "center"
+  },
+  "spicy-grilled-nakji-octopus": {
+    "alt": "Gochujang-glazed cut octopus tentacles and scored body pieces with light char in a perforated grill pan.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/spicy-grilled-nakji-octopus-1536.webp",
+    "srcset": "/images/recipes/spicy-grilled-nakji-octopus-640.webp 640w, /images/recipes/spicy-grilled-nakji-octopus-960.webp 960w, /images/recipes/spicy-grilled-nakji-octopus-1536.webp 1536w",
+    "jpg": "/images/recipes/spicy-grilled-nakji-octopus-1536.jpg",
+    "position": "center"
+  },
+  "ssam-lettuce-and-herb-platter": {
+    "alt": "Leaf lettuce, perilla, watercress, onion slivers, garlic coins and sliced green chili arranged on a dark platter.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/ssam-lettuce-and-herb-platter-1536.webp",
+    "srcset": "/images/recipes/ssam-lettuce-and-herb-platter-640.webp 640w, /images/recipes/ssam-lettuce-and-herb-platter-960.webp 960w, /images/recipes/ssam-lettuce-and-herb-platter-1536.webp 1536w",
+    "jpg": "/images/recipes/ssam-lettuce-and-herb-platter-1536.jpg",
+    "position": "center"
+  },
+  "tomato-onion-sesame-salad": {
+    "alt": "Bowl of ripe tomato wedges and thin sliced onion in a dark soy-based dressing, topped with toasted sesame seeds and scallion.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/tomato-onion-sesame-salad-1600.webp",
+    "srcset": "/images/recipes/tomato-onion-sesame-salad-640.webp 640w, /images/recipes/tomato-onion-sesame-salad-960.webp 960w, /images/recipes/tomato-onion-sesame-salad-1600.webp 1600w",
+    "jpg": "/images/recipes/tomato-onion-sesame-salad-1600.jpg",
+    "position": "center"
+  },
+  "tteokgalbi-grilled-beef-and-pork-patties": {
+    "alt": "Round grilled minced-meat patties with sesame and scallion on a dark oval plate.",
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/recipes/tteokgalbi-grilled-beef-and-pork-patties-1122.webp",
+    "srcset": "/images/recipes/tteokgalbi-grilled-beef-and-pork-patties-640.webp 640w, /images/recipes/tteokgalbi-grilled-beef-and-pork-patties-960.webp 960w, /images/recipes/tteokgalbi-grilled-beef-and-pork-patties-1122.webp 1122w",
+    "jpg": "/images/recipes/tteokgalbi-grilled-beef-and-pork-patties-1122.jpg",
+    "position": "center"
+  },
+  "watercress-apple-yuja-salad": {
+    "alt": "Watercress and slender skin-on apple matchsticks with glossy yuja dressing in a speckled ceramic bowl.",
+    "width": 1536,
+    "height": 1024,
+    "src": "/images/recipes/watercress-apple-yuja-salad-1536.webp",
+    "srcset": "/images/recipes/watercress-apple-yuja-salad-640.webp 640w, /images/recipes/watercress-apple-yuja-salad-960.webp 960w, /images/recipes/watercress-apple-yuja-salad-1536.webp 1536w",
+    "jpg": "/images/recipes/watercress-apple-yuja-salad-1536.jpg",
+    "position": "center"
+  },
+  "yakgwa-honey-ginger-cookies": {
+    "alt": "Speckled plate stacked with fluted flower-shaped yakgwa, glossy amber-brown from syrup; a teapot and small cup of syrup behind.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/yakgwa-honey-ginger-cookies-1600.webp",
+    "srcset": "/images/recipes/yakgwa-honey-ginger-cookies-640.webp 640w, /images/recipes/yakgwa-honey-ginger-cookies-960.webp 960w, /images/recipes/yakgwa-honey-ginger-cookies-1600.webp 1600w",
+    "jpg": "/images/recipes/yakgwa-honey-ginger-cookies-1600.jpg",
+    "position": "center"
+  },
+  "yangnyeom-ganjang-scallion-soy-dipping-sauce": {
+    "alt": "Speckled bowl of dark soy dipping sauce dotted with green chili rings, scallion, and sesame seeds; small dishes of scallion and sesame behind.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/yangnyeom-ganjang-scallion-soy-dipping-sauce-1600.webp",
+    "srcset": "/images/recipes/yangnyeom-ganjang-scallion-soy-dipping-sauce-640.webp 640w, /images/recipes/yangnyeom-ganjang-scallion-soy-dipping-sauce-960.webp 960w, /images/recipes/yangnyeom-ganjang-scallion-soy-dipping-sauce-1600.webp 1600w",
+    "jpg": "/images/recipes/yangnyeom-ganjang-scallion-soy-dipping-sauce-1600.jpg",
+    "position": "center"
+  },
+  "yeongeun-jorim-soy-braised-lotus-root": {
+    "alt": "Speckled bowl of glossy soy-braised lotus-root slices with visible holes, dark caramel glaze, and sesame seeds; a brass grill ring behind.",
+    "width": 1600,
+    "height": 1067,
+    "src": "/images/recipes/yeongeun-jorim-soy-braised-lotus-root-1600.webp",
+    "srcset": "/images/recipes/yeongeun-jorim-soy-braised-lotus-root-640.webp 640w, /images/recipes/yeongeun-jorim-soy-braised-lotus-root-960.webp 960w, /images/recipes/yeongeun-jorim-soy-braised-lotus-root-1600.webp 1600w",
+    "jpg": "/images/recipes/yeongeun-jorim-soy-braised-lotus-root-1600.jpg",
+    "position": "center"
+  }
+}

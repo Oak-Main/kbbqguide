@@ -1,0 +1,6 @@
+* text=auto
+source/original-recipes/** -text
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.webp binary

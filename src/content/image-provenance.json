@@ -1,0 +1,3067 @@
+{
+  "recoveredAt": "2026-10-10",
+  "disclosure": "Recovered saved AI-generated editorial dish illustrations, not original photography or evidence of a test cook. Original generation metadata is retained below; missing prompts or dates are not inferred.",
+  "recipeCount": 80,
+  "publishedRecipeImages": 80,
+  "records": {
+    "asian-pear-and-cucumber-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F06",
+      "assetId": "F06-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f06\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "1fed266b2cb399dfaaa3c8004ee6c22900ec9d19254bada4d3a7665d0404cfb2",
+      "preservedMaster": "public/images/recipes/asian-pear-and-cucumber-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F06",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Pale Asian-pear and green cucumber matchsticks with scallion and sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f06\\hero-master.jpg",
+        "sourceRecipeId": "F06",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "baechu-geotjeori-fresh-kimchi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B04",
+      "assetId": "B04-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b04\\hero-master-B04-hero-r1.jpg",
+      "sourceDriveFileId": "1cv5T_ui3Y_yRKoDAJ17kbTQGeuD32Vtk",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1cv5T_ui3Y_yRKoDAJ17kbTQGeuD32Vtk/view",
+      "sourcePhotoLabel": "P09",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "ab46b7c11db5d9504da4e7c75292a9724b96b416f99490d1203854fd08242f4e",
+      "preservedMaster": "public/images/recipes/baechu-geotjeori-fresh-kimchi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B04",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Fresh napa cabbage pieces with chili flecks and sesame match the dish; the photograph is lightly colored, which is a styling variation rather than evidence of a different ingredient.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b04\\hero-master-B04-hero-r1.jpg",
+        "sourceRecipeId": "B04",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "baechu-kimchi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B01",
+      "assetId": "B01-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b01\\hero-master-B01-hero-r1.jpg",
+      "sourceDriveFileId": "1ayU_gN6bigbEK_Fk_VRVpeQbevMccBo6",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1ayU_gN6bigbEK_Fk_VRVpeQbevMccBo6/view",
+      "sourcePhotoLabel": "P11",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "43879e4f2f2b54db01a99ed9ec573c0d06588f983730096d941c66ec59a56f08",
+      "preservedMaster": "public/images/recipes/baechu-kimchi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B01",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Layered napa-cabbage kimchi with red seasoning and radish strands matches the whole-head preparation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b01\\hero-master-B01-hero-r1.jpg",
+        "sourceRecipeId": "B01",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "chadolbaegi-with-scallion-soy-dipping-sauce": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M07",
+      "assetId": "M07-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m07\\hero-master-M07-hero-r1.jpg",
+      "sourceDriveFileId": "1--NM7sJYtgITyfe-Hx_ZIxivFcUoh8nG",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1--NM7sJYtgITyfe-Hx_ZIxivFcUoh8nG/view",
+      "sourcePhotoLabel": "P30",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "4c322386826dd82dfdf5ac1b30df93759b992f0ac58d5349de3b4daef8dc4ef1",
+      "preservedMaster": "public/images/recipes/chadolbaegi-with-scallion-soy-dipping-sauce-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M07",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Paper-thin curled fatty beef shavings and separate scallion-soy dip match chadolbaegi; not thick pork belly or a red-glazed cut.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m07\\hero-master-M07-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "cho-gochujang-sweet-tangy-chili-sauce": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SA03",
+      "assetId": "SA03-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa03\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "1bd7c7ccc8b416091dfa3eb3e744564ae1ea43b9dc1736834f33440623458ae6",
+      "preservedMaster": "public/images/recipes/cho-gochujang-sweet-tangy-chili-sauce-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SA03",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Smooth glossy red chili sauce with sesame matches the gochujang-vinegar sauce base; no specific cucumber/pear build-in service is implied.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa03\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "classic-korean-pear-beef-bulgogi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M01",
+      "assetId": "M01-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m01\\hero-master-M01-hero-r1.jpg",
+      "sourceDriveFileId": "1LSi799f14PqHjTZClb7r5NVVWxultZrm",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1LSi799f14PqHjTZClb7r5NVVWxultZrm/view",
+      "sourcePhotoLabel": "P34",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "0e864d1a8fc0d817df894f5183bcb4551a301286e97d19892e3f0c833b32d16d",
+      "preservedMaster": "public/images/recipes/classic-korean-pear-beef-bulgogi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M01",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thin browned beef shavings with onion, sesame and scallion match pear-soy bulgogi; pear at the plate reinforces the named marinade.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m01\\hero-master-M01-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "classic-samgyeopsal-with-sesame-salt-seasoning": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M10",
+      "assetId": "M10-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m10\\hero-master-M10-hero-r1.jpg",
+      "sourceDriveFileId": "1Br2zKNP0D6nvwzWTU9OBYCQAtHB0fPso",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1Br2zKNP0D6nvwzWTU9OBYCQAtHB0fPso/view",
+      "sourcePhotoLabel": "P23",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "2d5b571362c53e49cd2a0e2a78a9118a7aa9227e1f2bb38c44ca7b06c36ce793",
+      "preservedMaster": "public/images/recipes/classic-samgyeopsal-with-sesame-salt-seasoning-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M10",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Plain grilled pork-belly pieces show alternating meat and fat layers with sesame-oil dip, lettuce and garlic, consistent with classic samgyeopsal.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m10\\hero-master-M10-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "classic-ssamjang": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SA01",
+      "assetId": "SA01-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa01\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "a77590b70b9fda2bb32e4b53e759ab2650e1768e4352b161a36a28e671e02781",
+      "preservedMaster": "public/images/recipes/classic-ssamjang-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SA01",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thick textured rust-red paste with sesame matches the doenjang-gochujang ssamjang base.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa01\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "contemporary-doenjang-gochujang-lamb-shoulder": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M20",
+      "assetId": "M20-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m20\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "333670fe4aa6cd46c39c87ea73556be994c1f15f245dc9528d102d982b39ea52",
+      "preservedMaster": "public/images/recipes/contemporary-doenjang-gochujang-lamb-shoulder-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M20",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thick boneless grilled lamb strips with brown-red paste crust and ssam leaves match the lamb-shoulder/leg-steak preparation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m20\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "contemporary-sesame-broccoli-and-bell-pepper-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F10",
+      "assetId": "F10-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f10\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "2022c5a159cacaa1618befcdaff51479cdfaa499202e4d39137196e4f528d9ef",
+      "preservedMaster": "public/images/recipes/contemporary-sesame-broccoli-and-bell-pepper-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F10",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Broccoli florets with red/yellow bell-pepper batons and sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f10\\hero-master.jpg",
+        "sourceRecipeId": "F10",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "doenjang-butter-grilled-scallops": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF03",
+      "assetId": "SF03-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf03\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "5daba41e3f7929a586d7ed6bcc1f4f5ace35fe45fd45697180bd3fe9d66d3647",
+      "preservedMaster": "public/images/recipes/doenjang-butter-grilled-scallops-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SF03",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Large seared scallop cylinders with golden crusts, brown butter/paste baste and scallion/sesame match doenjang-butter scallops.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf03\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "doenjang-garlic-moksal-gui": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M12",
+      "assetId": "M12-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m12\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "cacc13a2a710fd66293e7279b03ffa30df739bfccd56b3d28c7f96b5f29ee98d",
+      "preservedMaster": "public/images/recipes/doenjang-garlic-moksal-gui-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M12",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Browned pork collar/shoulder slices with savory brown paste crust fit doenjang-garlic moksal, distinct from sweet red pork belly.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m12\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "doenjang-glazed-grilled-black-cod": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF11",
+      "assetId": "SF11-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf11\\hero-master-SF11-hero-r1.jpg",
+      "sourceDriveFileId": "1W4QMcrcsjdYHNkgP2WWL2HNiVk6aueBE",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1W4QMcrcsjdYHNkgP2WWL2HNiVk6aueBE/view",
+      "sourcePhotoLabel": "P14",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "b83dbbaf372774dcf551946d8e0ac7f5c809a4d6cc79cd87aebecd85f27bc2e3",
+      "preservedMaster": "public/images/recipes/doenjang-glazed-grilled-black-cod-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF11",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Pale thick white fish fillet with tea-brown seared surface, large soft flakes and scallion/sesame matches black cod's distinct visual, not salmon.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf11\\hero-master-SF11-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "doraji-muchim-spicy-bellflower-root": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B17",
+      "assetId": "B17-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b17\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "b0024a6a99925887aabdbbfc96386205869f5b9a53d97fe2b64201c71e78f67d",
+      "preservedMaster": "public/images/recipes/doraji-muchim-spicy-bellflower-root-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B17",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Pale fibrous bellflower root strips with red seasoning match doraji muchim.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b17\\hero-master.jpg",
+        "sourceRecipeId": "B17",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "dubu-jorim-braised-tofu": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B10",
+      "assetId": "B10-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b10\\hero-master-B10-hero-r1.jpg",
+      "sourceDriveFileId": "1JOlR3fOuKZbZnEK1yT_CO0zOfv7tbxUG",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1JOlR3fOuKZbZnEK1yT_CO0zOfv7tbxUG/view",
+      "sourcePhotoLabel": "P42",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "d7e39fcb5d6d8a556eda8da83e880957c19e1c024a67914f3cad7c66a15df6c8",
+      "preservedMaster": "public/images/recipes/dubu-jorim-braised-tofu-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B10",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Browned tofu slabs with scallion, sesame and light chili seasoning match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b10\\hero-master-B10-hero-r1.jpg",
+        "sourceRecipeId": "B10",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "eomuk-bokkeum-stir-fried-fish-cake": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B13",
+      "assetId": "B13-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b13\\hero-master-B13-hero-r1.jpg",
+      "sourceDriveFileId": "1QM7w_LitMTWs2GZPzV9eo0x8EGNv-C8H",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1QM7w_LitMTWs2GZPzV9eo0x8EGNv-C8H/view",
+      "sourcePhotoLabel": "P04",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "7f551a0d62c1f76b0c00391dc4f34f471520df6edf906aef23a1b36d5a89cf27",
+      "preservedMaster": "public/images/recipes/eomuk-bokkeum-stir-fried-fish-cake-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B13",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Flat fish-cake strips, onion, carrot and sesame match the listed ingredients.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b13\\hero-master-B13-hero-r1.jpg",
+        "sourceRecipeId": "B13",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "galchi-gui-grilled-hairtail": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF08",
+      "assetId": "SF08-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf08\\hero-master-SF08-hero-r1.jpg",
+      "sourceDriveFileId": "11Ms55DoZAPnBs9EgmM8jaImxYPJ4nnWX",
+      "sourceDriveUrl": "https://drive.google.com/file/d/11Ms55DoZAPnBs9EgmM8jaImxYPJ4nnWX/view",
+      "sourcePhotoLabel": "P36",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "a87c08cf7329213234b1a6d17a8de672e92c438969437869e67dbbad87694ee7",
+      "preservedMaster": "public/images/recipes/galchi-gui-grilled-hairtail-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF08",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Flat silver-skinned rectangular hairtail fingers with grill marks match galchi cut into 10 cm lengths.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf08\\hero-master-SF08-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gamja-jorim-soy-braised-potatoes": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B09",
+      "assetId": "B09-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b09\\hero-master-B09-hero-r1.jpg",
+      "sourceDriveFileId": "11G40cg2O7K1P-vWOL3ijJ7eDNNQsGhU8",
+      "sourceDriveUrl": "https://drive.google.com/file/d/11G40cg2O7K1P-vWOL3ijJ7eDNNQsGhU8/view",
+      "sourcePhotoLabel": "P07",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "57d0976bf9e23eb6fd6aa7e5b89333f6b572ed55509c1e3cd8c07bc6f400e84b",
+      "preservedMaster": "public/images/recipes/gamja-jorim-soy-braised-potatoes-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B09",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Soy-glazed potato chunks with sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b09\\hero-master-B09-hero-r1.jpg",
+        "sourceRecipeId": "B09",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "ganjang-pork-bulgogi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M14",
+      "assetId": "M14-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m14\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "4f7240b881420ae5a5ee77367733b5c3f83adad236cbc5893f1cd1b64a8f41f2",
+      "preservedMaster": "public/images/recipes/ganjang-pork-bulgogi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M14",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thin browned pork slices with soy-colored gloss and no red chili coating match ganjang pork bulgogi.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m14\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "garlic-scallion-chicken-skewers": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M18",
+      "assetId": "M18-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m18\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "5b89ea8b3f3ca9f0e842a7de98a8206a1ad8a2533efd83bfc6fbbf85146e6d8f",
+      "preservedMaster": "public/images/recipes/garlic-scallion-chicken-skewers-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M18",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Full-size inspection shows grilled chicken pieces on metal skewers, garlic-soy glaze, sesame and scallion, with grilled scallion segments beside; placement of scallions is a serving variation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m18\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "garlic-scallion-grilled-mussels": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF13",
+      "assetId": "SF13-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf13\\hero-master-SF13-hero-r1.jpg",
+      "sourceDriveFileId": "1KSVOtYAX_uwoiV9urGgpVyOBL6tDsWoq",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1KSVOtYAX_uwoiV9urGgpVyOBL6tDsWoq/view",
+      "sourcePhotoLabel": "P13",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "3436223efe4aa677072482b0e27bb371829e4686a1f01fdf4762a71b740de963",
+      "preservedMaster": "public/images/recipes/garlic-scallion-grilled-mussels-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF13",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Opened dark elongated mussel shells containing orange-gold mussel meat with garlic and scallion match the mussel recipe; gochujang is optional.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf13\\hero-master-SF13-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "garlic-sesame-galbisal": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M05",
+      "assetId": "M05-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m05\\hero-master-M05-hero-r1.jpg",
+      "sourceDriveFileId": "1FI33MO56ZPSC_5xuXDit4TD_9sVxshtg",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1FI33MO56ZPSC_5xuXDit4TD_9sVxshtg/view",
+      "sourcePhotoLabel": "P31",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "00823de8ea3ac9caeb50c593f303eb686e46d575694c9061dac5baccb21ea343",
+      "preservedMaster": "public/images/recipes/garlic-sesame-galbisal-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M05",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Full-size inspection confirms boneless beef slices with garlic cloves and sesame; thickness and browned soy-sesame finish fit galbisal. Garnish presentation differs slightly from grated-garlic instructions.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m05\\hero-master-M05-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gim-muchim-seasoned-seaweed": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B25",
+      "assetId": "B25-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b25\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "23f1e398a1f4025bc96b4a8d4849759da3a3967f7adc5f2ef1a8a7ec19b45c7d",
+      "preservedMaster": "public/images/recipes/gim-muchim-seasoned-seaweed-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B25",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Dark shredded seasoned seaweed with sesame and scallion matches gim muchim.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b25\\hero-master.jpg",
+        "sourceRecipeId": "B25",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gireumjang-sesame-oil-salt-dip": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SA02",
+      "assetId": "SA02-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa02\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "7698ca136ef0791c6f3d0f374bf8bfe2af8cf46c4a477ab5961068d9769a3da0",
+      "preservedMaster": "public/images/recipes/gireumjang-sesame-oil-salt-dip-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SA02",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Shallow amber oil with coarse salt/pepper flecks matches the sesame-oil salt dip's core visual and method; the optional-looking garnish is not prominent.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa02\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gochugaru-yuja-cabbage-slaw": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F05",
+      "assetId": "F05-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f05\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "657f8ca07a420b7577845ca7d4a9de2640ea2cd0419d54198f099edad62aaef7",
+      "preservedMaster": "public/images/recipes/gochugaru-yuja-cabbage-slaw-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F05",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Passed: orange carrot strips removed; broad pale cabbage ribbons and scallion remain, retaining bowl, table and original lighting.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "correctedMaster": "public/images/recipes/gochugaru-yuja-cabbage-slaw-corrected-master.png",
+      "correctedSha256": "cd58296157f9cdb93fc56afb4dab91560b51d7613f566a5f9d14f6b7b44f7a6c",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "gochugaru-yuja-cabbage-slaw",
+        "sourceRecipeId": "F05",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/f05/hero-master.jpg",
+        "generatedPath": "C:/Users/User/.codex/generated_images/01a12697-b8da-7c52-abae-507abf95be62/exec-e488e3fe-2fdb-4d99-bc6b-1e501c890a5a.png",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/gochugaru-yuja-cabbage-slaw-corrected-master.png",
+        "prompt": "Use case: precise-object-edit. Asset type: KBBQGuide Gochugaru-Yuja Cabbage Slaw recipe illustration correction. Edit the supplied saved image. Completely remove all orange carrot strips from the slaw. Replace them naturally with pale white/light-green napa cabbage stem ribbons cut about 1 cm wide. Keep the green sliced scallion, sesame seeds and delicate red gochugaru flecks with a light glossy yuja dressing. The only visible vegetable ingredients must be napa cabbage and scallion. Preserve the original shallow ivory bowl, pile shape, wood tabletop, empty background ceramics, charcoal linen, perspective, composition, golden natural side lighting and realistic fresh food texture. No carrot, orange strips, cucumber, bell pepper or other added produce. No text or watermark. Landscape 3:2, highest native resolution available, ideally at least 2400 by 1600.",
+        "mode": "built-in image_gen precise-object-edit",
+        "width": 1536,
+        "height": 1024,
+        "alt": "Pale napa cabbage ribbons and scallion with chili flecks and sesame in a shallow ivory bowl.",
+        "validation": "Passed: orange carrot strips removed; broad pale cabbage ribbons and scallion remain, retaining bowl, table and original lighting.",
+        "generatedAt": "2026-10-10",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      },
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "The saved slaw visibly includes numerous orange carrot matchsticks; the preserved recipe calls for napa cabbage and scallion without carrot. Archived alt confirms carrot.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f05\\hero-master.jpg",
+        "sourceRecipeId": "F05",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "gochujang-glazed-grilled-salmon": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF10",
+      "assetId": "SF10-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf10\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "3a055a5c1b4e3b926f1e2e8acfaa80b984b76eac73c04cfa5c4a0e7a8f7f9d42",
+      "preservedMaster": "public/images/recipes/gochujang-glazed-grilled-salmon-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SF10",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Salmon fillet with orange flesh, red glaze, sesame and scallion matches the glazed salmon recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf10\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gochujang-grilled-shrimp": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF01",
+      "assetId": "SF01-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf01\\hero-master-SF01-hero-r1.jpg",
+      "sourceDriveFileId": "1mXS9kAYgGiJ8Uy5Mo7s55A2yBKk_StyB",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1mXS9kAYgGiJ8Uy5Mo7s55A2yBKk_StyB/view",
+      "sourcePhotoLabel": "P28",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "1ee0436d27a846b1fc4b2bed862e0a8f4122636e0879e2c7dd62ca7744093042",
+      "preservedMaster": "public/images/recipes/gochujang-grilled-shrimp-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF01",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Red-glazed grilled shrimp with sesame and scallion match the recipe, which explicitly permits peeled shrimp.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf01\\hero-master-SF01-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gochujang-samgyeopsal": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M11",
+      "assetId": "M11-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m11\\hero-master-M11-hero-r1.jpg",
+      "sourceDriveFileId": "1Z9_qNoVmT54kgGOxNaav6R6LiQdejlg0",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1Z9_qNoVmT54kgGOxNaav6R6LiQdejlg0/view",
+      "sourcePhotoLabel": "P22",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "b60373f90d5bbba383aaaf8b06f1911e08d42422aab1b19a70ed7e692b6d6b70",
+      "preservedMaster": "public/images/recipes/gochujang-samgyeopsal-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M11",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thick layered pork-belly pieces in brick-red lacquer match gochujang samgyeopsal.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m11\\hero-master-M11-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "godeungeo-gui-grilled-mackerel": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF07",
+      "assetId": "SF07-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf07\\hero-master-SF07-hero-r1.jpg",
+      "sourceDriveFileId": "1Eq6eSUCtu9Vp4RPGlZQgGqILqWBzqeX7",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1Eq6eSUCtu9Vp4RPGlZQgGqILqWBzqeX7/view",
+      "sourcePhotoLabel": "P15",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "885d028a61fa5830a09b4c8f915f3c45585b504372c0b64e6b0ae64f448ab27c",
+      "preservedMaster": "public/images/recipes/godeungeo-gui-grilled-mackerel-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF07",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Grilled mackerel with distinctive dark patterned skin and white flaky flesh matches the whole/dressed fish presentation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf07\\hero-master-SF07-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gosari-namul-seasoned-fernbrake": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B16",
+      "assetId": "B16-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b16\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "647f7aec671381811944b4039f086a4906a76d36b9a88f7b87fb706f58b92a8e",
+      "preservedMaster": "public/images/recipes/gosari-namul-seasoned-fernbrake-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B16",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Brown fernbrake stems with sesame match gosari namul.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b16\\hero-master.jpg",
+        "sourceRecipeId": "B16",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gyeran-jjim-steamed-eggs": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B12",
+      "assetId": "B12-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b12\\hero-master-B12-hero-r1.jpg",
+      "sourceDriveFileId": "1uDPs7QJsvzWnp-hCuGl4QdznnEDBy2Da",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1uDPs7QJsvzWnp-hCuGl4QdznnEDBy2Da/view",
+      "sourcePhotoLabel": "P05",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "3b917c5577c4166bf5cadc500fa2f3e04e781f54a741f673944f6d633110fe46",
+      "preservedMaster": "public/images/recipes/gyeran-jjim-steamed-eggs-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B12",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Soft yellow steamed eggs in a hot earthenware bowl with scallion match gyeran jjim.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b12\\hero-master-B12-hero-r1.jpg",
+        "sourceRecipeId": "B12",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "gyeran-mari-rolled-omelet": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B11",
+      "assetId": "B11-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b11\\hero-master-B11-hero-r1.jpg",
+      "sourceDriveFileId": "1gdPoAcnEK11ySAbrxVoh76h_pDO6HD5U",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1gdPoAcnEK11ySAbrxVoh76h_pDO6HD5U/view",
+      "sourcePhotoLabel": "P06",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "2bd9582706a0a82ec0c1bdc1d16b0138716b562bc58276b4c688bd58ae8caec2",
+      "preservedMaster": "public/images/recipes/gyeran-mari-rolled-omelet-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B11",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Rolled omelet slices with small vegetable flecks match the optional carrot/greens preparation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b11\\hero-master-B11-hero-r1.jpg",
+        "sourceRecipeId": "B11",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "hobak-bokkeum-stir-fried-zucchini": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B15",
+      "assetId": "B15-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b15\\hero-master-B15-hero-r1.jpg",
+      "sourceDriveFileId": "1RrcgTkNx1nJiv6qrOGf6NILj-Ir2ZTBC",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1RrcgTkNx1nJiv6qrOGf6NILj-Ir2ZTBC/view",
+      "sourcePhotoLabel": "P02",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "b4ce34dd1b28730bd00f6389fb88cd3a8847b030b9c4b45a7bc0a980dc09c63b",
+      "preservedMaster": "public/images/recipes/hobak-bokkeum-stir-fried-zucchini-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B15",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Zucchini half-moons with sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b15\\hero-master-B15-hero-r1.jpg",
+        "sourceRecipeId": "B15",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "home-gathering": {
+      "source": "Recovered saved KBBQGuide image library",
+      "assetId": "HOME-gathering-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\brand\\home-gathering-master-HOME-gathering-hero-r1.jpg",
+      "sourceSha256": "da6c402d5649a6f546f1e087a1abecc809f65a66e50e4d68ecd2fff85cf22403",
+      "preservedMaster": "public/images/recipes/home-gathering-master.jpg",
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "mediaKind": "synthetic-labeled",
+      "origin": "saved",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-18",
+        "sourceRecord": "HOME",
+        "promptBasis": "docs/media-briefs/phase-10/HOME-HERO-restage.md — Option A safety restage",
+        "disclosure": "AI-generated editorial visualization; people shown are synthetic."
+      },
+      "usedOnSite": true,
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Visually inspected: four adults around an inset Korean barbecue grill, separate red-handled raw-meat tongs/tray and stainless cooking tongs, leafy wraps and banchan. Right-weighted composition with left negative space.",
+        "reviewedAt": "2026-10-10"
+      },
+      "processing": "Saved original preserved byte for byte; resized WebP/JPEG derivatives with no enlargement."
+    },
+    "hotteok-brown-sugar-seed-pancakes": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "D01",
+      "assetId": "D01-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d01\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "adea1b893684e801742b128854ea48e804c675479cbf7a19b36b2f02e69fee37",
+      "preservedMaster": "public/images/recipes/hotteok-brown-sugar-seed-pancakes-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "D01",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Golden flattened hotteok with a cut piece exposing brown-sugar seed filling match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d01\\hero-master.jpg",
+        "sourceRecipeId": "D01",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "injeolmi-toast-with-ice-cream": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "D04",
+      "assetId": "D04-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d04\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "6c0bd18b3554a965fd22d99531baa4f9842072d0487acd944d6bb52a7672edcb",
+      "preservedMaster": "public/images/recipes/injeolmi-toast-with-ice-cream-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "D04",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thick toast with pale rice-cake pieces, soybean powder and an ice-cream scoop matches the dish.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d04\\hero-master.jpg",
+        "sourceRecipeId": "D04",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "jangjorim-soy-braised-beef": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B20",
+      "assetId": "B20-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b20\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "a82b19a746f5030bfd856c023275c0e218f267f6faa75e45f1ae2cdf5cc409c4",
+      "preservedMaster": "public/images/recipes/jangjorim-soy-braised-beef-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B20",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Passed full-size inspection: no scallion segments, onion-like crescents or sliced chilies remain. Whole stem-on chilies, whole garlic and shredded beef with sesame match the recipe. Original bowl, composition and light retained.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Shredded beef, garlic and chili match the main dish, but the image includes scallion segments absent from the current ingredient list. The archived visual-review description independently records scallion.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b20\\hero-master.jpg",
+        "sourceRecipeId": "B20",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "correctedMaster": "public/images/recipes/jangjorim-soy-braised-beef-corrected-master.png",
+      "correctedSha256": "bbae7c36c5ab0604f8a5262525036ed04e033a9c1cddc1efc1168306530ced76",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "jangjorim-soy-braised-beef",
+        "sourceRecipeId": "B20",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/b20/hero-master.jpg",
+        "editInputPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/jangjorim-soy-braised-beef-corrected-master.png",
+        "generatorPath": "C:/Users/User/.codex/generated_images/01a12697-b8da-7c52-abae-507abf95be62/exec-b90102af-0b1e-431d-a30f-7612225ea57d.png",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/jangjorim-soy-braised-beef-corrected-master.png",
+        "prompt": "Use case: precise-object-edit. Final ingredient correction to the supplied Jangjorim soy-braised beef image. Preserve exactly the bowl, camera, table, warm light, dark soy braising liquid, shredded beef and golden whole garlic cloves. Remove all translucent brown curved onion-like crescent pieces, especially the conspicuous broad crescent left of the central garlic; replace them with natural shredded beef strands and sauce. Remove the sliced green chili rings and replace them with three small whole slender green bird's-eye chilies with their stems still on, partially nestled in the beef. The dish must contain ONLY shredded soy-braised beef, whole garlic cloves, whole small stem-on bird's-eye chilies, and dark braising liquid; add a restrained few toasted sesame seeds as specified in the recipe. Absolutely no bulb onion, scallion, kelp, sliced chili rings or other vegetables. Keep original composition, proportions, photographic styling and natural textures unchanged. 3:2 landscape, maximum native resolution.",
+        "alt": "Soy-braised shredded beef with whole garlic, whole green bird’s-eye chilies and sesame in a pale ceramic bowl.",
+        "validation": "Passed full-size inspection: no scallion segments, onion-like crescents or sliced chilies remain. Whole stem-on chilies, whole garlic and shredded beef with sesame match the recipe. Original bowl, composition and light retained.",
+        "width": 1536,
+        "height": 1024,
+        "mode": "built-in image_gen precise-object-edit",
+        "generatedAt": "2026-10-10",
+        "attempts": [
+          {
+            "outputPath": "C:/Users/User/.codex/generated_images/01a1269d-8bdd-7852-9ca9-d3fcca97a6e0/exec-f5ce82a9-db39-4d71-aef6-fa5fcc51fc53.png",
+            "validation": "Scallions removed, but onion-like pieces and sliced chilies remained.",
+            "selected": false,
+            "prompt": "Use case: precise-object-edit. Edit this exact saved KBBQGuide Jangjorim image. Remove ONLY the straight tubular green scallion/stem segments in the beef bowl, including the straight segment across the upper center, the near-vertical segment at left, the long diagonal at right, and the short tubular piece at the bottom rim. The recipe has no scallion. Reconstruct their small areas with matching shredded soy-braised beef and braising sauce. Keep all existing seeded green chili pepper slices, including the distinctive diagonal seeded green pepper slice in the lower left and the seeded pepper near the upper center. Preserve all three visible whole golden garlic cloves. Preserve the shredded beef fibers, sauce, serving bowl, wood table, blurred background, original camera angle, framing, depth of field, warm lighting, realistic texture and photographic style. Do not remove the green chili pepper slices. No new ingredients or garnish; no sesame additions. No text, logo, watermark. Preserve landscape 3:2 framing, ideally original 2400×1600 resolution."
+          },
+          {
+            "outputPath": "C:/Users/User/.codex/generated_images/01a12697-b8da-7c52-abae-507abf95be62/exec-b90102af-0b1e-431d-a30f-7612225ea57d.png",
+            "validation": "Passed full-size inspection: no scallion segments, onion-like crescents or sliced chilies remain. Whole stem-on chilies, whole garlic and shredded beef with sesame match the recipe. Original bowl, composition and light retained.",
+            "selected": true,
+            "prompt": "Use case: precise-object-edit. Final ingredient correction to the supplied Jangjorim soy-braised beef image. Preserve exactly the bowl, camera, table, warm light, dark soy braising liquid, shredded beef and golden whole garlic cloves. Remove all translucent brown curved onion-like crescent pieces, especially the conspicuous broad crescent left of the central garlic; replace them with natural shredded beef strands and sauce. Remove the sliced green chili rings and replace them with three small whole slender green bird's-eye chilies with their stems still on, partially nestled in the beef. The dish must contain ONLY shredded soy-braised beef, whole garlic cloves, whole small stem-on bird's-eye chilies, and dark braising liquid; add a restrained few toasted sesame seeds as specified in the recipe. Absolutely no bulb onion, scallion, kelp, sliced chili rings or other vegetables. Keep original composition, proportions, photographic styling and natural textures unchanged. 3:2 landscape, maximum native resolution."
+          }
+        ],
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "jeonbok-gui-grilled-abalone": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF14",
+      "assetId": "SF14-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf14\\hero-master-SF14-hero-r1.jpg",
+      "sourceDriveFileId": "1OyvQAF-A30sDtqKf6po0w7k3mGeMpfeQ",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1OyvQAF-A30sDtqKf6po0w7k3mGeMpfeQ/view",
+      "sourcePhotoLabel": "P38",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "a2f4051bb3dade776994d395fc3f7944c5cc6150b58e7b253b3f3ab8e8887c9c",
+      "preservedMaster": "public/images/recipes/jeonbok-gui-grilled-abalone-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF14",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Oval scored abalone feet with shell rims and pearlescent shells, browned butter glaze and scallion match grilled abalone.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf14\\hero-master-SF14-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "jjukkumi-gui-grilled-baby-octopus": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF06",
+      "assetId": "SF06-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf06\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "a24cc9d86e4cf1b3adad1c39f7227bc9636e69aaa4a8282242b3f1841d1b43f0",
+      "preservedMaster": "public/images/recipes/jjukkumi-gui-grilled-baby-octopus-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SF06",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Multiple whole baby octopuses with curled tentacles, glossy reddish glaze and sesame match jjukkumi, which explicitly leaves the bodies whole.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf06\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "jogae-gui-grilled-clams": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF15",
+      "assetId": "SF15-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf15\\hero-master-SF15-hero-r1.jpg",
+      "sourceDriveFileId": "1ANhE-XqhC_RaMRWbYl5OXFZVJMoabJET",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1ANhE-XqhC_RaMRWbYl5OXFZVJMoabJET/view",
+      "sourcePhotoLabel": "P12",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "02464a645b1108047c57df15f192e25d7a47e3068aa7e78f881b38a236219b3a",
+      "preservedMaster": "public/images/recipes/jogae-gui-grilled-clams-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF15",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Opened rounded hard-shell clams with briny liquid and scallion/chili garnish match the clam-and-dip service.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf15\\hero-master-SF15-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "jogi-gui-grilled-yellow-croaker": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF09",
+      "assetId": "SF09-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf09\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "8f7b03bd75ed6f6e5e5b995ccbd26ce8807af9d9521c1668a30dd428eef23e39",
+      "preservedMaster": "public/images/recipes/jogi-gui-grilled-yellow-croaker-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SF09",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Whole grilled fish with yellowish fins, scored browned skin and intact head/tail fits the yellow-croaker presentation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf09\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "jumulleok-sesame-garlic-steak-bites": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M06",
+      "assetId": "M06-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m06\\hero-master-M06-hero-r1.jpg",
+      "sourceDriveFileId": "1pNGzXtLaYOWlIqNInJG3j0_gYtw_i9X2",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1pNGzXtLaYOWlIqNInJG3j0_gYtw_i9X2/view",
+      "sourcePhotoLabel": "P25",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "7c267113f036dea75636222a45808f18cbb48a471a58c2d8748e7bb19f37f323",
+      "preservedMaster": "public/images/recipes/jumulleok-sesame-garlic-steak-bites-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M06",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Distinct browned steak cubes and a sesame-oil dipping bowl match the 3 cm jumulleok steak-bite cut.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m06\\hero-master-M06-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "kkaennip-jangajji-pickled-perilla-leaves": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B24",
+      "assetId": "B24-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b24\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "a7dc0ef6ad95ff14851629d583b493938b19412adb1bebdfd78b6e72975bbfcb",
+      "preservedMaster": "public/images/recipes/kkaennip-jangajji-pickled-perilla-leaves-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B24",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Stacked perilla leaves in soy-chili seasoning match the recipe; the image shows some sliced rather than grated garlic.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b24\\hero-master.jpg",
+        "sourceRecipeId": "B24",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "kkakdugi-radish-kimchi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B02",
+      "assetId": "B02-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b02\\hero-master-B02-hero-r1.jpg",
+      "sourceDriveFileId": "1aBK7aampJsaOY0683BIJwLQQPvt4NQQB",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1aBK7aampJsaOY0683BIJwLQQPvt4NQQB/view",
+      "sourcePhotoLabel": "P10",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "86791c7caa533256a0aeea24a7f06ed4ce3607508a4c4e8146c7ed0ac246ae09",
+      "preservedMaster": "public/images/recipes/kkakdugi-radish-kimchi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B02",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Red-seasoned radish cubes with scallion match kkakdugi.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b02\\hero-master-B02-hero-r1.jpg",
+        "sourceRecipeId": "B02",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "kongnamul-muchim-seasoned-soybean-sprouts": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B05",
+      "assetId": "B05-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b05\\hero-master-B05-hero-r1.jpg",
+      "sourceDriveFileId": "1wlYtaVdLRtQVBKYzEm_cfvbQkr8ZTLnd",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1wlYtaVdLRtQVBKYzEm_cfvbQkr8ZTLnd/view",
+      "sourcePhotoLabel": "P08",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "d4f6e583a4ddebf93d032826e925dfc38f9e8957759e4bee3dab510e6a19f283",
+      "preservedMaster": "public/images/recipes/kongnamul-muchim-seasoned-soybean-sprouts-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B05",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Soybean sprouts with visible yellow beans, scallion and sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b05\\hero-master-B05-hero-r1.jpg",
+        "sourceRecipeId": "B05",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "korean-bbq-onion-soy-vinegar-dipping-sauce": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SA05",
+      "assetId": "SA05-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa05\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "aa424d9b40d5feba0955059b444926ed5dffe82c2041b59599e78b7efdd6a612",
+      "preservedMaster": "public/images/recipes/korean-bbq-onion-soy-vinegar-dipping-sauce-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SA05",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Pale onion rings/strands immersed in translucent soy-vinegar liquid match the onion dipping sauce.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa05\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "korean-bbq-restaurant-style-macaroni-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B22",
+      "assetId": "B22-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b22\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "f0b71da958d512f8b7a8d5a31db7b19d594858df7a0649ff57d8c55e0d5a01e2",
+      "preservedMaster": "public/images/recipes/korean-bbq-restaurant-style-macaroni-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B22",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Macaroni, cucumber and carrot in creamy dressing match the recipe. The image uses larger vegetable cuts than the written fine-dice/grate instruction; this is recorded as a presentation variation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b22\\hero-master.jpg",
+        "sourceRecipeId": "B22",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "korean-potato-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B21",
+      "assetId": "B21-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b21\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "c06cce491957abbfd97f39b02b5d6738f2f416d98990ed83e74858da28dfdf7e",
+      "preservedMaster": "public/images/recipes/korean-potato-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B21",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "PASS — orange carrot pieces removed from foreground salad; red-skinned apple, green cucumber, egg and coarse potato texture preserved.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "The saved potato salad visibly contains orange carrot pieces; the current recipe has potato, cucumber, apple, egg and optional scallion/onion, but no carrot. Archived alt and visual-review descriptions confirm carrot.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b21\\hero-master.jpg",
+        "sourceRecipeId": "B21",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "correctedMaster": "public/images/recipes/korean-potato-salad-corrected-master.png",
+      "correctedSha256": "c917fbed4b62d9f52b25ed6e089492fef47310c950c6d14192249cb558c699da",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "korean-potato-salad",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/b21/hero-master.jpg",
+        "prompt": "Use case: precise-object-edit. Edit this exact saved KBBQGuide Korean Potato Salad image. Remove every orange carrot chunk, carrot strip and orange carrot fleck from the foreground potato salad only. Carrot is absent from the recipe. Naturally fill only those small spaces with the same coarse creamy pale potato-and-mayonnaise mixture. Preserve the visible crisp red-skinned apple pieces, all green-skinned cucumber slices, chopped hard-boiled egg white and pale yellow yolk pieces, black pepper flecks, original salad volume, coarse mash texture and existing bowl. Do not remove the red apple skin or the yellow egg yolk. Preserve the background blurred side dish, the wooden tabletop, lighting, camera angle, composition, framing, depth of field, warm color and photorealistic style. No new ingredients, garnishes, labels, logos or watermark. Keep landscape3:2, ideally original2400×1600 resolution. Only remove the carrots.",
+        "generator": "built-in image_gen",
+        "generatorPath": "C:/Users/User/.codex/generated_images/01a1269d-8bdd-7852-9ca9-d3fcca97a6e0/exec-8f7c3121-8688-43c7-ba14-14f8a698465f.png",
+        "alt": "Creamy coarse Korean potato salad with red-skinned apple, cucumber and chopped hard-boiled egg.",
+        "validation": "PASS — orange carrot pieces removed from foreground salad; red-skinned apple, green cucumber, egg and coarse potato texture preserved.",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/korean-potato-salad-corrected-master.png",
+        "sourceWidth": 2400,
+        "sourceHeight": 1600,
+        "visualInspection": "Viewed exact source before edit and inspected generated output.",
+        "noUpscaling": true,
+        "width": 1536,
+        "height": 1024,
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "korean-style-gochujang-grilled-pork-ribs": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M15",
+      "assetId": "M15-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m15\\hero-master-M15-hero-r1.jpg",
+      "sourceDriveFileId": "16ZCrsFdEwO59Iu1P7PZE9vm6GoICSlgu",
+      "sourceDriveUrl": "https://drive.google.com/file/d/16ZCrsFdEwO59Iu1P7PZE9vm6GoICSlgu/view",
+      "sourcePhotoLabel": "P20",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "4956b526fc91f1d7ee9447f1daccf75892067ba9763ff661107b5566fe770741",
+      "preservedMaster": "public/images/recipes/korean-style-gochujang-grilled-pork-ribs-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M15",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thick individual rib pieces with brick-red gochujang lacquer match the permitted bone-in pork-rib variant.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m15\\hero-master-M15-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "korean-style-grilled-duck-breast": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M19",
+      "assetId": "M19-hero-r2",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m19\\hero-master-M19-hero-r1-M19-hero-r2.jpg",
+      "sourceDriveFileId": "13NyaqMQvxQq6z6qkDnXi6uL12atv8nCo",
+      "sourceDriveUrl": "https://drive.google.com/file/d/13NyaqMQvxQq6z6qkDnXi6uL12atv8nCo/view",
+      "sourcePhotoLabel": "P18",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "016f22b0ac1c8b58388905f5e0e38a2246f9a0b0c56c34b29c5e58fdf4042b1d",
+      "preservedMaster": "public/images/recipes/korean-style-grilled-duck-breast-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M19",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Sliced skin-on duck breast with browned rendered skin, rosy interior, sesame and scallion matches the named cut and sliced service.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m19\\hero-master-M19-hero-r1-M19-hero-r2.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "la-style-galbi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M03",
+      "assetId": "M03-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m03\\hero-master-M03-hero-r1.jpg",
+      "sourceDriveFileId": "1Nb5rPQjZkI6e9ccIbAo6Me3rWDM0mp94",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1Nb5rPQjZkI6e9ccIbAo6Me3rWDM0mp94/view",
+      "sourcePhotoLabel": "P32",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "0ca2b4cbd10cac62d4e362c5e79cb1ba86cc04bf02b7deacb49a1de68af40ae4",
+      "preservedMaster": "public/images/recipes/la-style-galbi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M03",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Visible cross-cut short-rib bones, thin flanken strips and mahogany soy glaze match LA-style galbi.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m03\\hero-master-M03-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "maneul-jangajji-soy-pickled-garlic": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B23",
+      "assetId": "B23-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b23\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "9f60ade8158db1db82325d5d833374890a4d4a87391fe79c5ad38373d3968478",
+      "preservedMaster": "public/images/recipes/maneul-jangajji-soy-pickled-garlic-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B23",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Whole garlic cloves in a soy pickling liquid match maneul jangajji.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b23\\hero-master.jpg",
+        "sourceRecipeId": "B23",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "mechurial-jangjorim-soy-braised-quail-eggs": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B19",
+      "assetId": "B19-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b19\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "6cb65342579dfc441e00d8c51f30bc954da3582a36bdb5b8a3cde2d3a5145d96",
+      "preservedMaster": "public/images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B19",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "PASS — all visible kelp removed; quail eggs, garlic, chili, braising liquid and original scene retained.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Soy-braised quail eggs and garlic match the main dish, but the visible rectangular kelp piece is absent from the preserved ingredient list. The saved alt text also identifies kelp.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b19\\hero-master.jpg",
+        "sourceRecipeId": "B19",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "correctedMaster": "public/images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-corrected-master.png",
+      "correctedSha256": "346f0001dc1651514f09fff4e017ca46dbed9dac7d87df6595da2a8049e33a5b",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "mechurial-jangjorim-soy-braised-quail-eggs",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/b19/hero-master.jpg",
+        "prompt": "Use case: precise-object-edit. Edit this exact saved KBBQGuide recipe image. Remove only the large flat dark folded piece of kelp at the lower left inside the foreground quail-egg bowl. The recipe has no kelp. Reconstruct the dark glossy soy braising liquid naturally where the kelp was, with consistent reflections. Preserve every quail egg, the two visible garlic cloves, all green chili slices, the bowl, other distant side dishes, wood table, camera angle, composition, depth of field, warm light, color palette, food texture and overall photographic style. Keep the dish and every object in its original position. Do not add sesame, garnish, or any new ingredient. No text, logos, watermark or added elements. Keep landscape 3:2 framing, ideally preserve the original 2400×1600 resolution.",
+        "generator": "built-in image_gen",
+        "generatorPath": "C:/Users/User/.codex/generated_images/01a1269d-8bdd-7852-9ca9-d3fcca97a6e0/exec-bd38945c-25aa-4715-882c-45f3cc0db8d7.png",
+        "alt": "Glossy soy-braised quail eggs with garlic cloves and green chili in a pale ceramic bowl.",
+        "validation": "PASS — all visible kelp removed; quail eggs, garlic, chili, braising liquid and original scene retained.",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/mechurial-jangjorim-soy-braised-quail-eggs-corrected-master.png",
+        "sourceWidth": 2400,
+        "sourceHeight": 1600,
+        "visualInspection": "Viewed exact source before edit and inspected generated output.",
+        "noUpscaling": true,
+        "width": 1536,
+        "height": 1024,
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "minari-muchim-water-parsley-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F04",
+      "assetId": "F04-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f04\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "a1098e586266dc2958b289d3ae318643cb9c6a943bd97976ffe74a71ed57e5d2",
+      "preservedMaster": "public/images/recipes/minari-muchim-water-parsley-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F04",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Long herb stems and leafy water-parsley greens with sesame match minari muchim.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f04\\hero-master.jpg",
+        "sourceRecipeId": "F04",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "musaengchae-spicy-radish-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B08",
+      "assetId": "B08-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b08\\hero-master-B08-hero-r1.jpg",
+      "sourceDriveFileId": "1Ih5Wlo5fnp35OiYP271cMcOE2e2m9pEt",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1Ih5Wlo5fnp35OiYP271cMcOE2e2m9pEt/view",
+      "sourcePhotoLabel": "P01",
+      "originalDimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "sourceSha256": "bc1e19c14fd18f76d44707387031756f9d12b4fb8286657afcb46080dfb192e0",
+      "preservedMaster": "public/images/recipes/musaengchae-spicy-radish-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B08",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thin radish matchsticks with red seasoning match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b08\\hero-master-B08-hero-r1.jpg",
+        "sourceRecipeId": "B08",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "mushroom-soy-beef-bulgogi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M02",
+      "assetId": "M02-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m02\\hero-master-M02-hero-r1.jpg",
+      "sourceDriveFileId": "1gWFwWhU7UHiysVkfaDBZFQ6QEVZ4sbPF",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1gWFwWhU7UHiysVkfaDBZFQ6QEVZ4sbPF/view",
+      "sourcePhotoLabel": "P33",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "e92d91fcc83b6ca61dc7e9e2ecdc0d107e7c1b955bc6037333db682aa032b1f6",
+      "preservedMaster": "public/images/recipes/mushroom-soy-beef-bulgogi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M02",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thin soy-browned beef with visible mushrooms, sesame and scallion matches the mushroom-soy bulgogi preparation.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m02\\hero-master-M02-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "myeolchi-bokkeum-stir-fried-anchovies": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B14",
+      "assetId": "B14-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b14\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "7182797de11c1319573da83f7092611cd4960dda3077fbcdb3d5e5937e70c9e6",
+      "preservedMaster": "public/images/recipes/myeolchi-bokkeum-stir-fried-anchovies-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B14",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Small stir-fried anchovies with sesame match the recipe; optional nuts are not required.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b14\\hero-master.jpg",
+        "sourceRecipeId": "B14",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "neobiani-royal-style-grilled-beef": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M08",
+      "assetId": "M08-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m08\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "cfcf0dde882c072fe966f300fd9c4fb0d959f59d3a35ed1690c6dca86edfce0a",
+      "preservedMaster": "public/images/recipes/neobiani-royal-style-grilled-beef-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M08",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Wide thin browned beef sheets with sesame and scallion fit neobiani before its final table cutting; no bones or red chili glaze.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m08\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "oi-muchim-spicy-cucumber-banchan": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B07",
+      "assetId": "B07-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b07\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "8599efcbe8d20c8a19ba16216d9d619c7b606c4d452b9775caee3a6a64789ca8",
+      "preservedMaster": "public/images/recipes/oi-muchim-spicy-cucumber-banchan-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B07",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Passed: no onion slivers visible; cucumber is predominantly thin half-moons, with red dressing, scallion and sesame. Original tableware, background and lighting retained.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "correctedMaster": "public/images/recipes/oi-muchim-spicy-cucumber-banchan-corrected-master.png",
+      "correctedSha256": "14de86a2a4c643dd2f86182ba27a1b70de4f78c5c364abefca1393e72ad71ae0",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "oi-muchim-spicy-cucumber-banchan",
+        "sourceRecipeId": "B07",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/b07/hero-master.jpg",
+        "generatedPath": "C:/Users/User/.codex/generated_images/01a12697-b8da-7c52-abae-507abf95be62/exec-558418ee-62f2-40c9-a9e8-b1349be5e9bf.png",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/oi-muchim-spicy-cucumber-banchan-corrected-master.png",
+        "prompt": "Use case: precise-object-edit. Asset type: KBBQGuide recipe illustration correction. Edit the supplied saved image of Oi Muchim. Keep the exact cream bowl, wooden table, ivory linen, camera angle, close composition, warm natural light, sesame, green scallion and glossy red gochugaru seasoning. Correct ONLY the ingredients and cucumber cut: completely remove every white/purple onion sliver; replace the thick cucumber wedges and sticks with consistently thin 5 mm cucumber half-moon slices, green skin around each curved edge. The finished dish contains only cucumber, scallion, grated garlic, red chili dressing and sesame. No onion, carrot, other vegetables, text or watermark. Preserve all other scene details and realistic texture. Landscape 3:2, highest native resolution available, ideally at least 2400 by 1600.",
+        "mode": "built-in image_gen precise-object-edit",
+        "width": 1536,
+        "height": 1024,
+        "alt": "Thin cucumber half-moons with red chili dressing, scallion and sesame in a cream bowl.",
+        "validation": "Passed: no onion slivers visible; cucumber is predominantly thin half-moons, with red dressing, scallion and sesame. Original tableware, background and lighting retained.",
+        "generatedAt": "2026-10-10",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      },
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "The saved image visibly contains substantial onion slivers and thick cucumber wedges; the current recipe specifies cucumber half-moons about 5 mm thick and no onion. Full-size image confirms this.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b07\\hero-master.jpg",
+        "sourceRecipeId": "B07",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "oi-sobagi-cucumber-kimchi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B03",
+      "assetId": "B03-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b03\\hero-master-B03-hero-r1.jpg",
+      "sourceDriveFileId": "1bFWfkh7qQG657JKs7WrjpHK_1CPVLaE3",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1bFWfkh7qQG657JKs7WrjpHK_1CPVLaE3/view",
+      "sourcePhotoLabel": "P40",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "a0dd2c58a2495eba708897a29e12e8275081c980bf578b6bd6521ced19d46bee",
+      "preservedMaster": "public/images/recipes/oi-sobagi-cucumber-kimchi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B03",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Stuffed split cucumber sections contain the specified shredded vegetables and red seasoning.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b03\\hero-master-B03-hero-r1.jpg",
+        "sourceRecipeId": "B03",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "ojingeo-gui-spicy-grilled-squid": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF04",
+      "assetId": "SF04-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf04\\hero-master-SF04-hero-r1.jpg",
+      "sourceDriveFileId": "1nmMQZOto3lOopPxyHnOAO35Fj8u48HoW",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1nmMQZOto3lOopPxyHnOAO35Fj8u48HoW/view",
+      "sourcePhotoLabel": "P16",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "8b2e769416160f2ff0996f93de62c5524969d795ef8ce1747c48e18ebaf434ed",
+      "preservedMaster": "public/images/recipes/ojingeo-gui-spicy-grilled-squid-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF04",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Scored whole squid body with tentacles and red glaze matches ojingeo gui before scissors-cutting at the table.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf04\\hero-master-SF04-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "pajeori-korean-scallion-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F02",
+      "assetId": "F02-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f02\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "84797349d875621377bb60ffd7eef0dab64564658b5909f02ce54bba2eb817dc",
+      "preservedMaster": "public/images/recipes/pajeori-korean-scallion-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F02",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Fine scallion ribbons with chili seasoning and sesame match pajeori.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f02\\hero-master.jpg",
+        "sourceRecipeId": "F02",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "patbingsu-red-bean-shaved-ice": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "D02",
+      "assetId": "D02-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d02\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "29cdcbcc4fd6916bb0af2eb6541112890f6d06d831226274633f557326a58d72",
+      "preservedMaster": "public/images/recipes/patbingsu-red-bean-shaved-ice-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "D02",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "PASS — mango cubes replaced with recognizable banana cross-sections; strawberries, beans, milk drizzle, rice cakes, ice mound and scene preserved.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Shaved ice, red beans, condensed milk, strawberries and rice-cake pieces match, but the conspicuous mango cubes are absent from the current topping list (banana, strawberry or kiwi).",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d02\\hero-master.jpg",
+        "sourceRecipeId": "D02",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "correctedMaster": "public/images/recipes/patbingsu-red-bean-shaved-ice-corrected-master.png",
+      "correctedSha256": "2eae815682a4af393be5e7ad13c04b4747249151c2834e6ff915e412ef872614",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "patbingsu-red-bean-shaved-ice",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/d02/hero-master.jpg",
+        "prompt": "Use case: precise-object-edit. Edit this exact saved KBBQGuide Patbingsu photograph. Replace ONLY the orange-yellow mango cubes arranged along the right side of the shaved-ice mound with realistic freshly cut pale cream-colored banana slices, the topping named in this recipe. Banana slices should be round or slightly oval cross-sections, with faint natural central star/seed marks and soft banana texture, arranged naturally in the same right-side space and approximate topping quantity. Remove every mango cube; no mango remains. Preserve all existing strawberry wedges on the left, the top white rice-cake pieces, glossy red beans, condensed milk drizzle, shaved ice, mound shape and height, ceramic bowl, wood tray, metal spoon, spoon rest, wooden window lattice, composition, camera angle, light, shadows, depth of field, photographic style and warm palette. Add no garnish or other ingredient. Keep landscape3:2 framing, ideally original2400×1600 resolution. No text, logo or watermark.",
+        "generator": "built-in image_gen",
+        "generatorPath": "C:/Users/User/.codex/generated_images/01a1269d-8bdd-7852-9ca9-d3fcca97a6e0/exec-fbfc99a4-19a2-4ccf-a8e4-dc8863ca4125.png",
+        "alt": "Shaved ice topped with red beans, condensed milk and rice cakes, with strawberry wedges and banana slices.",
+        "validation": "PASS — mango cubes replaced with recognizable banana cross-sections; strawberries, beans, milk drizzle, rice cakes, ice mound and scene preserved.",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/patbingsu-red-bean-shaved-ice-corrected-master.png",
+        "sourceWidth": 2400,
+        "sourceHeight": 1600,
+        "visualInspection": "Viewed exact source before edit and inspected generated output.",
+        "noUpscaling": true,
+        "width": 1536,
+        "height": 1024,
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "radish-sprout-and-perilla-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F08",
+      "assetId": "F08-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f08\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "c00ba582121139886d6a8b6da8343a1daa5b97fdceaf8964839c93fad3ae364b",
+      "preservedMaster": "public/images/recipes/radish-sprout-and-perilla-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F08",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Fine radish sprouts, shredded leafy perilla and sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f08\\hero-master.jpg",
+        "sourceRecipeId": "F08",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "sangchu-geotjeori-fresh-lettuce-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F03",
+      "assetId": "F03-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f03\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "715dd5aaaeb5261deb6223f6aa9677b1a113e5f8008fed96efc6943130bbb534",
+      "preservedMaster": "public/images/recipes/sangchu-geotjeori-fresh-lettuce-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F03",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Passed: large bulb-onion crescents removed, scallion strands retained; dressed leaf lettuce, bowl, backdrop and light remain consistent.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "correctedMaster": "public/images/recipes/sangchu-geotjeori-fresh-lettuce-salad-corrected-master.png",
+      "correctedSha256": "5c204652ff0747a50f2d4a85c7087165b9fb89ba5835db7ba387fbf0b0f5e267",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "sangchu-geotjeori-fresh-lettuce-salad",
+        "sourceRecipeId": "F03",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/f03/hero-master.jpg",
+        "generatedPath": "C:/Users/User/.codex/generated_images/01a12697-b8da-7c52-abae-507abf95be62/exec-4fa44c48-d6dd-40b5-82f6-600f4f3896c0.png",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/sangchu-geotjeori-fresh-lettuce-salad-corrected-master.png",
+        "prompt": "Use case: precise-object-edit. Asset type: KBBQGuide Sangchu Geotjeori Fresh Lettuce Salad recipe illustration correction. Edit the supplied saved image. Remove every thick white or translucent onion crescent/sliver from the salad, filling those places naturally with the same fresh green/red leaf lettuce. Keep thin green scallion strands, sesame seeds and red gochugaru dressing. The salad must contain only torn leaf lettuce, scallion, fine grated garlic, chili-sesame-soy dressing and sesame seeds; absolutely no sliced bulb onion or other added vegetables. Preserve the exact shallow beige ceramic bowl, wood table, background dishes, camera angle, crop, golden warm side light and realistic glossy lettuce texture. Change nothing else. Landscape 3:2, maximum native resolution, ideally at least 2400 by 1600. No text or watermark.",
+        "mode": "built-in image_gen precise-object-edit",
+        "width": 1536,
+        "height": 1024,
+        "alt": "Green and red leaf lettuce with scallion, red chili dressing and sesame in a shallow ceramic bowl.",
+        "validation": "Passed: large bulb-onion crescents removed, scallion strands retained; dressed leaf lettuce, bowl, backdrop and light remain consistent.",
+        "generatedAt": "2026-10-10",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      },
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Seasoned leaf lettuce matches the dish, but large visible onion slivers are absent from the preserved recipe. Archived alt independently identifies onion.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f03\\hero-master.jpg",
+        "sourceRecipeId": "F03",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "scallion-gochujang-grilled-oysters": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF12",
+      "assetId": "SF12-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf12\\hero-master-SF12-hero-r1.jpg",
+      "sourceDriveFileId": "10MbEQXniivcjbGUL0GsXq6IRfmNIR-7f",
+      "sourceDriveUrl": "https://drive.google.com/file/d/10MbEQXniivcjbGUL0GsXq6IRfmNIR-7f/view",
+      "sourcePhotoLabel": "P37",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "2f720223834565ffa95673ae1b8e29c2a9052229cdc11795e84b2b841c97edba",
+      "preservedMaster": "public/images/recipes/scallion-gochujang-grilled-oysters-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "SF12",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Oyster cups with plump shellfish, red gochujang-butter topping and scallion match grilled oysters.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf12\\hero-master-SF12-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "sigeumchi-namul-seasoned-spinach": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B06",
+      "assetId": "B06-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b06\\hero-master-B06-hero-r1.jpg",
+      "sourceDriveFileId": "1VXjVSNlqR6-aEAuhKzXO7Eb0aI3JIU6a",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1VXjVSNlqR6-aEAuhKzXO7Eb0aI3JIU6a/view",
+      "sourcePhotoLabel": "P41",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "24c851fcd6fdc873be007bd87defe84711c574f8ffb68998eb15c67c351c9fa4",
+      "preservedMaster": "public/images/recipes/sigeumchi-namul-seasoned-spinach-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "B06",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Wilted spinach dressed with sesame matches the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b06\\hero-master-B06-hero-r1.jpg",
+        "sourceRecipeId": "B06",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "sikhye-sweet-rice-punch": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "D05",
+      "assetId": "D05-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d05\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "bfac7b9144dd1ec3464fa7cf8d3af8e32f57b2002255326a30856cecd4636797",
+      "preservedMaster": "public/images/recipes/sikhye-sweet-rice-punch-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "D05",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Pale sweet rice punch with visible rice grains and optional pine nuts matches sikhye.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d05\\hero-master.jpg",
+        "sourceRecipeId": "D05",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "soy-garlic-grilled-shrimp": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF02",
+      "assetId": "SF02-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf02\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "4912275373a5adadef82532b143127bbfc626e0d64132aeb51ded5211cfc8218",
+      "preservedMaster": "public/images/recipes/soy-garlic-grilled-shrimp-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SF02",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": {
+          "status": "accepted",
+          "detail": "Inspected final image: segmented body shells, visible underside legs and tail fans now clearly distinguish shell-on shrimp. Same plate, skewers, dipping bowls, lighting and framing preserved."
+        },
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Full-size inspection shows peeled tail-on shrimp flesh on skewers. CURRENT SF02 specifies shell-on shrimp and grilling/toasting the shells. Correct species and soy-garlic appearance, but the required shell-on preparation is not depicted; hold as questionable rather than silently treating it as exact.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf02\\hero-master.jpg"
+      },
+      "correctedMaster": "public/images/recipes/soy-garlic-grilled-shrimp-corrected-master.png",
+      "correctedSha256": "c479e7a269968f713ddaa4d9776b33d7807e75f2dc4f3a835adf049ba4ffb5d6",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "soy-garlic-grilled-shrimp",
+        "sourceRecipeId": "SF02",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/sf02/hero-master.jpg",
+        "method": "built-in image_gen edit",
+        "prompt": "Use case: precise-object-edit. Correct ONLY the shrimp in this food photograph. They still read too much like peeled shrimp. Make every shrimp unambiguously SHELL-ON, HEADLESS, BACK-SPLIT and DEVEINED: add rigid thin translucent orange-pink outer shells enclosing the curved bodies, crisp overlapping segment edges, visible small jointed underside legs dangling/tucked beneath several shrimp, especially the large hero shrimp in the center and front row; retain the tail fan shells. Shell surfaces must have a delicate hard glossy exoskeleton sheen and little lightly charred shell edges, distinct from soft naked flesh. Show the split slit along the outer backs where veins were removed; no head, no antennae. These are grilled headless large shrimp with their BODY SHELLS AND SMALL LEGS STILL ATTACHED. Keep their size, arrangement on the same wooden skewers, the same dark plate, soy-garlic coating, restrained existing garnish, ceramic dipping bowls, exact camera framing, table, warm restaurant light and all background objects unchanged. Do not add thick red glaze, extra props, people, labels, or text. The only correction is unmistakable body shells and legs on the existing shrimp. Landscape 3:2.",
+        "localGeneratorPath": "C:/Users/User/.codex/generated_images/01a1269d-6bfa-70d2-9658-642e9805d659/exec-809dfe8a-9fe8-4ba8-8403-447001653cb2.png",
+        "alt": "Shell-on soy-garlic grilled shrimp with segmented shells and tails on skewers, beside scallion-soy dipping sauce.",
+        "validation": {
+          "status": "accepted",
+          "detail": "Inspected final image: segmented body shells, visible underside legs and tail fans now clearly distinguish shell-on shrimp. Same plate, skewers, dipping bowls, lighting and framing preserved."
+        },
+        "attempts": [
+          {
+            "prompt": "Use case: precise-object-edit. Edit the supplied saved KBBQGuide recipe illustration, preserving its exact camera angle, framing, ceramic black plate, tabletop, bowl positions, skewers, warm natural lighting, color treatment, photographic texture and overall styling. Only correct the shrimp preparation: every currently peeled tail-on shrimp must become a LARGE HEADLESS SHELL-ON cooked shrimp with its full thin orange-pink segmented outer carapace visibly enclosing the body as well as the tail; keep the back deveined, body plump and C-curved, with recognizable overlapping shell plates and fine shell edges. Grilled shells should have light char marks and a light soy-garlic-sesame coating, not thick red sauce. Keep the shrimp arranged on the same skewers and plate in essentially the same composition. Preserve the separate scallion-soy dipping bowl in the upper right. Do not add heads, antennae, new props, people, text or logos. It must unambiguously depict shell-on grilled shrimp rather than naked pink shrimp flesh. Preserve original landscape 3:2 proportions; use the highest supported resolution.",
+            "inputPath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/sf02/hero-master.jpg",
+            "outputPath": "C:/Users/User/.codex/generated_images/01a1269d-6bfa-70d2-9658-642e9805d659/exec-6965ea01-c476-422a-ab29-bea9836a8b08.png",
+            "selected": false,
+            "validation": "Shell segmentation remained ambiguous; refined once."
+          },
+          {
+            "prompt": "Use case: precise-object-edit. Correct ONLY the shrimp in this food photograph. They still read too much like peeled shrimp. Make every shrimp unambiguously SHELL-ON, HEADLESS, BACK-SPLIT and DEVEINED: add rigid thin translucent orange-pink outer shells enclosing the curved bodies, crisp overlapping segment edges, visible small jointed underside legs dangling/tucked beneath several shrimp, especially the large hero shrimp in the center and front row; retain the tail fan shells. Shell surfaces must have a delicate hard glossy exoskeleton sheen and little lightly charred shell edges, distinct from soft naked flesh. Show the split slit along the outer backs where veins were removed; no head, no antennae. These are grilled headless large shrimp with their BODY SHELLS AND SMALL LEGS STILL ATTACHED. Keep their size, arrangement on the same wooden skewers, the same dark plate, soy-garlic coating, restrained existing garnish, ceramic dipping bowls, exact camera framing, table, warm restaurant light and all background objects unchanged. Do not add thick red glaze, extra props, people, labels, or text. The only correction is unmistakable body shells and legs on the existing shrimp. Landscape 3:2.",
+            "inputPath": "C:/Users/User/.codex/generated_images/01a1269d-6bfa-70d2-9658-642e9805d659/exec-6965ea01-c476-422a-ab29-bea9836a8b08.png",
+            "outputPath": "C:/Users/User/.codex/generated_images/01a1269d-6bfa-70d2-9658-642e9805d659/exec-809dfe8a-9fe8-4ba8-8403-447001653cb2.png",
+            "selected": true,
+            "validation": "Clear shell-on body segments and underside legs visible."
+          }
+        ],
+        "correctedMasterPath": "C:\\Users\\User\\Documents\\Codex\\2026-10-05\\r\\work\\kbbqguide\\public\\images\\recipes\\soy-garlic-grilled-shrimp-corrected-master.png",
+        "width": 1536,
+        "height": 1024,
+        "caption": "AI-generated recipe illustration, corrected from the saved source to match the current recipe preparation.",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "soy-pear-dak-bulgogi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M16",
+      "assetId": "M16-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m16\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "010d67e35afe219622809856eb95b4516ad59d7c8ec2981bc34501a45fd83bd6",
+      "preservedMaster": "public/images/recipes/soy-pear-dak-bulgogi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M16",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Bite-size browned chicken thigh pieces with soy-colored glaze and sesame/scallion match soy-pear dak bulgogi.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m16\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "spicy-dwaeji-bulgogi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M13",
+      "assetId": "M13-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m13\\hero-master-M13-hero-r1.jpg",
+      "sourceDriveFileId": "1Le1sHFShgkBP9eW7EuNnpz5Og217JP4U",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1Le1sHFShgkBP9eW7EuNnpz5Og217JP4U/view",
+      "sourcePhotoLabel": "P21",
+      "originalDimensions": {
+        "width": 1856,
+        "height": 2304
+      },
+      "sourceSha256": "a48bb9661dff64715213cc630b0e27761cc698ec144c9cc1263e2ef43dd56210",
+      "preservedMaster": "public/images/recipes/spicy-dwaeji-bulgogi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "Google Gemini (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M13",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Thin pork strips with red pepper seasoning, sesame and scallion fit spicy dwaeji bulgogi.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m13\\hero-master-M13-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "spicy-gochujang-galbi": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M04",
+      "assetId": "M04-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m04\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "2fc761b08622b10ce9db36dc9b5b5ec898a30f213cf4c250a11d79e8681a9672",
+      "preservedMaster": "public/images/recipes/spicy-gochujang-galbi-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M04",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Flanken-cut beef ribs with bones and red chili lacquer match spicy gochujang galbi.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m04\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "spicy-gochujang-grilled-chicken-thighs": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M17",
+      "assetId": "M17-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m17\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "189c80a6008ee832df2631d23fdece5d1c57683fabf579dd766249cb267098d9",
+      "preservedMaster": "public/images/recipes/spicy-gochujang-grilled-chicken-thighs-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "M17",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Red-glazed grilled chicken thigh pieces match the gochujang chicken-thigh recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m17\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "spicy-grilled-nakji-octopus": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SF05",
+      "assetId": "SF05-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf05\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "21bb58eb8dcfaa6b24db779f4d80687a4fabf9db7d837b7273e6c9e0fc50145b",
+      "preservedMaster": "public/images/recipes/spicy-grilled-nakji-octopus-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SF05",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": {
+          "status": "accepted",
+          "detail": "Inspected final image: separate substantial tentacle segments with suction cups and cut white ends, plus scored body sheets. Intact tiny whole-octopus forms removed. Perforated pan, burner and restaurant scene preserved."
+        },
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Full-size inspection shows numerous whole little octopuses with intact round bodies and clustered tentacles, resembling SF06 baby octopus. CURRENT SF05 specifies two larger octopuses (or separated body/tentacles), then wide slices/scored sheets for grilling. The visible cut/scale does not establish SF05; hold as questionable.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sf05\\hero-master.jpg"
+      },
+      "correctedMaster": "public/images/recipes/spicy-grilled-nakji-octopus-corrected-master.png",
+      "correctedSha256": "1a2d7080666f2462532bb6bafd1d46d06dee0b1c7e2fa553884657f00e451a22",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "spicy-grilled-nakji-octopus",
+        "sourceRecipeId": "SF05",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/sf05/hero-master.jpg",
+        "method": "built-in image_gen edit",
+        "prompt": "Use case: precise-object-edit. Edit the supplied saved KBBQGuide illustration for Spicy Grilled Nakji Octopus. Preserve the exact warm restaurant lighting, landscape framing, camera angle, large round perforated brass grill pan, burner, tabletop and background bowls. Change only the octopus cut and scale. REMOVE the numerous complete baby octopuses with intact little round heads. Replace them with the grilled meat from TWO larger 300 g octopuses: separated substantial octopus arms cut into approximately 5 cm lengths, thick curved tapered tentacle segments with clearly visible suction cups, and a few flat wider body pieces crosshatch-scored, curling open at their edges. All pieces should visibly be cut parts with cut ends, not whole miniature octopuses. No intact round heads, no complete eight-arm baby octopus rosettes, no calamari rings. Spread cut octopus pieces in a relatively shallow generous layer in the same perforated pan. Preserve the glossy brick-red gochujang glaze and restrained edge char, showing white octopus at some cut ends beneath thin glaze. Small restrained sesame finish as in recipe. This is larger cut nakji, clearly differentiated from whole jjukkumi. Keep scene photorealistic, original color grading and photographic character, no new props, text, logos or people. Original landscape 3:2 ratio, highest supported resolution.",
+        "localGeneratorPath": "C:/Users/User/.codex/generated_images/01a1269d-6bfa-70d2-9658-642e9805d659/exec-a739b42a-8855-48b4-88de-e362ab408c38.png",
+        "alt": "Gochujang-glazed cut octopus tentacles and scored body pieces with light char in a perforated grill pan.",
+        "validation": {
+          "status": "accepted",
+          "detail": "Inspected final image: separate substantial tentacle segments with suction cups and cut white ends, plus scored body sheets. Intact tiny whole-octopus forms removed. Perforated pan, burner and restaurant scene preserved."
+        },
+        "correctedMasterPath": "C:\\Users\\User\\Documents\\Codex\\2026-10-05\\r\\work\\kbbqguide\\public\\images\\recipes\\spicy-grilled-nakji-octopus-corrected-master.png",
+        "width": 1536,
+        "height": 1024,
+        "caption": "AI-generated recipe illustration, corrected from the saved source to match the current recipe preparation.",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "ssam-lettuce-and-herb-platter": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F01",
+      "assetId": "F01-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f01\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "ad118582ae9102bf1d97ac7129b840205fff47f93f747228377426c3ea8612bd",
+      "preservedMaster": "public/images/recipes/ssam-lettuce-and-herb-platter-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F01",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Passed: cucumber and crown daisy removed; thin onion, rounded-leaf watercress and garlic coins now match listed ingredients. Platter, other leaves, sauces and warm setting preserved.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "correctedMaster": "public/images/recipes/ssam-lettuce-and-herb-platter-corrected-master.png",
+      "correctedSha256": "b29d127293cc02f16ec9d678c2186a223b9591e069c2cb162bc0b59d33fe11b5",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "ssam-lettuce-and-herb-platter",
+        "sourceRecipeId": "F01",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/f01/hero-master.jpg",
+        "generatedPath": "C:/Users/User/.codex/generated_images/01a12697-b8da-7c52-abae-507abf95be62/exec-89c74d3b-b353-4e84-93a8-fae6d2bf78dd.png",
+        "masterPath": "C:/Users/User/Documents/Codex/2026-10-05/r/work/kbbqguide/public/images/recipes/ssam-lettuce-and-herb-platter-corrected-master.png",
+        "prompt": "Use case: precise-object-edit. Asset type: KBBQGuide Ssam Lettuce and Herb Platter recipe illustration correction. Edit the supplied saved image. Preserve the exact dark round platter, abundant green and red leaf lettuce, stacked perilla leaves, sliced green chili, background sauce bowls, wooden tabletop, perspective, warm lighting, and realistic food texture. Change only these mismatched produce items: replace all cucumber batons on the right with a neat loose pile of thinly sliced sweet white onion crescents; replace the deeply lobed crown-daisy greens in the center with a small bunch of fresh watercress with rounded leaflets and slender stems; slice the foreground whole garlic cloves into thick garlic coins. Keep the existing perilla and leaf lettuces unchanged. The platter contains ONLY lettuce, perilla, watercress, garlic coins, green chili slices and onion slivers. No cucumber, carrot, crown daisy, invented garnish, text or watermark. Maintain wide landscape 3:2 composition, highest native resolution, ideally 2400 by 1600.",
+        "mode": "built-in image_gen precise-object-edit",
+        "width": 1536,
+        "height": 1024,
+        "alt": "Leaf lettuce, perilla, watercress, onion slivers, garlic coins and sliced green chili arranged on a dark platter.",
+        "validation": "Passed: cucumber and crown daisy removed; thin onion, rounded-leaf watercress and garlic coins now match listed ingredients. Platter, other leaves, sauces and warm setting preserved.",
+        "generatedAt": "2026-10-10",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      },
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "The ssam platter includes the expected lettuce/perilla/garlic/chili but also cucumber batons and crown-daisy-like greens that are not in the current ingredient list; the archived alt identifies cucumber and crown daisy.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f01\\hero-master.jpg",
+        "sourceRecipeId": "F01",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "tomato-onion-sesame-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F07",
+      "assetId": "F07-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f07\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "19fc749112278cca72addbc761de0a9259ab82670a2ab852ca832158fc7e4128",
+      "preservedMaster": "public/images/recipes/tomato-onion-sesame-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F07",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Tomato wedges with thin onion slivers and sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f07\\hero-master.jpg",
+        "sourceRecipeId": "F07",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "tteokgalbi-grilled-beef-and-pork-patties": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "M09",
+      "assetId": "M09-hero-r1",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m09\\hero-master-M09-hero-r1.jpg",
+      "sourceDriveFileId": "1t4NXszI3uzev5omsJnScuqIgeEAg4rfH",
+      "sourceDriveUrl": "https://drive.google.com/file/d/1t4NXszI3uzev5omsJnScuqIgeEAg4rfH/view",
+      "sourcePhotoLabel": "P29",
+      "originalDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "sourceSha256": "b075198b65d731b470425a73dab3259c68df0bf4c968efae844d19e8adab90af",
+      "preservedMaster": "public/images/recipes/tteokgalbi-grilled-beef-and-pork-patties-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI (source filename attribution; generation record not supplied)",
+        "generatedAt": "unknown",
+        "sourceRecord": "M09",
+        "promptBasis": "Original generation prompt unavailable; visual match checked against the recipe ingredients and preparation.",
+        "disclosure": "AI-generated dish illustration; not original photography or evidence of a test cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Formed grilled minced-meat patties with glossy brown faces match tteokgalbi, rather than sliced whole-muscle beef.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\m09\\hero-master-M09-hero-r1.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "watercress-apple-yuja-salad": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "F09",
+      "assetId": "F09-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f09\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "fc2c45bab5851217beb259e71ee52a2ad039ba8fe1fea52bdeb2dbc734a342af",
+      "preservedMaster": "public/images/recipes/watercress-apple-yuja-salad-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "F09",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": {
+          "status": "accepted",
+          "detail": "Inspected final image: main apple presentation now slender skin-on matchsticks mixed into watercress, replacing the prominent broad crescents. Same bowl, tabletop, background grill, warm light and dressing bowls preserved."
+        },
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Saved original retained byte for byte beside a separately named AI-edited correction. Corrected image receives resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "corrected",
+      "originalVisualReview": {
+        "status": "questionable",
+        "reason": "Watercress and skin-on apple match the ingredients, but the image uses broad apple slices while the current recipe specifies matchsticks. This is a preparation-cut discrepancy, not a different dish.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\f09\\hero-master.jpg",
+        "sourceRecipeId": "F09",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "correctedMaster": "public/images/recipes/watercress-apple-yuja-salad-corrected-master.png",
+      "correctedSha256": "26a7d974010d749ad102d0b48c301b6032a37828c9c9f2e4870b4c6eec7e9491",
+      "correctedDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "correction": {
+        "slug": "watercress-apple-yuja-salad",
+        "sourceRecipeId": "F09",
+        "sourcePath": "C:/Users/User/OneDrive/Desktop/Documents/ChatGPT/KbbqGuide/site/src/assets/media/recipes/f09/hero-master.jpg",
+        "method": "built-in image_gen edit",
+        "prompt": "Use case: precise-object-edit. Edit this exact saved KBBQGuide Watercress-Apple Yuja Salad illustration. Preserve the camera angle, overall landscape framing, warm sidelight, grain of wooden table, shallow speckled ceramic bowl, background grill, bowls of dressing, chopsticks, green watercress leaves/stems, dressing gloss, and existing photographic styling. Change ONLY the shape of the apple: replace EVERY broad thin apple crescent/wedge with crisp narrow matchsticks, each about 3 mm square and 4–5 cm long, white pale apple flesh with a narrow strip of red skin on some edges because the recipe keeps the skin on. Distribute the matchsticks naturally throughout and on top of the same watercress, using the same overall amount of apple. There should be NO broad apple slices, crescents, wedges, discs or chunks left; unmistakable julienned apple matchsticks. Preserve the airy salad volume and bowl layout. Add no extra vegetables, nuts, citrus wedges, people, text or logos. Highest supported resolution, retain original 3:2 landscape aspect.",
+        "localGeneratorPath": "C:/Users/User/.codex/generated_images/01a1269d-6bfa-70d2-9658-642e9805d659/exec-d2744157-2ab0-41de-a13d-7e2b183afc60.png",
+        "alt": "Watercress and slender skin-on apple matchsticks with glossy yuja dressing in a speckled ceramic bowl.",
+        "validation": {
+          "status": "accepted",
+          "detail": "Inspected final image: main apple presentation now slender skin-on matchsticks mixed into watercress, replacing the prominent broad crescents. Same bowl, tabletop, background grill, warm light and dressing bowls preserved."
+        },
+        "correctedMasterPath": "C:\\Users\\User\\Documents\\Codex\\2026-10-05\\r\\work\\kbbqguide\\public\\images\\recipes\\watercress-apple-yuja-salad-corrected-master.png",
+        "width": 1536,
+        "height": 1024,
+        "caption": "AI-generated recipe illustration, corrected from the saved source to match the current recipe preparation.",
+        "tool": "built-in image_gen",
+        "reviewedAt": "2026-10-10"
+      }
+    },
+    "yakgwa-honey-ginger-cookies": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "D03",
+      "assetId": "D03-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d03\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "0f57e39f59ae9c3fe7c851cb157789f5a802bf330a45df9d1a6fd04924c380a7",
+      "preservedMaster": "public/images/recipes/yakgwa-honey-ginger-cookies-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "D03",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Glazed flower-stamped golden yakgwa cookies match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\d03\\hero-master.jpg",
+        "sourceRecipeId": "D03",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "yangnyeom-ganjang-scallion-soy-dipping-sauce": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "SA04",
+      "assetId": "SA04-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa04\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "b452267a4e5218ab5a3773805dd8646b92ee5b4f37ae598a3c95bd9e8c198a32",
+      "preservedMaster": "public/images/recipes/yangnyeom-ganjang-scallion-soy-dipping-sauce-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "SA04",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Dark soy dipping sauce with abundant scallion/chili rings and sesame matches yangnyeom ganjang.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\sa04\\hero-master.jpg"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    },
+    "yeongeun-jorim-soy-braised-lotus-root": {
+      "source": "Recovered saved KBBQGuide image library",
+      "sourceRecipeId": "B18",
+      "assetId": "B18-hero",
+      "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b18\\hero-master.jpg",
+      "sourceDriveFileId": null,
+      "sourceDriveUrl": null,
+      "sourcePhotoLabel": null,
+      "originalDimensions": {
+        "width": 2400,
+        "height": 1600
+      },
+      "sourceSha256": "f9b88dbfc317e71b569be595f10dc8607f5b8922d35cabb307d0e908dda9a07c",
+      "preservedMaster": "public/images/recipes/yeongeun-jorim-soy-braised-lotus-root-master.jpg",
+      "mediaKind": "synthetic-labeled",
+      "originalProvenance": {
+        "creator": "OpenAI image generation under KBBQGuide editorial direction",
+        "generatedAt": "2026-07-16",
+        "sourceRecord": "B18",
+        "promptBasis": "Recipe title, short description, ingredients, instructions, and food-safety cues",
+        "disclosure": "AI-generated editorial visualization; not a photograph of a test-kitchen cook."
+      },
+      "visualReview": {
+        "status": "accepted",
+        "reason": "Soy-glazed lotus-root coins with sesame match the recipe.",
+        "sourcePath": "C:\\Users\\User\\OneDrive\\Desktop\\Documents\\ChatGPT\\KbbqGuide\\site\\src\\assets\\media\\recipes\\b18\\hero-master.jpg",
+        "sourceRecipeId": "B18",
+        "reviewMethod": "Contact-sheet visual inspection and comparison with preserved current recipe JSON-LD, with full-size inspection for B04 and B07; original media-manifest visible summaries used as corroborating evidence.",
+        "reviewedAt": "2026-10-10"
+      },
+      "usedOnSite": true,
+      "processing": "Original saved master preserved byte for byte. Accepted images receive resize-only WebP/JPEG derivatives, never upscaled.",
+      "recoveredAt": "2026-10-10",
+      "origin": "saved"
+    }
+  }
+}
