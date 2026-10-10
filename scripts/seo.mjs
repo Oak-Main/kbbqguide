@@ -123,14 +123,11 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
       if (lane) $(el).attr('href', `/collections/${lane}/`);
     });
     for (const font of fonts) $(`link[href="${font.original}"]`).attr('href',font.optimized);
-    if (!gochujang) {
-      const regular = fonts.find(font => font.original === '/fonts/newsreader.woff2');
+    if (!gochujang && $('h1 em').length) {
       const italic = fonts.find(font => font.original === '/fonts/newsreader-italic.woff2');
-      const preload = $(`link[rel="preload"][href="${regular.optimized}"]`);
-      // Display headings use Barlow; their italic accents use Newsreader Italic.
-      // Regular Newsreader is below the fold, so it should not compete with LCP.
-      if ($('h1 em').length) preload.attr('href',italic.optimized);
-      else preload.remove();
+      // The large italic heading is otherwise discovered only after CSS loads.
+      // Recipe pages have no italic heading and need no extra font preload.
+      $('head').append($('<link>').attr({rel:'preload',href:italic.optimized,as:'font',type:'font/woff2',crossorigin:''}));
     }
 
     // Preserve each original fallback image, its crop, dimensions, alt text, and styling.
