@@ -1,6 +1,7 @@
 import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
+import { coverAwareSizes } from './responsive-sizes.mjs';
 
 const json = value => JSON.stringify(value).replace(/</g, '\\u003c');
 const escapeXML = value => String(value).replace(/[<>&"']/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
@@ -89,14 +90,21 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
       if (gochujang && recipe.slug === 'baechu-kimchi') title = 'Modern Baechu Kimchi with Gochujang Recipe | Gochujang';
       if (description.length < 95) description += ' Find the ingredients, step-by-step method, and cooking notes.';
     } else if (!gochujang && route.startsWith('/collections/')) {
-      const categoryTitles = {
-        'grilled-meat':'Korean BBQ Meat Recipes: Galbi, Pork & Chicken',
-        seafood:'Korean BBQ Seafood Recipes', banchan:'Korean Banchan & Side Dish Recipes',
-        fresh:'Korean Salads, Ssam & Fresh Side Dishes', sauces:'Korean BBQ Sauce & Dipping Sauce Recipes',
-        desserts:'Korean Dessert & Sweet Drink Recipes'
+      // Search previews describe the real chapter inventory while the visible
+      // editorial deck keeps the site's voice.
+      const categoryMetadata = {
+        'grilled-meat': ['Korean BBQ Meat Recipes: Galbi, Pork & Chicken', 'Explore 20 Korean BBQ meat recipes, from LA-style galbi and beef bulgogi to samgyeopsal and gochujang chicken. Find marinades and grilling methods.'],
+        seafood: ['Korean BBQ Seafood Recipes', 'Explore 15 Korean BBQ seafood recipes, including grilled black cod, scallops, shrimp, squid, and clams. Find ingredients and step-by-step methods.'],
+        banchan: ['Korean Banchan & Side Dish Recipes', 'Browse 25 Korean banchan recipes, from baechu kimchi and braised tofu to steamed eggs and seasoned spinach. Complete your Korean BBQ table.'],
+        fresh: ['Korean Salads, Ssam & Fresh Side Dishes', 'Explore 10 Korean salads and fresh side dishes, including pajeori, ssam leaves, cucumber salad, and yuja slaw. Find ingredients and methods.'],
+        sauces: ['Korean BBQ Sauce & Dipping Sauce Recipes', 'Make 5 Korean BBQ dipping sauces, including ssamjang, sesame-oil salt dip, cho-gochujang, and scallion-soy sauce. Find ingredients and methods.'],
+        desserts: ['Korean Dessert & Sweet Drink Recipes', 'Explore 5 Korean desserts and sweet drinks: hotteok, patbingsu, sikhye, yakgwa, and injeolmi toast. Find ingredients and step-by-step methods.']
       };
-      const label = categoryTitles[route.split('/')[2]];
-      if (label) title = `${label} | ${brand}`;
+      const metadata = categoryMetadata[route.split('/')[2]];
+      if (metadata) {
+        title = `${metadata[0]} | ${brand}`;
+        description = metadata[1];
+      }
     }
     description = concise(description);
     $('title').text(title);
@@ -139,7 +147,7 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
       const mobile = 'calc(100vw - 40px)';
       let sizes = img.attr('sizes') || '100vw';
       if (img.attr('data-display-sizes')) sizes=img.attr('data-display-sizes');
-      else if (img.closest('.chapter-image').length) sizes='(max-width:760px) 150px, 100px';
+      else if (img.closest('.chapter-image').length) sizes='(max-width:380px) calc((100vw - clamp(20px, 4.5vw, 76px) * 2) / 2 - 24px), (max-width:760px) calc((100vw - clamp(20px, 4.5vw, 76px) * 2) / 2 - 32px), 100px';
       else if (img.closest('.collection-contact-sheet').length) sizes='(max-width:760px) 1px, 180px';
       else if (img.closest('.gathering-image').length) sizes='(max-width:760px) 100vw, max(100vw, 930px)';
       else if (img.closest('.fire-editorial').length) sizes=img.closest('.recipe-tile').is(':first-child')?'(max-width:760px) calc(100vw - 40px), (max-width:1480px) 40vw, 600px':'(max-width:760px) calc((100vw - 60px) / 2), (max-width:1480px) 25vw, 360px';
@@ -155,6 +163,7 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
       else if (img.closest('.category-cover').length) sizes = `(max-width:760px) ${mobile}, (max-width:1480px) 32vw, 450px`;
       else if (img.closest('.sea-row').length) sizes = '(max-width:760px) 40vw, 20vw';
       else sizes = `(max-width:760px) ${mobile}, (max-width:1480px) 46vw, 640px`;
+      sizes = coverAwareSizes(sizes, { width: img.attr('width'), height: img.attr('height') }, { $, img, gochujang });
       img.attr('sizes', sizes).wrap('<picture></picture>');
       img.before($('<source>').attr({type:'image/avif',srcset:asset.srcset,sizes}));
       if (img.attr('fetchpriority') === 'high' && !$('link[rel="preload"][as="image"]').length) {

@@ -22,21 +22,20 @@ document.addEventListener('click',event=>{if(!mobile.hidden&&!mobile.contains(ev
 document.addEventListener('focusin',event=>{if(!mobile.hidden&&!mobile.contains(event.target)&&!menu.contains(event.target))closeMenu();});
 const header=$('.site-header');let scrollPending=false;
 function positionMenu(){mobile.style.setProperty('--menu-top',`${Math.max(0,header.getBoundingClientRect().bottom)}px`);}
-function updateHeader(){header.classList.toggle('is-scrolled',scrollY>12);if(!mobile.hidden)positionMenu();scrollPending=false;}
+function updateHeader(){header.classList.toggle('is-scrolled',scrollY>12);if(!mobile.hidden){if(matchMedia('(max-width:760px)').matches)positionMenu();else closeMenu();}scrollPending=false;}
 function scheduleHeaderUpdate(){if(!scrollPending){scrollPending=true;requestAnimationFrame(updateHeader);}}
 addEventListener('scroll',scheduleHeaderUpdate,{passive:true});addEventListener('resize',scheduleHeaderUpdate);updateHeader();
 $$('[data-print]').forEach(button=>button.addEventListener('click',()=>window.print()));
 $$('[data-copy-link]').forEach(button=>button.addEventListener('click',async()=>{button.disabled=true;try{if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText($('link[rel="canonical"]')?.href||location.href);toast('Recipe link copied. Ready to share.');}catch{toast('Could not copy the link. Copy this page’s address from your browser.');}finally{button.disabled=false;}}));
 addEventListener('storage',event=>{if(event.key===savedKey||event.key===null)updateSaveButtons();});
+addEventListener('pageshow',updateSaveButtons);
 const collection=$('[data-collection]');
 if(collection){
- const params=new URLSearchParams(location.search), query=$('#collection-query'), tradition=$('#stream-filter'), tiles=$$('[data-recipe]',collection);
+ const query=$('#collection-query'), tradition=$('#stream-filter'), tiles=$$('[data-recipe]',collection);
  const empty=$('.no-results'), emptyHeading=$('h2',empty), emptyCopy=$('p',empty), defaultEmptyHeading=emptyHeading.innerHTML, defaultEmptyCopy=emptyCopy.textContent;
  const isChapter=collection.dataset.initialCategory!=='all';
- let filter=params.get('saved')==='1'?'saved':isChapter?'all':params.get('category')||'all';
- if(!['all','grilled-meat','seafood','banchan','fresh','sauces','desserts','saved'].includes(filter))filter='all';
- query.value=params.get('q')||'';
- tradition.value=['heritage','restaurant','contemporary','diaspora'].includes(params.get('stream'))?params.get('stream'):'all';
+ let filter='all';
+ function restoreFilters(){const params=new URLSearchParams(location.search);filter=params.get('saved')==='1'?'saved':isChapter?'all':params.get('category')||'all';if(!['all','grilled-meat','seafood','banchan','fresh','sauces','desserts','saved'].includes(filter))filter='all';query.value=params.get('q')||'';tradition.value=['heritage','restaurant','contemporary','diaspora'].includes(params.get('stream'))?params.get('stream'):'all';apply(false);}
  function apply(updateURL=true){const words=query.value.trim().toLowerCase().split(/\s+/).filter(Boolean);const saved=savedRecipes();let count=0;
   for(const tile of tiles){const visible=(filter==='all'||(filter==='saved'?saved.includes(tile.dataset.slug):tile.dataset.category===filter))&&(tradition.value==='all'||tile.dataset.stream===tradition.value)&&words.every(w=>tile.dataset.search.includes(w));tile.hidden=!visible;if(visible)count++;}
   $$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===filter)));
@@ -49,7 +48,7 @@ if(collection){
  }
  $$('[data-filter]').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;apply();}));query.addEventListener('input',()=>apply());tradition.addEventListener('change',()=>apply());
  $$('[data-clear],[data-reset]').forEach(button=>button.addEventListener('click',()=>{filter='all';query.value='';tradition.value='all';apply();query.focus();}));
- addEventListener('storage',event=>{if(event.key===savedKey||event.key===null)apply(false);});apply(false);
+ addEventListener('storage',event=>{if(event.key===savedKey||event.key===null)apply(false);});addEventListener('pageshow',restoreFilters);addEventListener('popstate',restoreFilters);restoreFilters();
 }
 const recipe=$('[data-recipe-slug]');
 if(recipe){const key=`kbbqguide-checklist-${recipe.dataset.recipeSlug}`;const checks=$$('[data-ingredient]',recipe);const progress=$('[data-ingredient-progress]',recipe);function updateProgress(){if(progress)progress.textContent=`${checks.filter(input=>input.checked).length} of ${checks.length} ingredients checked`;}

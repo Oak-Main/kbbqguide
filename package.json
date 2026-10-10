@@ -11,7 +11,7 @@
     "import:recipes": "node scripts/import-recipes.mjs",
     "build": "node scripts/build.mjs",
     "dev": "node scripts/serve.mjs",
-    "test": "node scripts/verify.mjs && node scripts/verify-seo.mjs && node scripts/verify-editorial.mjs",
+    "test": "node scripts/verify.mjs && node scripts/verify-seo.mjs && node scripts/verify-editorial.mjs && node scripts/verify-responsive-sizes.mjs",
     "optimize:media": "node scripts/optimize-media.mjs",
     "optimize:editorial": "node scripts/optimize-editorial.mjs"
   },
