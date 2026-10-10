@@ -1,0 +1,127 @@
+{
+  "site": "KBBQGuide",
+  "direction": "Ember & Ink",
+  "reviewDate": "2026-10-10",
+  "reviewerRole": "Independent visual and UX critic",
+  "reviewedPreviewCommit": "2145a294580e85c79def2c99021b552a04a926e6",
+  "assessmentType": "Subjective expert rubric; not an external certification or a Michelin affiliation",
+  "baselineScore": 81.5,
+  "finalScore": 92,
+  "maximumScore": 100,
+  "requiredScoreExclusiveMinimum": 89,
+  "targetMet": true,
+  "rubricLockedBeforeImplementation": true,
+  "rubric": [
+    {
+      "criterion": "Art direction and identity",
+      "weight": 20,
+      "baseline": 17,
+      "score": 19,
+      "assessment": "The charcoal and copper palette, condensed headlines, tabletop grill atmosphere, and communal dining scene give the site a clear Korean barbecue identity distinct from The Seoul Table. The identity carries through collections, recipes, the table guide, and the footer."
+    },
+    {
+      "criterion": "Typography, spacing, and hierarchy",
+      "weight": 20,
+      "baseline": 16,
+      "score": 18,
+      "assessment": "Supporting text and controls are more legible, display and serif typography have clearer roles, and the mobile collection heading is now proportionate. Some dense labels and long recipe titles retain room for further refinement."
+    },
+    {
+      "criterion": "Imagery and composition",
+      "weight": 20,
+      "baseline": 16.5,
+      "score": 18.5,
+      "assessment": "The new editorial grill image establishes atmosphere without replacing approved recipe imagery. The original galbi signature feature, asymmetric grill cards, paper banchan section, and seafood layouts create deliberate visual rhythm. The inherited image set varies somewhat in crop and visual density."
+    },
+    {
+      "criterion": "Responsive experience",
+      "weight": 15,
+      "baseline": 12,
+      "score": 14,
+      "assessment": "The corrected 320px hero preserves its intended three-line heading and separates the primary and secondary actions from the chapter jump. Reviewed mobile, tablet, and desktop layouts remain coherent. The supplied narrow-layout report contains 80 recipe checks with no horizontal overflow or flagged wide elements."
+    },
+    {
+      "criterion": "Interactions and accessibility",
+      "weight": 15,
+      "baseline": 12,
+      "score": 14,
+      "assessment": "Menus, search, saved recipes, table-card saving, checklist progress, and recipe actions have clear visual states. Source inspection and implementation-agent QA support keyboard focus, Escape behavior, reduced motion, persistence, print, and filter handling. This is not a complete assistive-technology audit."
+    },
+    {
+      "criterion": "Coherence and performance",
+      "weight": 10,
+      "baseline": 8,
+      "score": 8.5,
+      "assessment": "The design remains consistent across page types while retaining a readable paper cooking surface. Cover-aware responsive sizing, optimized AVIF assets, and restrained motion support the presentation. Production performance measurement is still pending and is not implied by this score."
+    }
+  ],
+  "reviewScope": {
+    "directlyInspected": [
+      "Baseline desktop and mobile homepage screenshots",
+      "Refined desktop and mobile full homepage screenshots",
+      "Settled six-chapter desktop screenshot with all six thumbnails visible",
+      "Collection opening at desktop, mobile, and 320px widths",
+      "Recipe opening at desktop and mobile widths",
+      "Long-title recipe layout at tablet width",
+      "Desktop and mobile cooking surfaces",
+      "Desktop and mobile table-guide pages",
+      "Desktop and narrow mobile about-page evidence",
+      "Current styling, page templates, and editorial image manifest",
+      "The 80-entry narrow recipe layout report"
+    ],
+    "browserQaReportedByImplementationAgent": [
+      "Menu and search Escape handling with focus return",
+      "Combined category, tradition, and text filtering, followed by reset to 80 recipes",
+      "Saved recipe persistence after reload",
+      "Canonical link copying",
+      "Ingredient checklist persistence and reset",
+      "Larger cooking text",
+      "Table-card saving with saved-count and saved-collection updates",
+      "Keyboard focus outline",
+      "Reduced-motion handling with zero transition duration",
+      "Print layout with navigation and hero imagery hidden",
+      "All six collection pages, table guide, and about page checked at 320px",
+      "Five representative pages checked at 820px"
+    ],
+    "contentPreservationReportedByImplementationAgent": {
+      "recipes": 80,
+      "ingredients": 759,
+      "contentBlocks": 659,
+      "approvedRecipeImageFilesAndManifests": "Unchanged",
+      "sourcePreservationAndSeoChecks": "Passed"
+    }
+  },
+  "issuesResolvedDuringReview": [
+    "The 320px masthead headline was reduced to avoid an extra line and crowding of the secondary action and bottom caption.",
+    "The mobile collection heading was changed to FIND YOUR / next feast., reducing unnecessary height and differentiating it from Gochujang.",
+    "All six chapter thumbnails were confirmed in a settled screenshot; previously blank spaces were capture-loading artifacts.",
+    "The responsive picture source element no longer participates in the visual grid."
+  ],
+  "remainingBlockingVisualIssues": [],
+  "performanceStatus": {
+    "productionMeasurement": "Pending",
+    "caveat": "This visual score does not certify production Core Web Vitals, loading-time improvements, rankings, or external design awards. Fresh production measurement should follow publication."
+  },
+  "evidenceDirectoryRelativeToRepositoryRoot": "../../outputs",
+  "keyEvidenceFiles": [
+    "kbbqguide-refined-home-desktop.png",
+    "kbbqguide-refined-home-desktop-full.png",
+    "kbbqguide-refined-home-mobile.png",
+    "kbbqguide-refined-home-mobile-full.png",
+    "kbbqguide-refined-home-320.png",
+    "kbbqguide-refined-chapters-desktop.png",
+    "kbbqguide-refined-collection-desktop.png",
+    "kbbqguide-refined-collection-mobile.png",
+    "kbbqguide-refined-collection-320.png",
+    "kbbqguide-refined-recipe-desktop.png",
+    "kbbqguide-refined-recipe-mobile.png",
+    "kbbqguide-refined-recipe-tablet.png",
+    "kbbqguide-refined-cooking-desktop.png",
+    "kbbqguide-refined-cooking-mobile.png",
+    "kbbqguide-refined-table-desktop-full.png",
+    "kbbqguide-refined-table-mobile-full.png",
+    "kbbqguide-refined-about-desktop-full.png",
+    "kbbqguide-refined-about-mobile.png",
+    "kbbqguide-refinement-narrow-recipes.json"
+  ]
+}
