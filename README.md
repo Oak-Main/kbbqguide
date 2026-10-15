@@ -58,3 +58,4 @@ Responsive AVIF files are resized directly from the approved masters, with no re
 - `python scripts/optimize-fonts.py` regenerates fonts after character-set changes (requires `fonttools[woff]==4.66.1`). Font outlines, metrics, and shaping features are retained; licenses and original fonts remain archived.
 
 Measured asset savings are recorded in `source/media-optimization.json` and `src/content/optimized-fonts.json`. Search markup makes pages eligible for enhanced results; appearance and ranking remain search-engine decisions. No ratings, nutrition figures, testing claims, or publication dates are invented.
+Org pilot B 2026-10-15T12:56Z
