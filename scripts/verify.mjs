@@ -1,3 +1,4 @@
+import { correctSeafoodLamb } from './seafood-lamb-safety.mjs';
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
@@ -18,7 +19,7 @@ for(const recipe of recipes){
  const source=await readFile(path.join(root,`source/original-recipes/${recipe.slug}/index.html`));
  check(createHash('sha256').update(source).digest('hex')===recipe.sourceSha256,`${recipe.slug}: source hash changed`);
  const original=load(source.toString());const originalSchema=JSON.parse(original('script[type="application/ld+json"]').first().text());
- const corrected=correctDuckRecipe(recipe);
+ const corrected=correctSeafoodLamb(correctDuckRecipe(recipe));
  const html=await read(`dist/recipes/${recipe.slug}/index.html`);const $=load(html);const schema=JSON.parse($('script[type="application/ld+json"]').first().text());
  for(const key of ['name','recipeIngredient','recipeInstructions','recipeYield','prepTime','cookTime','totalTime']) {
   check(JSON.stringify(recipe.schema[key])===JSON.stringify(originalSchema[key]),`${recipe.slug}: imported recipe ${key} differs from archive`);
@@ -51,8 +52,16 @@ check(duckPage.includes('165 °F (74 °C)') && duckSchema.recipeInstructions[1].
 check(!/54–56|rosy|2–3 minutes only|Cooked to chicken.s rule/i.test(duckPage+' '+JSON.stringify(duckSchema)), 'Unsafe duck doneness instruction remains');
 check(!duckSchema.cookTime && !duckSchema.totalTime && duckPage.includes('Cook: Varies'), 'Unverified duck cooking times remain');
 check(duckPage.includes('reserve the serving portion separately before cooking') && duckPage.includes('using a clean brush') && duckSchema.recipeInstructions[1].text.includes('using a clean brush; reserve the serving sauce separately before cooking'), 'Duck brush and serving sauce separation missing');
+for (const slug of ['doenjang-glazed-grilled-black-cod','gochujang-glazed-grilled-salmon','contemporary-doenjang-gochujang-lamb-shoulder']) {
+ const source=recipes.find(r=>r.slug===slug);const changed=structuredClone(source);changed.blocks.find(b=>b.name==='step' && b.step==='2').html='changed';assert.throws(()=>correctSeafoodLamb(changed), /Safety overlay source changed/);
+ const page=load(await read(`dist/recipes/${slug}/index.html`));const text=page('.recipe-page').text();const schema=JSON.parse(page('script[type="application/ld+json"]').first().text());
+ check(text.includes('145 °F (63 °C)') && schema.recipeInstructions[1].text.includes('145 °F (63 °C)'),`${slug}: measured target missing`);
+ check(!/50 °C|55 °C|58 °C|57–60 °C|translucent-glossy center|fully safe at the flake stage/i.test(text+' '+JSON.stringify(schema)),`${slug}: unsafe target remains`);
+ check(!schema.cookTime && !schema.totalTime && text.includes('Cook: Varies'),`${slug}: untested duration remains`);
+ if(slug.includes('lamb'))check(schema.recipeInstructions[2].text.includes('3 minutes'),`${slug}: three-minute rest missing`);
+}
 const collection=load(await read('dist/recipes/index.html'));
 check(collection('[data-recipe]').length===80,'Collection must expose all 80 recipes without JavaScript');
 check(new Set(collection('[data-recipe]').map((_,el)=>collection(el).attr('data-slug')).get()).size===80,'Duplicate collection recipe');
 check(!(await readdir(path.join(root,'dist/images/recipes'))).some(n=>n.includes('-master.')),'Archival master included in published assets');
-if(failures.length){console.error(failures.join('\n'));process.exitCode=1;}else console.log(`PASS: 80 source hashes and imported schemas unchanged; reviewed duck correction rendered; ${ingredients} ingredients; ${blocks} content blocks; ${htmlFiles.length} HTML files; ${links} local references; 80 matching responsive images; canonical URLs and sitemap.`);
+if(failures.length){console.error(failures.join('\n'));process.exitCode=1;}else console.log(`PASS: 80 source hashes and imported schemas unchanged; guarded duck, fish and lamb corrections rendered; ${ingredients} ingredients; ${blocks} content blocks; ${htmlFiles.length} HTML files; ${links} local references; 80 matching responsive images; canonical URLs and sitemap.`);
