@@ -58,3 +58,7 @@ Responsive AVIF files are resized directly from the approved masters, with no re
 - `python scripts/optimize-fonts.py` regenerates fonts after character-set changes (requires `fonttools[woff]==4.66.1`). Font outlines, metrics, and shaping features are retained; licenses and original fonts remain archived.
 
 Measured asset savings are recorded in `source/media-optimization.json` and `src/content/optimized-fonts.json`. Search markup makes pages eligible for enhanced results; appearance and ranking remain search-engine decisions. No ratings, nutrition figures, testing claims, or publication dates are invented.
+
+## Food-safety corrections: cod, salmon and lamb
+
+The original archive and imported records remain unchanged. Guarded build overlays update the black cod and salmon methods to a measured 145 °F (63 °C) and the lamb shoulder to 145 °F (63 °C) followed by a three-minute rest, consistent with [FoodSafety.gov guidance](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). The overlays remove conflicting doneness claims and unverified cook and total time estimates, and fail closed if expected source text changes. Cooking times, quality and practicality have not been kitchen-tested. The fish cure and handling also need qualified review. The full test suite verifies archive hashes, the rendered recipe and JSON-LD, and unrelated recipe preservation.
