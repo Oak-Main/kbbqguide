@@ -50,6 +50,7 @@ const duckSchema=JSON.parse(duck('script[type="application/ld+json"]').first().t
 check(duckPage.includes('165 °F (74 °C)') && duckSchema.recipeInstructions[1].text.includes('165 °F (74 °C)'), 'Duck safety temperature missing from page or schema');
 check(!/54–56|rosy|2–3 minutes only|Cooked to chicken.s rule/i.test(duckPage+' '+JSON.stringify(duckSchema)), 'Unsafe duck doneness instruction remains');
 check(!duckSchema.cookTime && !duckSchema.totalTime && duckPage.includes('Cook: Varies'), 'Unverified duck cooking times remain');
+check(duckPage.includes('reserve the serving portion separately before cooking') && duckPage.includes('using a clean brush') && duckSchema.recipeInstructions[1].text.includes('using a clean brush; reserve the serving sauce separately before cooking'), 'Duck brush and serving sauce separation missing');
 const collection=load(await read('dist/recipes/index.html'));
 check(collection('[data-recipe]').length===80,'Collection must expose all 80 recipes without JavaScript');
 check(new Set(collection('[data-recipe]').map((_,el)=>collection(el).attr('data-slug')).get()).size===80,'Duplicate collection recipe');

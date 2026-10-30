@@ -10,11 +10,14 @@ export function correctDuckRecipe(source) {
   const oldStep = "Flip to the flesh side, 2–3 minutes only";
   const newStep = "Flip to the flesh side and continue cooking";
   const oldDoneness = "Duck breast's doneness is medium — the center rosy at 54–56 °C on a thermometer, or the feel of the base of your thumb when your thumb touches your ring finger.";
-  const newDoneness = "Cook until a food thermometer inserted into the thickest part of each breast reads at least 165 °F (74 °C). Cooking time varies with thickness and heat.";
+  const newDoneness = "Cooking time varies with thickness and heat.";
   const oldCheckpoint = "Overcooked duck is the record's only real failure; a rosy center is correct here in a way it never is for chicken (#M16, #M17) — duck is served medium at every table that knows it.";
   const newCheckpoint = "Use the thermometer, not color or touch, to check doneness.";
+  const before = r.blocks.find(b => b.name === 'before-you-cook');
+  before.html = replaceOnce(before.html, 'Whisk the brush sauce and set it at the grill station.', 'Whisk the brush sauce and reserve the serving portion separately before cooking. Use a clean brush and keep the reserved sauce away from raw poultry and any utensils that touch it.');
   const step2 = r.blocks.find(b => b.name === 'step' && b.step === '2');
   step2.html = replaceOnce(step2.html, oldStep, newStep);
+  step2.html = replaceOnce(step2.html, ', brushing the cooked flesh face with the sauce as it comes off the heat.', '. Cook until a food thermometer inserted into the thickest part of each breast reads at least 165 °F (74 °C). Once each breast comes off the heat, brush the flesh face with the sauce using a clean brush.');
   step2.html = replaceOnce(step2.html, oldDoneness, newDoneness);
   step2.html = replaceOnce(step2.html, oldCheckpoint, newCheckpoint);
   const step3 = r.blocks.find(b => b.name === 'step' && b.step === '3');
@@ -25,6 +28,7 @@ export function correctDuckRecipe(source) {
   variation.html = replaceOnce(variation.html, 'the same treatment on duck legs runs twice the render time', 'duck legs require different cooking times; cook them to at least 165 °F (74 °C), checked with a food thermometer');
   let s2 = r.schema.recipeInstructions[1].text;
   s2 = replaceOnce(s2, oldStep, newStep);
+  s2 = replaceOnce(s2, ', brushing the cooked flesh face with the sauce as it comes off the heat.', '. Cook until a food thermometer inserted into the thickest part of each breast reads at least 165 °F (74 °C). Once each breast comes off the heat, brush the flesh face with the sauce using a clean brush; reserve the serving sauce separately before cooking.');
   s2 = replaceOnce(s2, oldDoneness, newDoneness);
   s2 = replaceOnce(s2, oldCheckpoint, newCheckpoint);
   r.schema.recipeInstructions[1].text = s2;
