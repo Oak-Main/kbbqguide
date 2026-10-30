@@ -1,4 +1,6 @@
+import { correctSeafoodLamb } from './seafood-lamb-safety.mjs';
 import { renderHome, renderHeader, renderTable } from './presentation.mjs';
+import { correctDuckRecipe } from './duck-safety-correction.mjs';
 import { optimizeStyles, enhanceSite } from './seo.mjs';
 import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -8,7 +10,7 @@ import { load } from 'cheerio';
 
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=file=>readFile(path.join(root,file),'utf8');
-const recipes=JSON.parse(await read('src/content/recipes.json'));
+const recipes=JSON.parse(await read('src/content/recipes.json')).map(correctDuckRecipe).map(correctSeafoodLamb);
 const editorial=JSON.parse(await read('src/content/editorial.json'));
 const images=JSON.parse(await read('src/content/images.json').catch(()=>'{}'));
 const atmospheres=JSON.parse(await read('src/content/editorial-images.json'));
