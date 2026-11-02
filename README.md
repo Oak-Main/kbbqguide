@@ -58,3 +58,9 @@ Responsive AVIF files are resized directly from the approved masters, with no re
 - `python scripts/optimize-fonts.py` regenerates fonts after character-set changes (requires `fonttools[woff]==4.66.1`). Font outlines, metrics, and shaping features are retained; licenses and original fonts remain archived.
 
 Measured asset savings are recorded in `source/media-optimization.json` and `src/content/optimized-fonts.json`. Search markup makes pages eligible for enhanced results; appearance and ranking remain search-engine decisions. No ratings, nutrition figures, testing claims, or publication dates are invented.
+
+## Food-safety correction: duck breast
+
+The original archive and imported record remain unchanged. The build applies one guarded correction to Korean-Style Grilled Duck Breast: USDA consumer guidance calls for duck to reach 165 °F (74 °C), measured with a food thermometer. The method, troubleshooting and structured recipe instructions no longer instruct readers to stop at 54–56 °C or use color/touch as a doneness test. The duck-leg variation also specifies the poultry temperature. The former cook and total estimates described the lower-temperature method, so the published recipe says the time varies and omits those estimates from structured data; the revised cooking time and eating quality have not been kitchen-tested.
+
+The correction is narrowly scoped in `scripts/duck-safety-correction.mjs` and fails the build if its expected source text changes. `pnpm test` verifies archival hashes, imported content, rendered correction, schema and the rest of the recipe collection. Source: [FoodSafety.gov poultry guidance](https://www.foodsafety.gov/blog/sos-turkey-day-my-turkey-isnt-ready-what-do-i-do-now).
