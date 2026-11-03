@@ -75,10 +75,10 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
     let title = $('title').text();
     let description = $('meta[name="description"]').attr('content');
     if (route === '/') {
-      title = gochujang ? 'Gochujang Recipes & Korean Cooking | The Seoul Table' : 'Korean BBQ Recipes, Banchan & Grilling | KBBQGuide';
+      title = gochujang ? 'Gochujang Recipes & Korean Cooking | The Seoul Table' : 'KBBQ: Korean Barbecue + 80 Recipes | KBBQGuide';
       description = gochujang
         ? 'Explore 14 Korean and gochujang recipes: traditional classics, modern favorites, and inventive fusion dishes. Ingredients, methods, and cooking notes.'
-        : 'Explore 80 Korean BBQ recipes for the whole table: galbi, grilled pork, seafood, banchan, sauces, and desserts. Plan your Korean barbecue meal at home.';
+        : 'KBBQ is Korean barbecue: grilled meat, seafood, banchan, salads, sauces and sweets served together; explore 80 recipes for the whole table.';
     } else if (route === '/recipes/') {
       title = gochujang ? 'Korean & Gochujang Recipes | The Seoul Table' : '80 Korean BBQ Recipes & Side Dishes | KBBQGuide';
       description = gochujang
