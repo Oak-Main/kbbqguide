@@ -21,6 +21,14 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+      - name: Verify committed output matches a clean build
+        run: |
+          changed=$(git status --porcelain --untracked-files=all -- dist)
+          if [ -n "$changed" ]; then
+            printf '%s\n' "$changed"
+            echo 'Committed dist differs from the reproducible build.' >&2
+            exit 1
+          fi
       - name: Verify preserved recipes, metadata and assets
         run: pnpm test
       - name: Install isolated browser verification tooling
@@ -28,7 +36,7 @@ jobs:
           npm install --prefix "$RUNNER_TEMP/home-layout" --no-save --ignore-scripts playwright@1.62.1
           node "$RUNNER_TEMP/home-layout/node_modules/playwright/cli.js" install --with-deps chromium
       - name: Verify mobile layout and keyboard FAQ
-        run: PLAYWRIGHT_MODULE="$RUNNER_TEMP/home-layout/node_modules/playwright" node scripts/verify-home-layout.mjs
+        run: PORT=4175 PLAYWRIGHT_MODULE="$RUNNER_TEMP/home-layout/node_modules/playwright" node scripts/verify-home-layout.mjs
       - name: Collect reproducible generated text
         run: |
           node --input-type=module <<'JS'

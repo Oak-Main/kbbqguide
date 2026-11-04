@@ -6,6 +6,7 @@ import { HOME_META } from './home-metadata.mjs';
 
 const require = createRequire(import.meta.url);
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const port = process.env.PORT || '4174';
 const server = spawn(process.execPath, ['scripts/serve.mjs'], { stdio: ['ignore', 'pipe', 'inherit'] });
 let browser;
 try {
@@ -18,10 +19,9 @@ try {
   await mkdir('qa-output', { recursive: true });
   for (const width of [320, 390, 760, 1280]) {
     const page = await browser.newPage({ viewport: { width, height: 1000 } });
-    const response = await page.goto('http://127.0.0.1:4174/', { waitUntil: 'networkidle' });
+    const response = await page.goto(`http://127.0.0.1:${port}/`, { waitUntil: 'networkidle' });
     assert.equal(response?.status(), 200, 'Preview homepage must be served successfully');
     await page.evaluate(() => document.fonts.ready);
-    await page.screenshot({ path: `qa-output/home-${width}.png` });
     assert.equal(await page.title(), HOME_META.title);
     assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), HOME_META.description);
     for (const enlarged of [false, true]) {
@@ -42,10 +42,10 @@ try {
       }
       assert.ok(boxes.actions.bottom <= boxes.bottom.top + 1, `${width}px enlarged=${enlarged}: actions overlap bottom navigation`);
       assert.ok(boxes.fireNote.right + 12 <= boxes.chapterLink.left, `${width}px: bottom navigation items need clear separation`);
+      await page.screenshot({ path: `qa-output/home-${width}${enlarged ? '-enlarged' : ''}.png`, fullPage: false });
     }
     await page.reload({ waitUntil: 'networkidle' });
     await page.evaluate(() => document.fonts.ready);
-    await page.screenshot({ path: `qa-output/home-${width}.png` });
     const summary = page.locator('.home-faq summary').first();
     await summary.focus();
     await summary.press('Enter');
