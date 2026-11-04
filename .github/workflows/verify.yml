@@ -1,0 +1,55 @@
+name: Verify site
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+          run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - name: Verify committed output matches a clean build
+        run: |
+          changed=$(git status --porcelain --untracked-files=all -- dist)
+          if [ -n "$changed" ]; then
+            printf '%s\n' "$changed"
+            echo 'Committed dist differs from the reproducible build.' >&2
+            exit 1
+          fi
+      - name: Verify preserved recipes, metadata and assets
+        run: pnpm test
+      - name: Install isolated browser verification tooling
+        run: |
+          npm install --prefix "$RUNNER_TEMP/home-layout" --no-save --ignore-scripts playwright@1.62.1
+          node "$RUNNER_TEMP/home-layout/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Verify mobile layout and keyboard FAQ
+        run: PORT=4175 PLAYWRIGHT_MODULE="$RUNNER_TEMP/home-layout/node_modules/playwright" node scripts/verify-home-layout.mjs
+      - name: Collect reproducible generated text
+        run: |
+          node --input-type=module <<'JS'
+          import { readdir, readFile, writeFile } from 'node:fs/promises';
+          const files = {};
+          for (const path of (await readdir('dist', {recursive:true})).sort()) {
+            if (/\.(?:html|css|js|json|xml|txt)$/.test(path)) files[`dist/${path}`] = await readFile(`dist/${path}`, 'utf8');
+          }
+          await writeFile('qa-output/generated-text.json', JSON.stringify(files));
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: home-layout-and-generated-text
+          path: qa-output/
+          retention-days: 7

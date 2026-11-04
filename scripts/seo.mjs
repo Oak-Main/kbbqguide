@@ -2,6 +2,7 @@ import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
 import { coverAwareSizes } from './responsive-sizes.mjs';
+import { HOME_META } from './home-metadata.mjs';
 
 const json = value => JSON.stringify(value).replace(/</g, '\\u003c');
 const escapeXML = value => String(value).replace(/[<>&"']/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
@@ -75,10 +76,10 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
     let title = $('title').text();
     let description = $('meta[name="description"]').attr('content');
     if (route === '/') {
-      title = gochujang ? 'Gochujang Recipes & Korean Cooking | The Seoul Table' : 'Korean BBQ Recipes, Banchan & Grilling | KBBQGuide';
+      title = gochujang ? 'Gochujang Recipes & Korean Cooking | The Seoul Table' : HOME_META.title;
       description = gochujang
         ? 'Explore 14 Korean and gochujang recipes: traditional classics, modern favorites, and inventive fusion dishes. Ingredients, methods, and cooking notes.'
-        : 'Explore 80 Korean BBQ recipes for the whole table: galbi, grilled pork, seafood, banchan, sauces, and desserts. Plan your Korean barbecue meal at home.';
+        : HOME_META.description;
     } else if (route === '/recipes/') {
       title = gochujang ? 'Korean & Gochujang Recipes | The Seoul Table' : '80 Korean BBQ Recipes & Side Dishes | KBBQGuide';
       description = gochujang
@@ -208,3 +209,4 @@ export async function enhanceSite({root, recipes, images, editorial, domain, bra
   await writeFile(path.join(out,'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${sitemap.map(({url,recipe})=>`<url><loc>${escapeXML(url)}</loc>${recipe?`<image:image><image:loc>${escapeXML(domain+images[recipe.slug].jpg)}</image:loc></image:image>`:''}</url>`).join('')}</urlset>`);
   console.log(`SEO: ${sitemap.length} indexable pages, ${recipes.length} recipe images in sitemap, responsive AVIF and subset fonts.`);
 }
+
