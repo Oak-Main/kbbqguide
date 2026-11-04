@@ -18,8 +18,10 @@ try {
   await mkdir('qa-output', { recursive: true });
   for (const width of [320, 390, 760, 1280]) {
     const page = await browser.newPage({ viewport: { width, height: 1000 } });
-    await page.goto('http://127.0.0.1:4174/', { waitUntil: 'networkidle' });
+    const response = await page.goto('http://127.0.0.1:4174/', { waitUntil: 'networkidle' });
+    assert.equal(response?.status(), 200, 'Preview homepage must be served successfully');
     await page.evaluate(() => document.fonts.ready);
+    await page.screenshot({ path: `qa-output/home-${width}.png` });
     assert.equal(await page.title(), HOME_META.title);
     assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), HOME_META.description);
     for (const enlarged of [false, true]) {
