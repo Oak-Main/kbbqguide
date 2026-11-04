@@ -33,7 +33,7 @@ try {
           const r = document.querySelector(selector).getBoundingClientRect();
           return { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
         };
-        return { hero: box('.ember-masthead'), heading: box('#ember-title'), actions: box('.masthead-actions'), primary: box('.masthead-actions .button'), secondary: box('.masthead-secondary'), bottom: box('.masthead-bottom') };
+        return { hero: box('.ember-masthead'), heading: box('#ember-title'), actions: box('.masthead-actions'), primary: box('.masthead-actions .button'), secondary: box('.masthead-secondary'), bottom: box('.masthead-bottom'), fireNote: box('.masthead-bottom > span'), chapterLink: box('.masthead-bottom > a') };
       });
       for (const name of ['heading', 'actions', 'primary', 'secondary', 'bottom']) {
         const b = boxes[name];
@@ -41,6 +41,7 @@ try {
         assert.ok(b.top >= boxes.hero.top && b.bottom <= boxes.hero.bottom + 1, `${width}px enlarged=${enlarged}: ${name} clipped by hero`);
       }
       assert.ok(boxes.actions.bottom <= boxes.bottom.top + 1, `${width}px enlarged=${enlarged}: actions overlap bottom navigation`);
+      assert.ok(boxes.fireNote.right + 12 <= boxes.chapterLink.left, `${width}px: bottom navigation items need clear separation`);
     }
     await page.reload({ waitUntil: 'networkidle' });
     await page.evaluate(() => document.fonts.ready);
