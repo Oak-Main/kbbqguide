@@ -39,7 +39,7 @@ for(const file of htmlFiles){const $=load(await readFile(file,'utf8'));check($('
  for(const el of $('a[href],img[src],link[href],script[src]').toArray()){const ref=$(el).attr('href')||$(el).attr('src');if(!ref||/^(https?:|mailto:|tel:|data:)/.test(ref))continue;if(ref.startsWith('#')){check($(`[id="${ref.slice(1)}"]`).length>0,`${file}: missing anchor ${ref}`);continue;}const target=path.join(root,'dist',ref.split(/[?#]/)[0]);try{const item=await stat(target);if(item.isDirectory())await stat(path.join(target,'index.html'));links++;}catch{failures.push(`${file}: broken local reference ${ref}`);}}
  for(const img of $('img').toArray()){check(Boolean($(img).attr('alt')),`${file}: image missing alt`);check(Boolean($(img).attr('width')&&$(img).attr('height')),`${file}: image dimensions missing`);}
 }
-check((await read('dist/sitemap.xml')).match(/<url>/g)?.length===90,'Sitemap route count mismatch');
+check((await read('dist/sitemap.xml')).match(/<url>/g)?.length===93,'Sitemap route count mismatch');
 check(ingredients===759,'Original ingredient count changed');
 check(blocks===659,'Original content block count changed');
 const alteredDuck=structuredClone(recipes.find(r=>r.slug==='korean-style-grilled-duck-breast'));

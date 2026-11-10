@@ -39,13 +39,45 @@ const fill = (s) => s
     if (v === undefined) throw new Error(`legal-build: template token {{${k}}} has no config value`)
     return String(v)
   })
+// Meta descriptions (<=160 chars, unique): scripts/verify.mjs and verify-seo.mjs
+// require one on every page. Drafted 2026-11-10 for owner review.
+const descriptions = {
+  privacy: 'What KBBQGuide collects when you visit, how our hosting and affiliate partners handle data, and how to make a privacy request, including under the CCPA.',
+  terms: 'The terms for using KBBQGuide: information only, affiliate and third-party links, permitted use, limits of liability and California governing law.',
+  'affiliate-disclosure': "How KBBQGuide earns commissions from affiliate links at no extra cost to you, and how we disclose them under the FTC's Endorsement Guides.",
+}
+const siteRoot = () => `${cfg.site_url.replace(/\/$/, '')}/`
+const pageUrl = (title) => `${siteRoot()}${cfg.slugs[title]}/`
+const schema = (title) => JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', '@id': `${siteRoot()}#website`, url: siteRoot(), name: cfg.site_name, inLanguage: 'en' },
+    { '@type': 'WebPage', '@id': `${pageUrl(title)}#webpage`, url: pageUrl(title), name: `${title} - ${cfg.site_name}`, description: descriptions[cfg.slugs[title]], inLanguage: 'en', isPartOf: { '@id': `${siteRoot()}#website` }, breadcrumb: { '@id': `${pageUrl(title)}#breadcrumb` } },
+    { '@type': 'BreadcrumbList', '@id': `${pageUrl(title)}#breadcrumb`, itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteRoot() },
+      { '@type': 'ListItem', position: 2, name: title, item: pageUrl(title) },
+    ] },
+  ],
+})
 const shell = (title, body) => `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${title} - ${cfg.site_name}</title>
-<link rel="canonical" href="${cfg.site_url.replace(/\/$/, '')}/${cfg.slugs[title]}/">
+<meta name="description" content="${descriptions[cfg.slugs[title]]}">
+<link rel="canonical" href="${pageUrl(title)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="${title} - ${cfg.site_name}">
+<meta property="og:description" content="${descriptions[cfg.slugs[title]]}">
+<meta property="og:url" content="${pageUrl(title)}">
+<meta property="og:site_name" content="${cfg.site_name}">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="${title} - ${cfg.site_name}">
+<meta name="twitter:description" content="${descriptions[cfg.slugs[title]]}">
+<script type="application/ld+json">${schema(title)}</script>
 </head>
 <body>
 <main style="max-width:44rem;margin:3rem auto;padding:0 1rem;font-family:system-ui,sans-serif;line-height:1.6">
@@ -64,6 +96,18 @@ for (const page of cfg.pages) {
   mkdirSync(path.dirname(dest), { recursive: true })
   writeFileSync(dest, shell(titles[page], fill(tpl)), 'utf8')
   console.log(`legal-build: wrote ${path.relative(root, dest)}`)
+}
+
+// Every canonical must be in the sitemap (scripts/verify-seo.mjs), so list the legal pages.
+const sitemapPath = path.join(out, 'sitemap.xml')
+if (existsSync(sitemapPath)) {
+  let xml = readFileSync(sitemapPath, 'utf8')
+  const add = cfg.pages.map((page) => `${siteRoot()}${page}/`).filter((u) => !xml.includes(`<loc>${u}</loc>`))
+  if (add.length) {
+    xml = xml.replace('</urlset>', `${add.map((u) => `<url><loc>${u}</loc></url>`).join('')}</urlset>`)
+    writeFileSync(sitemapPath, xml, 'utf8')
+    console.log(`legal-build: added ${add.length} legal page(s) to sitemap.xml`)
+  }
 }
 
 // Inline notice: only on pages that actually carry an affiliate link.
