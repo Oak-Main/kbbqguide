@@ -1,0 +1,17 @@
+{
+  "site_name": "KBBQGuide",
+  "site_url": "https://kbbqguide.com",
+  "legal_entity": "{{LEGAL_ENTITY}}",
+  "postal_address": "{{POSTAL_ADDRESS}}",
+  "contact_email": "{{CONTACT_EMAIL}}",
+  "governing_law": "California",
+  "effective_date": "{{EFFECTIVE_DATE}}",
+  "analytics": [],
+  "amazon": false,
+  "pages": [
+    "privacy",
+    "terms",
+    "affiliate-disclosure"
+  ],
+  "disclosure_url": "/affiliate-disclosure/"
+}
