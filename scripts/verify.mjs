@@ -7,6 +7,7 @@ import assert from 'node:assert/strict';
 import { load } from 'cheerio';
 import sharp from 'sharp';
 import { correctDuckRecipe } from './duck-safety-correction.mjs';
+import { addThermometerLines } from './thermometer-lines.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=file=>readFile(path.join(root,file),'utf8');
 const recipes=JSON.parse(await read('src/content/recipes.json'));
@@ -19,7 +20,7 @@ for(const recipe of recipes){
  const source=await readFile(path.join(root,`source/original-recipes/${recipe.slug}/index.html`));
  check(createHash('sha256').update(source).digest('hex')===recipe.sourceSha256,`${recipe.slug}: source hash changed`);
  const original=load(source.toString());const originalSchema=JSON.parse(original('script[type="application/ld+json"]').first().text());
- const corrected=correctSeafoodLamb(correctDuckRecipe(recipe));
+ const corrected=addThermometerLines(correctSeafoodLamb(correctDuckRecipe(recipe)));
  const html=await read(`dist/recipes/${recipe.slug}/index.html`);const $=load(html);const schema=JSON.parse($('script[type="application/ld+json"]').first().text());
  for(const key of ['name','recipeIngredient','recipeInstructions','recipeYield','prepTime','cookTime','totalTime']) {
   check(JSON.stringify(recipe.schema[key])===JSON.stringify(originalSchema[key]),`${recipe.slug}: imported recipe ${key} differs from archive`);
